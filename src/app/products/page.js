@@ -200,104 +200,13 @@ function ProductsSection() {
     </section>
 
     
-    <section>
-
-<div className="w-full bg-[#E3001B] text-white text-center p-8 mb-2 text-center text-white ">
-
-    
-  <p className="text-7xl max-w-7xl mx-auto lg:text-xl text-md sm:text-sm ">
-    NOVEX Global is a wholesale-focused company creating a scalable digital framework to support trade operations, marketing, and future expansion.
-  </p>
-</div>
-
-
-    </section>
-
-
-
-
-    <section className='mb-10'>
-        <div className='p-8 mb-20'>
-                    <div className="max-w-6xl mb-10">
-          <h2 style={{fontWeight:'400'}} className="text-4xl text-gray-900 mb-4">
-            Spot Lights
-          </h2>
-          <p style={{fontWeight:'400' , width:'100%'}} className="text-gray-500 p-4 leading-relaxed text-center  ">
-          Novex Gloval supplies a practiacal range of lighting accessories designed to support safe, efficient installation and long-term reliability. Our products are sourced from trusted manufacturing partners and supplied to meet the expactations of professioanl installlers.
-          </p>
-        </div>
-        </div>
-          <div className=" mx-auto px-4 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-
-        {/* Left Image */}
-        <div className="flex justify-center">
-          <Image
-            src={Spotlight1}
-            alt="Spot Light"
-            className="w-full max-w-md object-contain"
-          />
-        </div>
-
-        {/* Right Content */}
-        <div>
-          <h2 className="text-3xl lg:text-5xl font-semibold text-gray-900 mb-4">
-            Novex Spotlights <br /> Brighten Every Corner
-          </h2>
-
-          <p className="text-gray-600 max-w-xl mb-6 p-5">
-
-            Novex Global supplies a practical range of lighting accessories gesigned to support safe, efficient installation and long-term reliability.
-
-          </p>
-
-          {/* Button */}
-          <button className="bg-red-600 text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition mb-8 p-5">
-            Browse All Items
-          </button>
-
-          {/* Thumbnail Images */}
-         {/* Thumbnail Images */}
-<div className="grid grid-cols-2 gap-4">
-
-
-   <div
-    className="p-2 w-full"
-    style={{ border: '2px solid #E3001B' }} // ✅ guaranteed red border
-  >
-    <Image
-      src={Spotlight2}
-      alt="Natural Light"
-      className="w-full h-auto object-contain"
-    />
-
-</div>
-  <div
-    className="p-2 w-full"
-    style={{ border: '2px solid #E3001B' }} // ✅ guaranteed red border
-  >
-    <Image
-      src={Spotlight3}
-      alt="Natural Light"
-      className="w-full h-auto object-contain"
-    />
-  </div>
-
-
-
-       
-          </div>
-        </div>
+      <div className=' bg-[#E3001B] mb-2 p-8 text-white text-center lg:text-xl text-lg  '>
+        <p>NOVEX Global Ltd is a wholesale-focused company creating a scalable digital framework to support trade operations, marketing, and future expansion.</p>
       </div>
 
-    </section>
 
 
 
-<section>
-
-    
-
-</section>
 
 
 
