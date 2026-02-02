@@ -202,10 +202,10 @@ function ProductsSection() {
     
     <section>
 
-<div className="w-full bg-[#E3001B] text-white text-center p-8 mb-2 text-center lg:text-xl text-md  text-white ">
+<div className="w-full bg-[#E3001B] text-white text-center p-8 mb-2 text-center text-white ">
 
     
-  <p className="text-7xl max-w-7xl mx-auto">
+  <p className="text-7xl max-w-7xl mx-auto lg:text-xl text-md">
     NOVEX Global is a wholesale-focused company creating a scalable digital framework to support trade operations, marketing, and future expansion.
   </p>
 </div>
@@ -222,7 +222,7 @@ function ProductsSection() {
           <h2 className="text-4xl font-medium text-gray-900 mb-4">
             Spot Lights
           </h2>
-          <p style={{fontWeight:'400'}} className="text-gray-500 p-4 leading-relaxed text-center">
+          <p style={{fontWeight:'400'}} className="text-gray-500 p-4 leading-relaxed text-center max-w-6xl ">
           Novex Gloval supplies a practiacal range of lighting accessories designed to support safe, efficient installation and long-term reliability. Our products are sourced from trusted manufacturing partners and supplied to meet the expactations of professioanl installlers.
           </p>
         </div>
