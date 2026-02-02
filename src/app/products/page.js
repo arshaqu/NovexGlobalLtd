@@ -207,6 +207,76 @@ function ProductsSection() {
 
 
 
+    <section className="w-full bg-white px-4 sm:px-6 lg:px-20 py-12 lg:py-20">
+  {/* Top title */}
+  <div className="mb-12 text-center lg:text-left">
+    <h3 className="text-3xl font-medium mb-4">Spot Lights</h3>
+    <p className="mx-auto text-center lg:text-xl lg:mx-0 text-gray-500 leading-relaxed">
+      Novex Global supplies a practical range of lighting accessories designed to
+      support safe, efficient installation and long-term reliability. Our
+      products are sourced from trusted manufacturing partners and supplied to
+      meet the expectations of professional installers.
+    </p>
+  </div>
+
+  {/* Main layout */}
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    {/* Left big image */}
+    <div className="w-full">
+      <Image
+        src={Spotlight1}
+        alt="Spot Light"
+        className="w-full h-auto object-contain"
+        priority
+      />
+    </div>
+
+    {/* Right content */}
+    <div>
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-6 leading-tight">
+        Novex Spotlights <br /> Brighten Every Corner
+      </h2>
+
+      <p className="text-gray-600 max-w-xl mb-6">
+        Novex Global supplies a practical range of lighting accessories designed
+        to support safe, efficient installation and long-term reliability.
+      </p>
+
+      {/* Button */}
+      <button className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition mb-10">
+        Browse All Items
+      </button>
+
+      {/* Thumbnail grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className=" p-2">
+          <Image
+            src={Spotlight2}
+            alt="Lighting Effect"
+            className="w-full h-auto object-contain"
+          />
+        </div>
+
+        <div style={{border : '2px solid #E3001B'}} className=" p-2">
+          <Image
+            src={Spotlight3}
+            alt="Light Temperature"
+            className="w-full h-auto object-contain"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+
+  
+
+
+
 
 
 
