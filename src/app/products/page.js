@@ -424,7 +424,8 @@ function ProductsSection() {
             <Image
               src={img}
               alt={`PVC Trunking ${idx + 1}`}
-              className="w-full h-64 sm:h-72 h-70 object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"
+              style={{height:'200px'}}
+              className="w-full h-64 sm:h-72  object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"
               priority={idx === 0}
             />
           </div>
