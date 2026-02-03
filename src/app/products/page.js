@@ -22,6 +22,11 @@ import Insectkiller3 from "../../Assets/InsectKiller3.png";
 
 import WholeSale from "../../Assets/WholeSale.png";
 
+import Pvc1 from '../../Assets/Pvc01.png'
+import Pvc2 from '../../Assets/Pvc02.png'
+import Pvc3 from '../../Assets/Pvc03.png'
+
+
 
 
 
@@ -282,7 +287,7 @@ function ProductsSection() {
 
 
       <section className="w-full bg-gray-100">
-        <div className="mx-auto lg:py-20">
+        <div className="mx-auto lg:py-20 p-8">
              <div className=" lg:px-16">
                <h2 className="text-3xl lg:text-4xl font-thin text-gray-800 mb-6">
                 Insects Killer
@@ -308,7 +313,7 @@ function ProductsSection() {
             <div className="lg:px-16">
               {/* Bullet Points */}
             <div>
-                <ul style={{fontWeight:'400' , marginLeft:'25px'}} className="text-gray-400 text-medium lg:text-base  ">
+                <ul style={{fontWeight:'400' , marginLeft:'25px',marginTop:'20px'}} className="text-gray-400 text-medium lg:text-base  ">
                 <li>• Series: Slim Series</li>
                 <li>• Power Supply: 230V ~ 50/60Hz</li>
                 <li>• Attracts & destroys flies, mosquitoes, moths, midges</li>
@@ -344,17 +349,17 @@ function ProductsSection() {
             <Image
               src={Insectkiller1}
               alt="Spotlight 1"
-              className="w-full h-56 object-cover"
+              className="w-full h-full object-cover"
             />
             <Image
               src={Insectkiller2}
               alt="Spotlight 2"
-              className="w-full h-56 object-cover"
+              className="w-full h-full object-cover"
             />
             <Image
               src={Insectkiller1}
               alt="Spotlight 3"
-              className="w-full h-56 object-cover hidden md:block lg:block "
+              className="w-full h-full object-cover hidden md:block lg:block "
             />
           </div>
           {/* Button */}
@@ -366,41 +371,74 @@ function ProductsSection() {
         </div>
       </section>
 
+<section className="w-full bg-white">
+  <div className="mx-auto px-6 py-12 lg:px-20 lg:py-20">
 
-           <section className="w-full mb-1">
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
-        {/* Left Image */}
-        <div className="relative w-full h-[300px] lg:h-auto">
-          <Image
-            src={WholeSale}
-            alt="Wholesale & Export"
-            className="w-full h-full object-cover"
-          />
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+      {/* RIGHT SIDE CONTENT – FIRST ON MOBILE */}
+      <div className="order-1 lg:order-2 flex flex-col justify-start text-left h-full mt-4 lg:mt-0">
+        
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 mb-8">
+          PVC Trunking
+        </h2>
+
+        <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
+          Our PVC ducting and cable management solutions provide clean,
+          durable, and compliant installations across residential and
+          commercial environments. Manufactured using quality materials, 
+          the range supports both surface and concealed applications.
+        </p>
+
+        <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-8">
+          PVC trunking are used in cable management systems to hide or
+          protect the cable across the room, a floor or the wall. Normal 
+          (non adhesive) and sticker type.
+        </p>
+
+        {/* POINTS */}
+        <div className="text-gray-700 space-y-4 text-sm sm:text-base mb-10">
+          <p>• Constructed from durable PVC, offering excellent protection against impact and wear.</p>
+          <p>• Perfect for managing cables in home offices, entertainment areas, or any room where multiple cables need to be organized.</p>
+          <p>• Ideal for use in offices, shops, schools, and other commercial environments.</p>
+          <p>• Suitable for light industrial areas, helping to keep workspaces tidy and safe.</p>
+          <p>• Measure and cut to size using a PVC cutter or hacksaw.</p>
         </div>
-        {/* Right Content */}
-        <div className="bg-[#E3001B] flex items-center">
-          <div className="px-8 py-14 lg:px-20 lg:py-20 text-white max-w-xl mt-2 p-6">
-            <h2 className="text-3xl lg:text-4xl font-medium mb-8 leading-snug">
-              Whole sale & Export <br /> Enquries
-            </h2>
-            <p className="text-white/90 leading-relaxed mb-6">
-              NOVEX Global is establishing its digital infrastructure to support
-              its B2B wholesale operations in the UK, with future expansions
-              planned across product divisions and international markets.
-            </p>
-            <p className="text-white/90 leading-relaxed mb-10">
-              This is the core operational hub for NOVEX Global.
-            </p>
-            <button className="bg-white text-[#E3001B] px-8 py-3 font-medium shadow-md hover:shadow-lg transition">
-              Browse All Items
-            </button>
-          </div>
+
+        {/* BUTTON */}
+        <div>
+          <button className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md rounded mb-5">
+            Browse All Items
+          </button>
         </div>
+
       </div>
-    </section>
+
+      {/* LEFT SIDE IMAGES – SECOND ON MOBILE */}
+      <div className="order-2 lg:order-1 grid grid-cols-1 gap-6 ">
+        {[Pvc1, Pvc2, Pvc3].map((img, idx) => (
+          <div
+            key={idx}
+            className="relative overflow-hidden rounded-lg group shadow-lg mx-auto max-w-md sm:max-w-lg md:max-w-xl"
+          >
+            <Image
+              src={img}
+              alt={`PVC Trunking ${idx + 1}`}
+              className="w-full h-64 sm:h-72 md:h-80 object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"
+              priority={idx === 0}
+            />
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
-    
+       
+
+
 
 
 
