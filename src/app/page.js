@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link"
 
 import NovexLogo from "@/Assets/NovexLogo.png";
+import HomeBan from '../Assets/HomeBan.png'
 
 import SwitchSocket from '../Assets/Switch.png'
 import ExtenstionSocket from '../Assets/Extension.png'
@@ -35,12 +36,6 @@ import Footer from "@/Components/Footer";
 
 
 
-
-
-
-
-
-
 export default function Home() {
 
     const categories = [
@@ -65,27 +60,15 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Text */}
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Build Fast & Modern Websites
-          </h1>
-          <p className="mt-4 text-gray-600 text-lg">
-            A simple Next.js + Tailwind CSS starter homepage.
-            Optimized for speed, SEO, and clean UI.
-          </p>
-          <div className="mt-6 flex gap-4">
-            <button className="px-6 py-3 bg-black text-white rounded-xl hover:bg-gray-800 transition">
-              Get Started
-            </button>
-            <button className="px-6 py-3 border border-gray-300 rounded-xl hover:bg-gray-100 transition">
-              Learn More
-            </button>
-          </div>
-        </div>
-        {/* Hero Image Placeholder (optional) */}
-        <div className="hidden md:block" />
+      <section className="">
+      <Link href={"/products"}>
+        <Image
+              src={HomeBan}
+              alt="Novex Global"
+              className="w-full"
+              priority
+            />
+      </Link>
       </section>
 
 
