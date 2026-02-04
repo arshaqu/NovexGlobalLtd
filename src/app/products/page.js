@@ -25,6 +25,7 @@ import WholeSale from "../../Assets/WholeSale.png";
 import Pvc1 from '../../Assets/Pvc01.png'
 import Pvc2 from '../../Assets/Pvc02.png'
 import Pvc3 from '../../Assets/Pvc03.png'
+import Link from "next/link";
 
 
 
@@ -69,13 +70,17 @@ function ProductsSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 p-4">
           {/* Liverpool */}
           <div style={{ fontWeight: "400" }} className="text-left ">
-            <div className="mb-6">
-              <Image
-                src={LiverpoolImg}
-                alt="Liverpool Series"
-                className="w-full h-auto object-cover"
-              />
-            </div>
+          <Link
+          href="/">
+           <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
+                    <Image
+                      src={LiverpoolImg}
+                      alt="Liverpool Series"
+                      className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
+                    />
+                  </div>
+          </Link>
+
             <h4 className="text-3xl tracking-widest font-medium mb-2">
               LIVERPOOL SERIES
             </h4>
@@ -90,11 +95,12 @@ function ProductsSection() {
 
           {/* Oxford */}
           <div style={{ fontWeight: "400" }} className="text-left">
-            <div className="mb-6">
+            <div className="mb-6 overflow-hidden ">
               <Image
+              style={{cursor:'pointer'}}
                 src={OxfordImg}
                 alt="Oxford Series"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
             <h4 className="text-3xl tracking-widest font-medium mb-2">
@@ -110,12 +116,13 @@ function ProductsSection() {
           </div>
 
           {/* Rock */}
-          <div style={{ fontWeight: "400" }} className="text-left">
-            <div className="mb-6">
+          <div style={{ fontWeight: "400" }} className="text-left ">
+            <div className="mb-6 overflow-hidden">
               <Image
+              style={{cursor:'pointer'}}
                 src={RockImg}
                 alt="Rock Series"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
             <h4 className="text-3xl tracking-widest font-medium mb-2">
@@ -154,11 +161,11 @@ function ProductsSection() {
           {/* Top Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2  items-center">
             {/* Left Image */}
-            <div className="">
+            <div className="overflow-hidden">
               <Image
                 src={SocketExt1}
                 alt="Extension Socket"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
                 priority
               />
             </div>
@@ -183,29 +190,29 @@ function ProductsSection() {
           {/* Bottom Image Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
             {/* Image 1 */}
-            <div>
+            <div className="overflow-hidden">
               <Image
                 src={SocketExt2}
                 alt="Extension usage"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
 
             {/* Image 2 */}
-            <div>
+            <div className="overflow-hidden">
               <Image
                 src={Extension3}
                 alt="Extension workspace"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
 
             {/* Image 3 (Hidden on Mobile) */}
-            <div className="hidden md:block lg:block">
+            <div className="hidden md:block lg:block overflow-hidden">
               <Image
                 src={SocketExt3}
                 alt="Extension desk"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
           </div>
@@ -377,9 +384,9 @@ function ProductsSection() {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
       {/* RIGHT SIDE CONTENT – FIRST ON MOBILE */}
-      <div className="order-1 lg:order-2 flex flex-col justify-start text-left h-full mt-4 lg:mt-0">
+      <div className="order-1 lg:order-2  flex flex-col justify-start text-left h-full lg:mt-0">
         
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 mb-8">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 mb-8 lg:mt-14 mt-14">
           PVC Trunking
         </h2>
 

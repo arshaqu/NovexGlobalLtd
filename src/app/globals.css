@@ -12,3 +12,9 @@ body {
   font-variation-settings: "wdth" 100;
   letter-spacing: 1px;
 }
+
+select option {
+  background-color: #E3001B;
+  color: white;
+  padding: 5px;
+}
