@@ -28,8 +28,8 @@ import VK0203_2 from '../../Assets/Switches/VK0203_2(5).jpg';
 import VK0204_1 from '../../Assets/Switches/VK0204_1(6).jpg';
 import VK0204_2 from '../../Assets/Switches/VK0204_2(6).jpg';
 
-import VK0205_1 from '../../Assets/Switches/VK0205_1(7).jpg';
-import VK0205_2 from '../../Assets/Switches/VK0205_2(7).jpg';
+import VK0205_1 from '../../Assets/Switches/VK0205_2(7).jpg';
+import VK0205_2 from '../../Assets/Switches/VK0205_1(7).jpg';
 
 import VK0206_1 from '../../Assets/Switches/VK0206_1(8).jpg';
 import VK0206_2 from '../../Assets/Switches/VK0206_2(8).jpg';
@@ -42,6 +42,27 @@ import VK0209_2 from '../../Assets/Switches/VK0209_2(11).jpg';
 
 import VK0213_1 from '../../Assets/Switches/VK0213_1(4).jpg';
 import VK0213_2 from '../../Assets/Switches/VK0213_2(4).jpg';
+
+import VK0217_1 from '../../Assets/Switches/VK0217_1(3).jpg';
+import VK0217_2 from '../../Assets/Switches/VK0217_2(3).jpg';
+
+import VK307A_1 from '../../Assets/Switches/VK307A_1(9).jpg';
+import VK307A_2 from '../../Assets/Switches/VK307A_2(9).jpg';
+
+import VK224_1 from '../../Assets/Switches/VK0224_1(11).jpg';
+import VK224_2 from '../../Assets/Switches/VK0224_2(11).jpg';
+
+import VK227_1 from '../../Assets/Switches/VK0227_1(12).jpg';
+import VK227_2 from '../../Assets/Switches/VK0227_2(12).jpg';
+
+import VK229_1 from '../../Assets/Switches/VK0229_1(13).jpg';
+import VK229_2 from '../../Assets/Switches/VK0229_2(13).jpg';
+
+import VK0231_1 from '../../Assets/Switches/VK0231_2(14).jpg';
+import VK0231_2 from '../../Assets/Switches/VK0231_1(14).jpg';
+
+import VZ0215_1 from '../../Assets/Switches/VZ0215_1(15).jpg';
+import VZ0215_2 from '../../Assets/Switches/VZ0215_2(15).jpg';
 
 
 
@@ -93,6 +114,41 @@ export default function LiverpoolSeriesPage() {
       name: "1 GANG INTERMEDIATE SWITCH",
       code: "VK0213",
       imgs: [VK0213_1, VK0213_2],
+    },
+        {
+      name: "1 GANG 1 WAY BELL SWITCH",
+      code: "VK0217",
+      imgs: [VK0217_1, VK0217_2],
+    },
+      {
+      name: "20A DOUBAL POLE SWITCH",
+      code: "VK0224",
+      imgs: [VK224_1, VK224_2],
+    },
+      {
+      name: "45A DOUBAL POLE SWITCH 3X3",
+      code: "VK0227",
+      imgs: [VK227_1, VK227_2],
+    },
+      {
+      name: "45A DOUBAL POLE SWITCH 3 X 6",
+      code: "VK0229",
+      imgs: [VK229_1, VK229_2 ],
+    },
+         {
+      name: "45A DP + 13A SWITCH SOCKET 3x6",
+      code: "VK0231",
+      imgs: [VK0231_1, VK0231_2 ],
+    },
+         {
+      name: "3A FUSE UNITE + NEON",
+      code: "VZ0215",
+      imgs: [VZ0215_1, VZ0215_2 ],
+    },
+    {
+      name: "4 GANG 1 WAY SWITCH 3X3",
+      code: "NV307A",
+      imgs: [VK307A_1, VK307A_2],
     },
   ];
 
@@ -247,9 +303,9 @@ function HoverImageCard({ product }) {
       </div>
 
       {/* Text left-aligned */}
-      <div className="text-left p-1">
-        <p className="text-red-500 text-lg lg:text-xl font-medium">{product.name}</p>
-        <p className="text-gray-900 text-md" style={{ fontWeight: 400 }}>{product.code}</p>
+      <div className="text-left p-1 ">
+        <p style={{fontWeight:'400', letterSpacing:'1px'}} className="text-red-500 text-lg lg:text-xl ">{product.name}</p>
+        <p className="text-gray-900 text-md " style={{ fontWeight: 400 }}>{product.code}</p>
       </div>
     </div>
   );

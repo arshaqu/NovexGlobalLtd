@@ -8,6 +8,8 @@ import { FaFacebookSquare, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { MdLocationPin } from "react-icons/md";
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -44,11 +46,8 @@ export default function ContactPage() {
         {/* Map */}
         <div className="w-full h-[400px] bg-gray-200">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.4449999999997!2d-0.1426!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjYiTiAwwrAwOCczMy40Ilc!5e0!3m2!1sen!2suk!4v1234567890"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
+          style={{width:'100%' , height:'400px'}}
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.966013779114!2d-0.5842770880151177!3d51.51383951011547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766571bf291513%3A0x5118f767dbf25e73!2sNovex%20Global%20Ltd!5e0!3m2!1sen!2sae!4v1770206726151!5m2!1sen!2sae"     
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="Store Location Map"
@@ -60,7 +59,7 @@ export default function ContactPage() {
           <div className="max-w-8xl mx-auto shadow-lg p-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
               <div className='lg:ml-10'>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">Our Store is located:</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">We are located at:</h3>
                 <div className="space-y-1 text-gray-400 text-md font-medium">
                   <p>Novex Global Ltd., Office 03,</p>
                   <p>Unit S0566,149 St Paul's Avenue,</p>
@@ -119,25 +118,67 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="flex flex-col lg:flex-row lg:gap-8 px-4 lg:px-20 py-12">
           {/* Left Info */}
-          <div className="lg:w-1/2 bg-white rounded-lg shadow-lg p-8 mb-8 lg:mb-0">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">GET IN TOUCH</h2>
-            <p className="text-gray-500 text-md font-medium mb-8 leading-relaxed">
+          <div className="lg:w-1/4 bg-white rounded-lg shadow-lg p-8 mb-8 lg:mb-0">
+            <h2 style={{color:'#E3001B'}} className="text-2xl font-bold text-gray-800 mb-4">GET IN TOUCH</h2>
+            <p className="text-gray-500 text-md max-w-md font-medium mb-8 leading-relaxed">
               We'd love to hear from you! Feedback or inquiries, reach out to our team.
             </p>
+              <div style={{width:'100%' , height:'1px', backgroundColor:'#E3001B'}} className='rounded'></div>
+
+            <div className='p-4' >
+                       <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Location : </div>
+
+              <p style={{marginLeft:'43px' ,  fontWeight:'400'}} className="text-gray-500 text-md font-medium leading-relaxed">
+              Unit S0566 , Office 3 <br/>149 St.Pauls Road , <br/> Slough , SL2 5EN,<br/>  United Kingdom
+            </p>      
+            </div>
+
+
+              <div style={{width:'100%' , height:'1px', backgroundColor:'#E3001B'}} className='rounded'></div>
+
+
+              
+              <div className='p-2' >
+                        <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Email : </div>
+
+              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md leading-relaxed">
+              sales@novexglobal.uk
+            </p> 
+              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md  leading-relaxed">
+              info@novexglobal.uk
+            </p>      
+            </div>
+
+              <div style={{width:'100%' , height:'1px', backgroundColor:'#E3001B'}} className='rounded'></div>
+
+
+            
+            <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Call Us for Product Inquiry : </div>
+              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md leading-relaxed">
+              Tel : 03308 224460
+            </p> 
+              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md  leading-relaxed">
+              Mob : +44 (0) 7516962348
+            </p>      
+
+
+
+           
+
           </div>
 
           {/* Right Form */}
           <div className="lg:w-1/2 bg-white rounded-lg shadow-lg p-6 lg:p-8">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Request a Quote Today</h2>
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <h2 style={{color:'#E3001B'}} className="text-3xl font-bold text-gray-800 mb-4">Request a Quote Today</h2>
+            <form onSubmit={handleSubmit} className="space-y-6 mt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
-                <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
+                <input style={{border:'1px solid #E3001B'}} type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
+                <input style={{border:'1px solid #E3001B'}} type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
               </div>
-              <input type="text" name="subject" placeholder="Your Subject" value={formData.subject} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
-              <textarea name="message" placeholder="Your Message..." value={formData.message} onChange={handleChange} rows="6" className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm resize-none" required />
+              <input style={{border:'1px solid #E3001B'}} type="text" name="subject" placeholder="Your Subject" value={formData.subject} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
+              <textarea style={{border:'1px solid #E3001B'}} name="message" placeholder="Your Message..." value={formData.message} onChange={handleChange} rows="6" className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm resize-none" required />
               <div className="flex justify-end">
-                <button type="submit" className="bg-[#E3001B] hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium text-sm transition-colors duration-200">
+                <button type="submit" className="bg-[#E3001B] hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium text-sm transition-colors duration-200 mt-6">
                   Submit
                 </button>
               </div>

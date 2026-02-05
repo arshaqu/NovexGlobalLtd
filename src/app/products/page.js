@@ -71,7 +71,7 @@ function ProductsSection() {
           {/* Liverpool */}
           <div style={{ fontWeight: "400" }} className="text-left ">
           <Link
-          href="/">
+          href="/item_Liverpool">
            <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
                     <Image
                       src={LiverpoolImg}
@@ -79,7 +79,6 @@ function ProductsSection() {
                       className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
                     />
                   </div>
-          </Link>
 
             <h4 className="text-3xl tracking-widest font-medium mb-2">
               LIVERPOOL SERIES
@@ -91,6 +90,7 @@ function ProductsSection() {
             <span className="text-xs text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
+          </Link>
           </div>
 
           {/* Oxford */}

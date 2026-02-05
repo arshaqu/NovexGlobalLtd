@@ -53,7 +53,7 @@ export default function Header() {
   {/* Right section */}
   <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-10 lg:gap-32 mt-2 sm:mt-0">
      <Link href='/'>
-   <p style={{fontWeight:'400'}} className='flex'> <FaMapMarkerAlt   size={15} className='mr-2' />Store Location</p>
+   <p style={{fontWeight:'400'}} className='flex'> <FaMapMarkerAlt   size={15} className='mr-2' />Location</p>
    </Link>
     <span style={{fontWeight:'400'}} >EN ▾</span>
   </div>

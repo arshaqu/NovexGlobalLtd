@@ -138,9 +138,9 @@ export default function Home() {
           Shop by Category
         </h3>
         {/* Categories */}
-        <div style={{ cursor:'pointer'}} className="mt-14 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-8 place-items-center">
+        <div style={{ cursor:'pointer'}} className="mt-14 grid gap-8 grid-cols-1 sm:grid-cols-3 md:grid-cols-5 place-items-center p-4">
           {categories.map((item, index) => (
-            <div key={index} className="flex flex-col items-center group gap-2">
+            <div key={index} className="flex flex-col items-center group ">
               {/* Circle */}
               <div className="relative w-80 h-80 rounded-full bg-gray-100 flex items-center justify-center transition group-hover:scale-105">
                 <Image
@@ -328,7 +328,7 @@ export default function Home() {
           {/* Text Content - Right Side */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h2 style={{letterSpacing:'2px'}} className="text-gray-400  text-5xl lg:text-7xl font-light tracking-wide mb-2">
-              Novex Global
+              Novex 
             </h2>
             <h1 style={{letterSpacing:'3px'}} className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 lg:mb-8">
               <span className="text-gray-900">Spot Light</span>{' '}

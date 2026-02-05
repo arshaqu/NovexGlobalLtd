@@ -96,7 +96,7 @@ function Footer() {
         CONTACT
       </a>
       <a style={{fontWeight:'300'}}  href="#store" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
-        STORE LOCATION
+        LOCATION
       </a>
     </div>
   </div>
@@ -177,7 +177,7 @@ function Footer() {
                   <FaMapMarkerAlt className="w-4 h-4 mt-1 flex-shrink-0" />
                   <address className="not-italic leading-relaxed">
                     Novex Global Ltd., Office 03,<br />
-                    Unit SO566,149 St Paul's Avenue,<br />
+                    Unit S0566,149 St Paul's Avenue,<br />
                     Slough, SL2 5EN,<br />
                     United Kingdom
                   </address>
