@@ -71,7 +71,7 @@ function ProductsSection() {
           {/* Liverpool */}
           <div style={{ fontWeight: "400" }} className="text-left ">
           <Link
-          href="/item_Liverpool">
+          href="/Item_Liverpool">
            <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
                     <Image
                       src={LiverpoolImg}
@@ -95,6 +95,7 @@ function ProductsSection() {
 
           {/* Oxford */}
           <div style={{ fontWeight: "400" }} className="text-left">
+              <Link href="/Item_Oxford">
             <div className="mb-6 overflow-hidden ">
               <Image
               style={{cursor:'pointer'}}
@@ -113,10 +114,12 @@ function ProductsSection() {
             <span className="text-xs text-gray-400 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
+            </Link>
           </div>
 
           {/* Rock */}
           <div style={{ fontWeight: "400" }} className="text-left ">
+              <Link href="/Item_Rock">
             <div className="mb-6 overflow-hidden">
               <Image
               style={{cursor:'pointer'}}
@@ -135,6 +138,7 @@ function ProductsSection() {
             <span className="text-xs text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
+            </Link>
           </div>
         </div>
       </section>

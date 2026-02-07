@@ -38,14 +38,13 @@ import Footer from "@/Components/Footer";
 
 export default function Home() {
 
-    const categories = [
-    { title: "Switch & Socket", image: SwitchSocket },
-    { title: "Extension Sockets", image: ExtenstionSocket },
-    { title: "Spot Lights", image: SpotLight },
-    { title: "Insect killers", image: InsectKiller },
-    { title: "PVC Trunking", image: PvcTrunking },
-  ];
-
+   const categories = [
+  { title: "Switch & Socket", image: SwitchSocket, href: '/Item_Liverpool' },
+  { title: "Extension Sockets", image: ExtenstionSocket, href: '/item_extension' },
+  { title: "Spot Lights", image: SpotLight, href: '/item_spot' },
+  { title: "Insect Killers", image: InsectKiller, href: '/item_insect' },
+  { title: "PVC Trunking", image: PvcTrunking, href: '/item_pvc' },
+];
 
     const series = [
     { title: "LIVERPOOL SERIES", image: Liverpool },
@@ -140,6 +139,7 @@ export default function Home() {
         {/* Categories */}
         <div style={{ cursor:'pointer'}} className="mt-14 grid gap-8 grid-cols-1 sm:grid-cols-3 md:grid-cols-5 place-items-center p-4">
           {categories.map((item, index) => (
+            <Link key={index} href={item.href} className="flex flex-col items-center group">
             <div key={index} className="flex flex-col items-center group ">
               {/* Circle */}
               <div className="relative w-80 h-80 rounded-full bg-gray-100 flex items-center justify-center transition group-hover:scale-105">
@@ -154,6 +154,7 @@ export default function Home() {
                 {item.title}
               </p>
             </div>
+            </Link>
           ))}
         </div>
       </div>
