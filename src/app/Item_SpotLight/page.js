@@ -6,10 +6,10 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/SpotLights/Bann.png';
+import BannerImg from '../../Assets/SpotLights/Bann1.png';
 
-import N_D102_3M_1 from '../../Assets/Extension/N-D102-10M_1.jpg';
-import N_D102_3M_2 from '../../Assets/Extension/N-D102-10M_2.jpg';
+import NV3260CW_1 from '../../Assets/SpotLights/NV3260CW_1.png';
+import NV3260CW_2 from '../../Assets/SpotLights/NV3260CW_2.png';
 
 
 
@@ -19,7 +19,7 @@ export default function Page() {
   const PRODUCTS_PER_PAGE = 24;
 
   const products = [
-   { name: "2 GANG EXT SKT MULTI S/SWT W/NEON (3 MTR)", code: "N-D102-3M", imgs: [ N_D102_3M_1 , N_D102_3M_2 ] },
+   { name: "4W 60 SMD LED LIGHT WHITE FITTING DAYLIGHT", code: "NV3260CW", imgs: [ NV3260CW_1 , NV3260CW_2 ] },
   
 
    ];
@@ -29,7 +29,7 @@ export default function Page() {
   const currentProducts = products.slice(startIndex, startIndex + PRODUCTS_PER_PAGE);
 
   return (
-    <div className="min-h-screen bg-gray-0">
+    <div className="min-h-screen bg-gray-100">
 
       <Header />
       {/* Banner */}
@@ -46,7 +46,9 @@ export default function Page() {
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">SPOT LIGHTS</p>
         <p className="text-gray-600 lg:text-lg text-md max-w-6xl mx-auto">
-         The <span className='font-medium'>NOVEX GLOBAL LTD</span> supplies a practical range of lighting accessories designed to support safe, efficient installation and long-term reliablility. Our products are sourced from trusted manufacturing partners and supplied to meet the expectations of professional installers.
+         The <span className='font-medium'>NOVEX GLOBAL LTD</span> supplies a practical range of lighting accessories
+          designed to support safe, efficient installation and long-term reliablility.
+          Our products are sourced from trusted manufacturing partners and supplied to meet the expectations of professional installers.
         </p>
       </div>
 
@@ -119,3 +121,4 @@ function HoverImageCard({ product }) {
     </div>
   );
 }
+
