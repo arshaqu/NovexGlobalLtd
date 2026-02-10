@@ -47,9 +47,9 @@ export default function Home() {
 ];
 
     const series = [
-    { title: "LIVERPOOL SERIES", image: Liverpool },
-    { title: "OXFORD SERIES", image: Oxford },
-    { title: "ROCK SERIES", image: Rock },
+    { title: "LIVERPOOL SERIES", image: Liverpool ,href: '/Item_Liverpool' },
+    { title: "OXFORD SERIES", image: Oxford ,href: '/Item_Liverpool' },
+    { title: "ROCK SERIES", image: Rock , href:'/Item_Liverpool' }
   ];
 
   return (
@@ -180,11 +180,12 @@ export default function Home() {
         {/* Cards */}
     <div style={{cursor:'pointer'}} className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7">
   {series.map((item, index) => (
+    <Link key={index} href={item.href} className="">
     <div
       key={index}
       style={{border:'2px solid '}}
       className="relative h-72 sm:h-80 md:h-96 overflow-hidden group
-                 rounded-tl-3xl rounded-br-3xl shadow-md hover:shadow-xl">
+      rounded-tl-3xl rounded-br-3xl shadow-md hover:shadow-xl">
       {/* Image */}
       <Image
         src={item.image}
@@ -207,13 +208,16 @@ export default function Home() {
         </p>
       </div>
     </div>
+       </Link>
         ))}
       </div>
         {/* Button */}
         <div className="mt-14">
-          <button style={{fontWeight:'300'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-lg hover:bg-white hover:text-red-600  hover:border-red-500 transition">
+          <Link href='/products'>
+          <button style={{fontWeight:'300' , cursor:'pointer'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-lg hover:bg-white hover:text-red-600  hover:border-red-500 transition">
             Explore
           </button>
+          </Link>
         </div>
       </div>
     </section>
@@ -250,7 +254,7 @@ export default function Home() {
 
             <div className="flex justify-center pt-6">
               <Link
-                href="/"
+                 href="/Item_Extension"
                 className="inline-block bg-red-600 text-white px-8 py-3 text-sm tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
                 Explore More
               </Link>
@@ -279,12 +283,11 @@ export default function Home() {
               applications.
             </p>
 
-            <div className="flex justify-center pt-6">
+             <div className="flex justify-center pt-6">
               <Link
-                  style={{backgroundColor:"#E3001B"}}
-                  href="/"
-                  className="inline-block text-white px-8 py-3 text-sm tracking-wide hover:bg-red-700 transition">
-                  Explore More
+                 href="/Item_Extension"
+                className="inline-block bg-red-600 text-white px-8 py-3 text-sm tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
+                Explore More
               </Link>
             </div>
           </div>
@@ -345,9 +348,11 @@ export default function Home() {
                 Learn more
               </a>
               <div>
-                <button className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <Link href='/Item_SpotLight'>
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -373,7 +378,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p fontWeight={{  }} className="text-gray-900 text-2xl max-w-3xl mx-auto mt-8">
+          <p className="text-gray-900 text-2xl max-w-3xl mx-auto mt-8">
             Durable UK-made insect killer with 30,000-hour lifespan, safe,
             chemical-free, and easy to clean
           </p>
@@ -509,7 +514,7 @@ export default function Home() {
 
       {/* BUTTON */}
       <div className="text-center mt-12">
-        <button className="bg-red-600 text-white px-20 py-3 text-lg hover:bg-white hover:text-red-600 hover:border-1 hover:border-red-500 transition">
+        <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg hover:bg-white hover:text-red-600 hover:border-1 hover:border-red-500 transition">
           Explore
         </button>
       </div>
@@ -597,7 +602,7 @@ export default function Home() {
         </div>
         {/* Explore Button */}
         <div className="text-center">
-          <button className="bg-red-600 hover:bg-red-700 text-white font-medium px-16 sm:px-20 py-3 text-base sm:text-lg transition-colors duration-300 ">
+          <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg hover:bg-white hover:text-red-600 hover:border-1 hover:border-red-500 transition">
             Explore
           </button>
         </div>

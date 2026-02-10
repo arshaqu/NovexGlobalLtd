@@ -93,18 +93,18 @@ export default function CategoryBar({ active }) {
         {/* Spot Lights */}
          <Link href="/Item_SpotLight">
         <div
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 ml-10"
           style={active === "spot" ? activeStyle : {}}
         >
           <Image src={SpotIcon} alt="Spot Lights" width={24} height={24} />
-          <span>Spot Lights</span>
+          <span>Spot Lights      </span>
         </div>
         </Link>
 
         {/* Insect Killer */}
-          <Link href="/Item_SpotLight">
+          <Link href="/Item_InsectKiller">
         <div
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 ml-10"
           style={active === "insectK" ? activeStyle : {}}
         >
           <Image src={InsectIcon} alt="Insect Killer" width={24} height={24} />
@@ -113,6 +113,7 @@ export default function CategoryBar({ active }) {
         </Link>
 
         {/* PVC */}
+          <Link href="/Item_Pvc">
         <div
           className="flex items-center gap-2"
           style={active === "pvc" ? activeStyle : {}}
@@ -120,7 +121,7 @@ export default function CategoryBar({ active }) {
           <Image src={PVCIcon} alt="PVC Trunking" width={24} height={24} />
           <span>PVC Trunking</span>
         </div>
-
+            </Link>
       </div>
     </div>
   );

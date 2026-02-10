@@ -185,9 +185,11 @@ function ProductsSection() {
                 offerings.
               </p>
 
-              <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
+                <Link  href="/Item_Extension">
+              <button style={{cursor:'pointer'}} className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
                 Browse All Items
               </button>
+                </Link>
             </div>
           </div>
 
@@ -269,9 +271,11 @@ function ProductsSection() {
             </p>
 
             {/* Button */}
-            <button className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition mb-10">
+            <Link  href="/Item_SpotLight">
+            <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition mb-10">
               Browse All Items
             </button>
+            </Link>
 
             {/* Thumbnail grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -375,7 +379,7 @@ function ProductsSection() {
           </div>
           {/* Button */}
          <div className="flex justify-center mb-10 mt-10">
-        <button className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition">
+        <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition">
           Browse All Items
         </button>
       </div>  
@@ -418,7 +422,7 @@ function ProductsSection() {
 
         {/* BUTTON */}
         <div>
-          <button className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md rounded mb-5">
+          <button style={{cursor:'pointer'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md rounded mb-5">
             Browse All Items
           </button>
         </div>

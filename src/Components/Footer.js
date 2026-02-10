@@ -74,7 +74,7 @@ function Footer() {
         PRODUCTS
       </a>
       <a style={{fontWeight:'300'}}  href="#blog" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
-        BLOG
+        FAQ's
       </a>
       <a style={{fontWeight:'300'}}  href="#careers" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         CAREERS
