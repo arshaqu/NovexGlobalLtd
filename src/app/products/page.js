@@ -4,27 +4,27 @@ import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
 
 // Images
-import LiverpoolImg from "../../assets/Liverpool_p.png";
-import OxfordImg from "../../assets/Oxford_p.png";
-import RockImg from "../../assets/Rock_p.png";
-import SocketExt1 from "../../assets/SocketExt1.png";
-import SocketExt2 from "../../assets/Socket2.png";
-import SocketExt3 from "../../assets/Socket3.png";
-import Extension3 from "../../assets/Extension03.jpg";
+import LiverpoolImg from "../../Assets/Liverpool_p.png";
+import OxfordImg from "../../Assets/Oxford_p.png";
+import RockImg from "../../Assets/Rock_p.png";
+import SocketExt1 from "../../Assets/SocketExt1.png";
+import SocketExt2 from "../../Assets/Socket2.png";
+import SocketExt3 from "../../Assets/Socket3.png";
+import Extension3 from "../../Assets/Extension3.jpg";
 
-import Spotlight1 from "../../assets/SpotLight1.png";
-import Spotlight2 from "../../assets/SpotLight2.jpeg";
-import Spotlight3 from "../../assets/SpotLight3.png";
+import Spotlight1 from "../../Assets/SpotLight1.png";
+import Spotlight2 from "../../Assets/SpotLight2.jpeg";
+import Spotlight3 from "../../Assets/SpotLight3.png";
 
-import Insectkiller1 from "../../assets/Insectkiller1.png";
-import Insectkiller2 from "../../assets/Insectkiller2.png";
-import Insectkiller3 from "../../assets/InsectKiller3.png";
+import Insectkiller1 from "../../Assets/Insectkiller1.png";
+import Insectkiller2 from "../../Assets/Insectkiller2.png";
+import Insectkiller3 from "../../Assets/InsectKiller3.png";
 
-import WholeSale from "../../assets/WholeSale.png";
+import WholeSale from "../../Assets/WholeSale.png";
 
-import Pvc1 from '../../assets/Pvc01.png'
-import Pvc2 from '../../assets/Pvc02.png'
-import Pvc3 from '../../assets/Pvc03.png'
+import Pvc1 from '../../Assets/Pvc01.png'
+import Pvc2 from '../../Assets/Pvc02.png'
+import Pvc3 from '../../Assets/Pvc03.png'
 import Link from "next/link";
 
 
@@ -71,7 +71,7 @@ function ProductsSection() {
           {/* Liverpool */}
           <div style={{ fontWeight: "400" }} className="text-left ">
           <Link
-          href="/liverpool">
+          href="/Item_Liverpool">
            <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
                     <Image
                       src={LiverpoolImg}

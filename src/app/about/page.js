@@ -2,18 +2,18 @@ import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import React from "react";
 
-
+import AboutImg from "../../Assets/AboutImg.png";
 import Image from "next/image";
-import OurStory from "../../assets/Ourstory.png";
-import AboutSec from "../../assets/aboutSection.png";
-import Switch from '../../assets/SwitchesAbt.png'
-import Pvc from '../../assets/Pvc.png'
-import Insect from '../../assets/InsectK1.png'
-import Spot from '../../assets/Spot.png'
-import ImageAbout from '../../assets/aboutImg_1.png'
+import OurStory from "../../Assets/Ourstory.png";
+import AboutSec from "../../Assets/aboutSection.png";
+import Switch from '../../Assets/SwitchesAbt.png'
+import Pvc from '../../Assets/Pvc.png'
+import Insect from '../../Assets/InsectK1.png'
+import Spot from '../../Assets/Spot.png'
 
 
-import Extension from '../../assets/ExtensionAbt.png'
+
+import Extension from '../../Assets/ExtensionAbt.png'
 
 
 import { RiCustomerService2Fill } from "react-icons/ri";
@@ -87,7 +87,7 @@ function page() {
           <p className="text-md text-gray-500 leading-relaxed mb-1">
             Novex Global Ltd is a growing UK product company, proudly
             introducing the Novex brand to the UK market with a focus on
-            quality, innovation, and customer-first solutions
+            quality, innovation, and customer-first solutions.
           </p>
         </div>
       </section>
@@ -106,7 +106,7 @@ function page() {
           {/* Left Image */}
           <div className="relative w-full h-[280px] sm:h-[380px] lg:h-auto min-h-[500px]">
             <Image
-              src={ImageAbout}
+              src={AboutImg}
               alt="Who we are"
               fill
               className="object-cover"
@@ -522,24 +522,24 @@ function page() {
         </div>
       </section>
 
- <section className="mt-20 px-4 md:px-8 lg:px-16 mb-5">
-  <div className="text-center mb-12">
-    <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+ <section class="mt-20 px-4 md:px-8 lg:px-16 mb-5">
+  <div class="text-center mb-12">
+    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
       Our Precious Categories
     </h2>
-    <div className="flex justify-center mb-4">
-      <div className="w-44 h-1.5 bg-[#E3001B] rounded-full"></div>
+    <div class="flex justify-center mb-4">
+      <div class="w-44 h-1.5 bg-[#E3001B] rounded-full"></div>
     </div>
-    <p className="text-lg font-medium text-gray-500 max-w-3xl mx-auto">
+    <p class="text-lg font-medium text-gray-500 max-w-3xl mx-auto">
       High-quality electrical accessories designed for durability, safety, and modern installations.
       Reliable solutions for residential, commercial, and industrial use.
     </p>
   </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Switch} alt="Switches & Sockets" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-    <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Switch} alt="Switches & Sockets" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+    <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         SWITCHES & SOCKETS
           </div>
 
@@ -562,23 +562,23 @@ function page() {
 </div>
 
 
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
+    <div class="relative overflow-hidden rounded-lg shadow-lg group">
       <Image src={Extension} alt="Extension Sockets" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+       <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         EXTENSION SOCKETS
       </div>
     </div>
 
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Insect} alt="Insects Killer" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-      <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+    <div class="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Insect} alt="Insects Killer" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+      <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         INSECTS KILLER
       </div>
     </div>
 
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Pvc} alt="PVC Trunking" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+    <div class="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Pvc} alt="PVC Trunking" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+       <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         PVC TRUNKING
       </div>
     </div>

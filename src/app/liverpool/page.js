@@ -10,130 +10,130 @@ import { useRouter } from "next/navigation";
 import { useRef } from "react";
 
 
-import BannerImg from '../../assets/SwitchBan.png';
+import BannerImg from '../../Assets/SwitchBan.png';
 
 
 // Product images imports
-import VK0201_1 from '../../assets/Switches/VK0201_1.jpg';
-import VK0201_2 from '../../assets/Switches/VK0201_2.jpg';
-import VK0202_1 from '../../assets/Switches/VK0202_1.jpg';
-import VK0202_2 from '../../assets/Switches/VK0202_2.jpg';
-import VK0203_1 from '../../assets/Switches/VK0203_1.jpg';
-import VK0203_2 from '../../assets/Switches/VK0203_2.jpg';
-import VK0204_1 from '../../assets/Switches/VK0204_1.jpg';
-import VK0204_2 from '../../assets/Switches/VK0204_2.jpg';
-import VK0205_1 from '../../assets/Switches/VK0205_2.jpg';
-import VK0205_2 from '../../assets/Switches/VK0205_1.jpg';
-import VK0206_1 from '../../assets/Switches/VK0206_1.jpg';
-import VK0206_2 from '../../assets/Switches/VK0206_2.jpg';
-import VK0207_1 from '../../assets/Switches/VK0207_1.jpg';
-import VK0207_2 from '../../assets/Switches/VK0207_2.jpg';
-import VK0209_1 from '../../assets/Switches/VK0209_1.jpg';
-import VK0209_2 from '../../assets/Switches/VK0209_2.jpg';
-import VK0213_1 from '../../assets/Switches/VK0213_1.jpg';
-import VK0213_2 from '../../assets/Switches/VK0213_2.jpg';
-import VK0217_1 from '../../assets/Switches/VK0217_1.jpg';
-import VK0217_2 from '../../assets/Switches/VK0217_2.jpg';
-import VK307A_1 from '../../assets/Switches/VK307A_1.jpg';
-import VK307A_2 from '../../assets/Switches/VK307A_2.jpg';
-import VK224_1 from '../../assets/Switches/VK0224_1.jpg';
-import VK224_2 from '../../assets/Switches/VK0224_2.jpg';
-import VK227_1 from '../../assets/Switches/VK0227_1.jpg';
-import VK227_2 from '../../assets/Switches/VK0227_2.jpg';
-import VK229_1 from '../../assets/Switches/VK0229_1.jpg';
-import VK229_2 from '../../assets/Switches/VK0229_2.jpg';
-import VK0231_1 from '../../assets/Switches/VK0231_2.jpg';
-import VK0231_2 from '../../assets/Switches/VK0231_1.jpg';
-import VZ0215_1 from '../../assets/Switches/VZ0215_1.jpg';
-import VZ0215_2 from '../../assets/Switches/VZ0215_2.jpg';
-import VZ0219_1 from '../../assets/Switches/VZ0219-1.png';
-import VZ0219_2 from '../../assets/Switches/VZ0219-2.png';
-import VZ0201_1 from '../../assets/Switches/VZ0201_1.jpg';
-import VZ0201_2 from '../../assets/Switches/VZ0201_2.jpg';
-import VZ0202_1 from '../../assets/Switches/VZ0202-1.png';
-import VZ0202_2 from '../../assets/Switches/VZ0202-3.png';
-import VJ0220_1 from '../../assets/Switches/VJ0220_1.jpg';
-import VJ0220_2 from '../../assets/Switches/VJ0220_2.jpg';
-import VJ0221_1 from '../../assets/Switches/VJ0221_1.jpg';
-import VJ0221_2 from '../../assets/Switches/VJ0221_2.jpg';
-import VZ901_1 from '../../assets/Switches/VZ901_1.jpg';
-import VZ901_2 from '../../assets/Switches/VZ901_2.jpg';
+import VK0201_1 from '../../Assets/Switches/VK0201_1.jpg';
+import VK0201_2 from '../../Assets/Switches/VK0201_2.jpg';
+import VK0202_1 from '../../Assets/Switches/VK0202_1.jpg';
+import VK0202_2 from '../../Assets/Switches/VK0202_2.jpg';
+import VK0203_1 from '../../Assets/Switches/VK0203_1.jpg';
+import VK0203_2 from '../../Assets/Switches/VK0203_2.jpg';
+import VK0204_1 from '../../Assets/Switches/VK0204_1.jpg';
+import VK0204_2 from '../../Assets/Switches/VK0204_2.jpg';
+import VK0205_1 from '../../Assets/Switches/VK0205_2.jpg';
+import VK0205_2 from '../../Assets/Switches/VK0205_1.jpg';
+import VK0206_1 from '../../Assets/Switches/VK0206_1.jpg';
+import VK0206_2 from '../../Assets/Switches/VK0206_2.jpg';
+import VK0207_1 from '../../Assets/Switches/VK0207_1.jpg';
+import VK0207_2 from '../../Assets/Switches/VK0207_2.jpg';
+import VK0209_1 from '../../Assets/Switches/VK0209_1.jpg';
+import VK0209_2 from '../../Assets/Switches/VK0209_2.jpg';
+import VK0213_1 from '../../Assets/Switches/VK0213_1.jpg';
+import VK0213_2 from '../../Assets/Switches/VK0213_2.jpg';
+import VK0217_1 from '../../Assets/Switches/VK0217_1.jpg';
+import VK0217_2 from '../../Assets/Switches/VK0217_2.jpg';
+import VK307A_1 from '../../Assets/Switches/VK307A_1.jpg';
+import VK307A_2 from '../../Assets/Switches/VK307A_2.jpg';
+import VK224_1 from '../../Assets/Switches/VK0224_1.jpg';
+import VK224_2 from '../../Assets/Switches/VK0224_2.jpg';
+import VK227_1 from '../../Assets/Switches/VK0227_1.jpg';
+import VK227_2 from '../../Assets/Switches/VK0227_2.jpg';
+import VK229_1 from '../../Assets/Switches/VK0229_1.jpg';
+import VK229_2 from '../../Assets/Switches/VK0229_2.jpg';
+import VK0231_1 from '../../Assets/Switches/VK0231_2.jpg';
+import VK0231_2 from '../../Assets/Switches/VK0231_1.jpg';
+import VZ0215_1 from '../../Assets/Switches/VZ0215_1.jpg';
+import VZ0215_2 from '../../Assets/Switches/VZ0215_2.jpg';
+import VZ0219_1 from '../../Assets/Switches/VZ0219-1.png';
+import VZ0219_2 from '../../Assets/Switches/VZ0219-2.png';
+import VZ0201_1 from '../../Assets/Switches/VZ0201_1.jpg';
+import VZ0201_2 from '../../Assets/Switches/VZ0201_2.jpg';
+import VZ0202_1 from '../../Assets/Switches/VZ0202-1.png';
+import VZ0202_2 from '../../Assets/Switches/VZ0202-3.png';
+import VJ0220_1 from '../../Assets/Switches/VJ0220_1.jpg';
+import VJ0220_2 from '../../Assets/Switches/VJ0220_2.jpg';
+import VJ0221_1 from '../../Assets/Switches/VJ0221_1.jpg';
+import VJ0221_2 from '../../Assets/Switches/VJ0221_2.jpg';
+import VZ901_1 from '../../Assets/Switches/VZ901_1.jpg';
+import VZ901_2 from '../../Assets/Switches/VZ901_2.jpg';
 
-import VZ902_1 from '../../assets/Switches/VZ902_1.jpg';
-import VZ902_2 from '../../assets/Switches/VZ902_2.jpg';
+import VZ902_1 from '../../Assets/Switches/VZ902_1.jpg';
+import VZ902_2 from '../../Assets/Switches/VZ902_2.jpg';
 
-import VZ0205_1 from '../../assets/Switches/VZ0205_1.jpg';
-import VZ0205_2 from '../../assets/Switches/VZ0205_2.jpg';
+import VZ0205_1 from '../../Assets/Switches/VZ0205_1.jpg';
+import VZ0205_2 from '../../Assets/Switches/VZ0205_2.jpg';
 
-import VZ205U1_1 from '../../assets/Switches/VZ205U1_1.jpg';
-import VZ205U1_2 from '../../assets/Switches/VZ205U1_2.jpg';
+import VZ205U1_1 from '../../Assets/Switches/VZ205U1_1.jpg';
+import VZ205U1_2 from '../../Assets/Switches/VZ205U1_2.jpg';
 
-import VZ205U2_1 from '../../assets/Switches/VZ205U2_1.jpg';
-import VZ205U2_2 from '../../assets/Switches/VZ205U2_2.jpg';
+import VZ205U2_1 from '../../Assets/Switches/VZ205U2_1.jpg';
+import VZ205U2_2 from '../../Assets/Switches/VZ205U2_2.jpg';
 
-import VZ205DU_1 from '../../assets/Switches/VZ205DU_1.jpg';
-import VZ205DU_2 from '../../assets/Switches/VZ205DU_2.jpg';
+import VZ205DU_1 from '../../Assets/Switches/VZ205DU_1.jpg';
+import VZ205DU_2 from '../../Assets/Switches/VZ205DU_2.jpg';
 
-import VZ0206_1 from '../../assets/Switches/VZ0206_1.jpg';
-import VZ0206_2 from '../../assets/Switches/VZ0206_2.jpg';
+import VZ0206_1 from '../../Assets/Switches/VZ0206_1.jpg';
+import VZ0206_2 from '../../Assets/Switches/VZ0206_2.jpg';
 
-import VZ206DU_1 from '../../assets/Switches/VZ206DU_1.jpg';
-import VZ206DU_2 from '../../assets/Switches/VZ206DU_2.jpg';
+import VZ206DU_1 from '../../Assets/Switches/VZ206DU_1.jpg';
+import VZ206DU_2 from '../../Assets/Switches/VZ206DU_2.jpg';
 
 
-import VZ206U2_1 from '../../assets/Switches/VZ206U2_1.jpeg';
-import VZ206U2_2 from '../../assets/Switches/VZ206U2_3.jpeg';
+import VZ206U2_1 from '../../Assets/Switches/VZ206U2_1.jpeg';
+import VZ206U2_2 from '../../Assets/Switches/VZ206U2_3.jpeg';
 
-import VZ0229_1 from '../../assets/Switches/VZ0229_1.jpg';
-import VZ0229_2 from '../../assets/Switches/VZ0229_2.jpg';
+import VZ0229_1 from '../../Assets/Switches/VZ0229_1.jpg';
+import VZ0229_2 from '../../Assets/Switches/VZ0229_2.jpg';
 
-import VZ0232_1 from '../../assets/Switches/VZ0232_1.jpg';
-import VZ0232_2 from '../../assets/Switches/VZ0232_2.jpg';
+import VZ0232_1 from '../../Assets/Switches/VZ0232_1.jpg';
+import VZ0232_2 from '../../Assets/Switches/VZ0232_2.jpg';
 
-import VZ0555_1 from '../../assets/Switches/VZ0555_1.jpg';
-import VZ0555_2 from '../../assets/Switches/VZ0555_2.jpg';
+import VZ0555_1 from '../../Assets/Switches/VZ0555_1.jpg';
+import VZ0555_2 from '../../Assets/Switches/VZ0555_2.jpg';
 
-import VZ0239_1 from '../../assets/Switches/VZ0239_1.jpg';
-import VZ0239_2 from '../../assets/Switches/VZ0239_2.jpg';
+import VZ0239_1 from '../../Assets/Switches/VZ0239_1.jpg';
+import VZ0239_2 from '../../Assets/Switches/VZ0239_2.jpg';
 
-import VZ0263_1 from '../../assets/Switches/VZ0263_3.jpg';
-import VZ0263_2 from '../../assets/Switches/VZ0263_2.jpg';
+import VZ0263_1 from '../../Assets/Switches/VZ0263_3.jpg';
+import VZ0263_2 from '../../Assets/Switches/VZ0263_2.jpg';
 
-import VZ0266_1 from '../../assets/Switches/VZ0266_1.jpg';
-import VZ0266_2 from '../../assets/Switches/VZ0266_2.jpg';
+import VZ0266_1 from '../../Assets/Switches/VZ0266_1.jpg';
+import VZ0266_2 from '../../Assets/Switches/VZ0266_2.jpg';
 
-import VZ0243_1 from '../../assets/Switches/VZ0243_1.jpg';
-import VZ0243_2 from '../../assets/Switches/VZ0243_2.jpg';
+import VZ0243_1 from '../../Assets/Switches/VZ0243_1.jpg';
+import VZ0243_2 from '../../Assets/Switches/VZ0243_2.jpg';
 
-import VZ0258_1 from '../../assets/Switches/VZ0258_1.jpg';
-import VZ0258_2 from '../../assets/Switches/VZ0258_2.jpg';
+import VZ0258_1 from '../../Assets/Switches/VZ0258_1.jpg';
+import VZ0258_2 from '../../Assets/Switches/VZ0258_2.jpg';
 
-import W500_1 from '../../assets/Switches/500W_1.jpg';
-import W500_2 from '../../assets/Switches/500W_2.jpg';
+import W500_1 from '../../Assets/Switches/500W_1.jpg';
+import W500_2 from '../../Assets/Switches/500W_2.jpg';
 
-import W5002G_1 from '../../assets/Switches/500W2G_1.png';
-import W5002G_2 from '../../assets/Switches/500W2G_2.png';
+import W5002G_1 from '../../Assets/Switches/500W2G_1.png';
+import W5002G_2 from '../../Assets/Switches/500W2G_2.png';
 
-import W1000_1 from '../../assets/Switches/1000W_1.jpg';
-import W1000_2 from '../../assets/Switches/1000W_2.jpg';
+import W1000_1 from '../../Assets/Switches/1000W_1.jpg';
+import W1000_2 from '../../Assets/Switches/1000W_2.jpg';
 
-import W10002G_1 from '../../assets/Switches/1000W2G_1.png';
-import W10002G_2 from '../../assets/Switches/1000W2G_2.png';
+import W10002G_1 from '../../Assets/Switches/1000W2G_1.png';
+import W10002G_2 from '../../Assets/Switches/1000W2G_2.png';
 
-import W1500_1 from '../../assets/Switches/1500W_1.jpg';
-import W1500_2 from '../../assets/Switches/1500W_2.jpg';
+import W1500_1 from '../../Assets/Switches/1500W_1.jpg';
+import W1500_2 from '../../Assets/Switches/1500W_2.jpg';
 
-import VZ0202_3H_1 from '../../assets/Switches/VZ0202_3H_1.jpg';
-import VZ0202_3H_2 from '../../assets/Switches/VZ0202_3H_2.jpg';
+import VZ0202_3H_1 from '../../Assets/Switches/VZ0202_3H_1.jpg';
+import VZ0202_3H_2 from '../../Assets/Switches/VZ0202_3H_2.jpg';
 
-import VZ0202_4H_1 from '../../assets/Switches/VZ0202_4H_1.jpg';
-import VZ0202_4H_2 from '../../assets/Switches/VZ0202_4H_2.jpg';
+import VZ0202_4H_1 from '../../Assets/Switches/VZ0202_4H_1.jpg';
+import VZ0202_4H_2 from '../../Assets/Switches/VZ0202_4H_2.jpg';
 
-import v0354_1 from '../../assets/Switches/v0354_1.png';
-import v0354_2 from '../../assets/Switches/v0354_2.png';
+import v0354_1 from '../../Assets/Switches/v0354_1.png';
+import v0354_2 from '../../Assets/Switches/v0354_2.png';
 
-import V0364_1 from '../../assets/Switches/V0364_1.png';
-import V0364_2 from '../../assets/Switches/V0364_2.png';
+import V0364_1 from '../../Assets/Switches/V0364_1.png';
+import V0364_2 from '../../Assets/Switches/V0364_2.png';
 import CategoryBar from '@/Components/CategoryBar';
 
 
