@@ -2,7 +2,7 @@ import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import React from "react";
 
-import AboutImg from "../../assets/";
+
 import Image from "next/image";
 import OurStory from "../../assets/Ourstory.png";
 import AboutSec from "../../assets/aboutSection.png";
@@ -10,7 +10,7 @@ import Switch from '../../assets/SwitchesAbt.png'
 import Pvc from '../../assets/Pvc.png'
 import Insect from '../../assets/InsectK1.png'
 import Spot from '../../assets/Spot.png'
-
+import ImageAbout from '../../assets/aboutImg_1.png'
 
 
 import Extension from '../../assets/ExtensionAbt.png'
@@ -87,7 +87,7 @@ function page() {
           <p className="text-md text-gray-500 leading-relaxed mb-1">
             Novex Global Ltd is a growing UK product company, proudly
             introducing the Novex brand to the UK market with a focus on
-            quality, innovation, and customer-first solutions.
+            quality, innovation, and customer-first solutions
           </p>
         </div>
       </section>
@@ -106,7 +106,7 @@ function page() {
           {/* Left Image */}
           <div className="relative w-full h-[280px] sm:h-[380px] lg:h-auto min-h-[500px]">
             <Image
-              src={AboutImg}
+              src={ImageAbout}
               alt="Who we are"
               fill
               className="object-cover"
