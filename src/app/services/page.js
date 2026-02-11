@@ -22,7 +22,7 @@ export default function page() {
 
       {/* SERVICES GRID */}
       <section className=" max-w-8xl mx-auto p-5">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
 
           {/* B2B Wholesale */}
           <div style={{border:'2px solid #E3001B' ,backgroundColor:'#ffffff'}} className=" rounded-2xl p-8 hover:shadow-lg transition">

@@ -522,53 +522,63 @@ function page() {
         </div>
       </section>
 
- <section class="mt-20 px-4 md:px-8 lg:px-16 mb-5">
-  <div class="text-center mb-12">
-    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+ <section className="mt-20 px-4 md:px-8 lg:px-16 mb-5">
+  <div className="text-center mb-12">
+    <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
       Our Precious Categories
     </h2>
-    <div class="flex justify-center mb-4">
-      <div class="w-44 h-1.5 bg-[#E3001B] rounded-full"></div>
+    <div className="flex justify-center mb-4">
+      <div className="w-44 h-1.5 bg-[#E3001B] rounded-full"></div>
     </div>
-    <p class="text-lg font-medium text-gray-500 max-w-3xl mx-auto">
+    <p className="text-lg font-medium text-gray-500 max-w-3xl mx-auto">
       High-quality electrical accessories designed for durability, safety, and modern installations.
       Reliable solutions for residential, commercial, and industrial use.
     </p>
   </div>
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Switch} alt="Switches & Sockets" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-    <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Switch} alt="Switches & Sockets" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+    <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         SWITCHES & SOCKETS
           </div>
 
     </div>
 
-    <div class="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Spot} alt="Spot Lights" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
-        SPOT LIGHTS
-      </div>
-    </div>
+   <div className="relative overflow-hidden rounded-lg shadow-lg group">
+  <Image
+    src={Spot}
+    alt="Spot Lights"
+    className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+  />
 
-    <div class="relative overflow-hidden rounded-lg shadow-lg group">
+  {/* Shadow Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+
+  {/* Text */}
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+    SPOT LIGHTS
+  </div>
+</div>
+
+
+    <div className="relative overflow-hidden rounded-lg shadow-lg group">
       <Image src={Extension} alt="Extension Sockets" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         EXTENSION SOCKETS
       </div>
     </div>
 
-    <div class="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Insect} alt="Insects Killer" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-      <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+    <div className="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Insect} alt="Insects Killer" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+      <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         INSECTS KILLER
       </div>
     </div>
 
-    <div class="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Pvc} alt="PVC Trunking" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div class="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+    <div className="relative overflow-hidden rounded-lg shadow-lg group">
+      <Image src={Pvc} alt="PVC Trunking" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
+       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
         PVC TRUNKING
       </div>
     </div>
