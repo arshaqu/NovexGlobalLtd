@@ -40,10 +40,10 @@ export default function Home() {
 
    const categories = [
   { title: "Switch & Socket", image: SwitchSocket, href: '/Item_Liverpool' },
-  { title: "Extension Sockets", image: ExtenstionSocket, href: '/item_extension' },
-  { title: "Spot Lights", image: SpotLight, href: '/item_spot' },
-  { title: "Insect Killers", image: InsectKiller, href: '/item_insect' },
-  { title: "PVC Trunking", image: PvcTrunking, href: '/item_pvc' },
+  { title: "Extension Sockets", image: ExtenstionSocket, href: '/Item_Extension' },
+  { title: "Spot Lights", image: SpotLight, href: '/Item_SpotLight' },
+  { title: "Insect Killers", image: InsectKiller, href: '/Item_InsectKiller' },
+  { title: "PVC Trunking", image: PvcTrunking, href: '/Item_Pvc' },
 ];
 
     const series = [
