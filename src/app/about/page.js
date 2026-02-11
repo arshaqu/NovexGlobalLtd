@@ -2,18 +2,18 @@ import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import React from "react";
 
-import AboutImg from "../../Assets/AboutImg.png";
+import AboutImg from "../../assets/AboutImg.png";
 import Image from "next/image";
-import OurStory from "../../Assets/Ourstory.png";
-import AboutSec from "../../Assets/aboutSection.png";
-import Switch from '../../Assets/SwitchesAbt.png'
-import Pvc from '../../Assets/Pvc.png'
-import Insect from '../../Assets/InsectK1.png'
-import Spot from '../../Assets/Spot.png'
+import OurStory from "../../assets/Ourstory.png";
+import AboutSec from "../../assets/aboutSection.png";
+import Switch from '../../assets/SwitchesAbt.png'
+import Pvc from '../../assets/Pvc.png'
+import Insect from '../../assets/InsectK1.png'
+import Spot from '../../assets/Spot.png'
 
 
 
-import Extension from '../../Assets/ExtensionAbt.png'
+import Extension from '../../assets/ExtensionAbt.png'
 
 
 import { RiCustomerService2Fill } from "react-icons/ri";

@@ -6,41 +6,41 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/SwitchBan.png';
+import BannerImg from '../../assets/SwitchBan.png';
 
-import NV302WPO_1 from '../../Assets/Switches/Oxford/NV302WPO-1.png';
-import NV302WPO_2 from '../../Assets/Switches/Oxford/NV302WPO-2.png';
+import NV302WPO_1 from '../../assets/Switches/Oxford/NV302WPO-1.png';
+import NV302WPO_2 from '../../assets/Switches/Oxford/NV302WPO-2.png';
 
-import NV304WPO_1 from '../../Assets/Switches/Oxford/NV304WPO_1.jpg';
-import NV304WPO_2 from '../../Assets/Switches/Oxford/NV304WPO_2.jpg';
+import NV304WPO_1 from '../../assets/Switches/Oxford/NV304WPO_1.jpg';
+import NV304WPO_2 from '../../assets/Switches/Oxford/NV304WPO_2.jpg';
 
-import NV017WPO_1 from '../../Assets/Switches/Oxford/NV017WPO_1.jpg';
-import NV017WPO_2 from '../../Assets/Switches/Oxford/NV017WPO_2.jpg';
+import NV017WPO_1 from '../../assets/Switches/Oxford/NV017WPO_1.jpg';
+import NV017WPO_2 from '../../assets/Switches/Oxford/NV017WPO_2.jpg';
 
-import NV324WPO_1 from '../../Assets/Switches/Oxford/NV324WPO_1.jpg';
-import NV324WPO_2 from '../../Assets/Switches/Oxford/NV324WPO_2.jpg';
+import NV324WPO_1 from '../../assets/Switches/Oxford/NV324WPO_1.jpg';
+import NV324WPO_2 from '../../assets/Switches/Oxford/NV324WPO_2.jpg';
 
-import NV405WPO_2 from '../../Assets/Switches/Oxford/NV405WPO_2.jpg';
-import NV405WPO_1 from '../../Assets/Switches/Oxford/NV405WPO_1.jpg';
+import NV405WPO_2 from '../../assets/Switches/Oxford/NV405WPO_2.jpg';
+import NV405WPO_1 from '../../assets/Switches/Oxford/NV405WPO_1.jpg';
 
-import NV406WPO_2 from '../../Assets/Switches/Oxford/NV406WPO_2.jpg';
-import NV406WPO_1 from '../../Assets/Switches/Oxford/NV406WPO_1.jpg'; 
+import NV406WPO_2 from '../../assets/Switches/Oxford/NV406WPO_2.jpg';
+import NV406WPO_1 from '../../assets/Switches/Oxford/NV406WPO_1.jpg'; 
 
-import NV406WPO_EB_1 from '../../Assets/Switches/Oxford/NV406WPO-EB 6.png';
-import NV406WPO_EB_2 from '../../Assets/Switches/Oxford/NV406WPO-EB 5.png';
+import NV406WPO_EB_1 from '../../assets/Switches/Oxford/NV406WPO-EB 6.png';
+import NV406WPO_EB_2 from '../../assets/Switches/Oxford/NV406WPO-EB 5.png';
 
-import NV405WPO_EB_1 from '../../Assets/Switches/Oxford/NV405WPO-EB-3.jpeg';
-import NV405WPO_EB_2 from '../../Assets/Switches/Oxford/NV405WPO-EB-2.jpeg';
+import NV405WPO_EB_1 from '../../assets/Switches/Oxford/NV405WPO-EB-3.jpeg';
+import NV405WPO_EB_2 from '../../assets/Switches/Oxford/NV405WPO-EB-2.jpeg';
 
 
-import NWPB_33_1 from '../../Assets/Switches/Oxford/NWPB-33-2.jpeg';
-import NWPB_33_2 from '../../Assets/Switches/Oxford/NWPB-33-3.jpeg';
+import NWPB_33_1 from '../../assets/Switches/Oxford/NWPB-33-2.jpeg';
+import NWPB_33_2 from '../../assets/Switches/Oxford/NWPB-33-3.jpeg';
 
-import NWPB_36_1 from '../../Assets/Switches/Oxford/NWPB-36 (1).png';
-import NWPB_36_2 from '../../Assets/Switches/Oxford/NWPB-36 (2).png';
+import NWPB_36_1 from '../../assets/Switches/Oxford/NWPB-36 (1).png';
+import NWPB_36_2 from '../../assets/Switches/Oxford/NWPB-36 (2).png';
 
-import NV405WP_N_1 from '../../Assets/Switches/Oxford/NV405WP-N_1.jpeg';
-import NV405WP_N_2 from '../../Assets/Switches/Oxford/NV405WP-N_2.jpeg';
+import NV405WP_N_1 from '../../assets/Switches/Oxford/NV405WP-N_1.jpeg';
+import NV405WP_N_2 from '../../assets/Switches/Oxford/NV405WP-N_2.jpeg';
 
 
 export default function Page() {

@@ -6,19 +6,19 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/InsectsKiller/IkBann.png';
+import BannerImg from '../../assets/InsectsKiller/IkBann.png';
 
-import NIK_208_1 from '../../Assets/InsectsKiller/NIK-208_1.jpg';
-import NIK_208_2 from '../../Assets/InsectsKiller/NIK-208_2.jpg';
+import NIK_208_1 from '../../assets/InsectsKiller/NIK-208_1.jpg';
+import NIK_208_2 from '../../assets/InsectsKiller/NIK-208_2.jpg';
 
-import NIK_210_1 from '../../Assets/InsectsKiller/NIK-210_1.jpg';
-import NIK_210_2 from '../../Assets/InsectsKiller/NIK-210-2.jpg';
+import NIK_210_1 from '../../assets/InsectsKiller/NIK-210_1.jpg';
+import NIK_210_2 from '../../assets/InsectsKiller/NIK-210-2.jpg';
 
-import NIK_215_1 from '../../Assets/InsectsKiller/NIK-215_1.jpg';
-import NIK_215_2 from '../../Assets/InsectsKiller/NIK-215_2.jpg';
+import NIK_215_1 from '../../assets/InsectsKiller/NIK-215_1.jpg';
+import NIK_215_2 from '../../assets/InsectsKiller/NIK-215_2.jpg';
 
-import NIK_220_1 from '../../Assets/InsectsKiller/NIK-220_1.jpg';
-import NIK_220_2 from '../../Assets/InsectsKiller/NIK-220_2.jpg';
+import NIK_220_1 from '../../assets/InsectsKiller/NIK-220_1.jpg';
+import NIK_220_2 from '../../assets/InsectsKiller/NIK-220_2.jpg';
 
 
 

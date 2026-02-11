@@ -5,7 +5,7 @@ import '../app/globals.css'
 import Image from "next/image"
 import Link from "next/link"
 
-import NovexLogo from '../Assets/NovexLogo.png';
+import NovexLogo from '../assets/NovexLogo.png';
 
 import { useState } from "react"
 import { HiMiniBars3 } from "react-icons/hi2";

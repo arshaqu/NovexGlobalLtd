@@ -2,33 +2,33 @@ import Header from "@/Components/Header";
 import Image from "next/image";
 import Link from "next/link"
 
-import NovexLogo from "@/Assets/NovexLogo.png";
-import HomeBan from '../Assets/HomeBan.png'
+import NovexLogo from "@/assets/NovexLogo.png";
+import HomeBan from '../assets/HomeBan.png'
 
-import SwitchSocket from '../Assets/Switch.png'
-import ExtenstionSocket from '../Assets/Extension.png'
-import SpotLight from '../Assets/Spotlight.png'
-import InsectKiller from '../Assets/InsectKiller.png'
-import PvcTrunking from '../Assets/PvcTrunking.png'
+import SwitchSocket from '../assets/Switch.png'
+import ExtenstionSocket from '../assets/Extension.png'
+import SpotLight from '../assets/Spotlight.png'
+import InsectKiller from '../assets/InsectKiller.png'
+import PvcTrunking from '../assets/PvcTrunking.png'
 
 
-import Liverpool from "@/Assets/liverpool.png";
-import Oxford from "@/Assets/oxford.png";
-import Rock from "@/Assets/rock.png";
+import Liverpool from "@/assets/liverpool.png";
+import Oxford from "@/assets/oxford.png";
+import Rock from "@/assets/rock.png";
 
-import Extension1 from "@/Assets/Extension1.jpg";
-import Extension2 from "@/Assets/Extension2.jpg";
+import Extension1 from "@/assets/Extension1.jpg";
+import Extension2 from "@/assets/Extension2.jpg";
 
-import SpotBan from "@/Assets/Spotlightban.png";
+import SpotBan from "@/assets/Spotlightban.png";
 
-import InsectKiller1 from "@/Assets/InsectK1.png";
-import InsectKiller2 from "@/Assets/InsectK2.png";
-import InsectKiller3 from "@/Assets/InsectK3.png";
-import InsectKiller4 from "@/Assets/InsectK4.png";
+import InsectKiller1 from "@/assets/InsectK1.png";
+import InsectKiller2 from "@/assets/InsectK2.png";
+import InsectKiller3 from "@/assets/InsectK3.png";
+import InsectKiller4 from "@/assets/InsectK4.png";
 
-import Pvc1 from "@/Assets/Pvc1.png";
-import Pvc2 from "@/Assets/Pvc2.png";
-import Pvc3 from "@/Assets/Pvc3.png";
+import Pvc1 from "@/assets/Pvc1.png";
+import Pvc2 from "@/assets/Pvc2.png";
+import Pvc3 from "@/assets/Pvc3.png";
 import Footer from "@/Components/Footer";
 
 
@@ -39,7 +39,7 @@ import Footer from "@/Components/Footer";
 export default function Home() {
 
    const categories = [
-  { title: "Switch & Socket", image: SwitchSocket, href: '/Item_Liverpool' },
+  { title: "Switch & Socket", image: SwitchSocket, href: '/liverpool' },
   { title: "Extension Sockets", image: ExtenstionSocket, href: '/Item_Extension' },
   { title: "Spot Lights", image: SpotLight, href: '/Item_SpotLight' },
   { title: "Insect Killers", image: InsectKiller, href: '/Item_InsectKiller' },
@@ -47,9 +47,9 @@ export default function Home() {
 ];
 
     const series = [
-    { title: "LIVERPOOL SERIES", image: Liverpool ,href: '/Item_Liverpool' },
-    { title: "OXFORD SERIES", image: Oxford ,href: '/Item_Liverpool' },
-    { title: "ROCK SERIES", image: Rock , href:'/Item_Liverpool' }
+    { title: "LIVERPOOL SERIES", image: Liverpool ,href: '/liverpool' },
+    { title: "OXFORD SERIES", image: Oxford ,href: '/liverpool' },
+    { title: "ROCK SERIES", image: Rock , href:'/liverpool' }
   ];
 
   return (

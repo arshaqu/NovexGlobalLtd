@@ -6,34 +6,34 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/SwitchBan.png';
+import BannerImg from '../../assets/SwitchBan.png';
 
-import NM302_1 from '../../Assets/Switches/Rock/NM302_1.png';
-import NM302_2 from '../../Assets/Switches/Rock/NM302_2.png';
+import NM302_1 from '../../assets/Switches/Rock/NM302_1.png';
+import NM302_2 from '../../assets/Switches/Rock/NM302_2.png';
 
-import NM304_1 from '../../Assets/Switches/Rock/NM304_1.png';
-import NM304_2 from '../../Assets/Switches/Rock/NM304_2.png';
+import NM304_1 from '../../assets/Switches/Rock/NM304_1.png';
+import NM304_2 from '../../assets/Switches/Rock/NM304_2.png';
 
-import NM306_1 from '../../Assets/Switches/Rock/NM306_1.png';
-import NM306_2 from '../../Assets/Switches/Rock/NM306_2.png';
+import NM306_1 from '../../assets/Switches/Rock/NM306_1.png';
+import NM306_2 from '../../assets/Switches/Rock/NM306_2.png';
 
-import NM405_1 from '../../Assets/Switches/Rock/NM405_1.jpg';
-import NM405_2 from '../../Assets/Switches/Rock/NM405_2.jpg';
+import NM405_1 from '../../assets/Switches/Rock/NM405_1.jpg';
+import NM405_2 from '../../assets/Switches/Rock/NM405_2.jpg';
 
-import NM406_1 from '../../Assets/Switches/Rock/NM406_1.png';
-import NM406_2 from '../../Assets/Switches/Rock/NM406_2.png';
+import NM406_1 from '../../assets/Switches/Rock/NM406_1.png';
+import NM406_2 from '../../assets/Switches/Rock/NM406_2.png';
 
-import NM429_1 from '../../Assets/Switches/Rock/NM429_1.jpg';
-import NM429_2 from '../../Assets/Switches/Rock/NM429_2.jpg';
+import NM429_1 from '../../assets/Switches/Rock/NM429_1.jpg';
+import NM429_2 from '../../assets/Switches/Rock/NM429_2.jpg';
 
-import NM401_1 from '../../Assets/Switches/Rock/NM401_1.png';
-import NM401_2 from '../../Assets/Switches/Rock/NM401_2.png';
+import NM401_1 from '../../assets/Switches/Rock/NM401_1.png';
+import NM401_2 from '../../assets/Switches/Rock/NM401_2.png';
 
-import NM402_1 from '../../Assets/Switches/Rock/NM402_1.jpg';
-import NM402_2 from '../../Assets/Switches/Rock/NM402_2.jpg';
+import NM402_1 from '../../assets/Switches/Rock/NM402_1.jpg';
+import NM402_2 from '../../assets/Switches/Rock/NM402_2.jpg';
 
-import NM324_1 from '../../Assets/Switches/Rock/NM324_1.png';
-import NM324_2 from '../../Assets/Switches/Rock/NM324_2.png';
+import NM324_1 from '../../assets/Switches/Rock/NM324_1.png';
+import NM324_2 from '../../assets/Switches/Rock/NM324_2.png';
 
 export default function Page() {
 
