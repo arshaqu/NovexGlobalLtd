@@ -6,22 +6,22 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/Extension/Bann.png';
+import BannerImg from '../../Assets/Extension/ExtBann.png';
 
 import N_D102_3M_1 from '../../Assets/Extension/N-D102-10M_1.jpg';
-import N_D102_3M_2 from '../../Assets/Extension/N-D102-10M_2.jpg';
+import N_D102_3M_2 from '../../Assets/Extension/N-D102-10M_02.jpg';
 
 import D103_5M_1 from '../../Assets/Extension/N-D103-5M_1.jpg';
 import D103_5M_2 from '../../Assets/Extension/N-D103-5M_2.jpg';
 
 import D104_2U_1 from '../../Assets/Extension/N-D104-2U_1.jpeg';
-import D104_2U_2 from '../../Assets/Extension/N-D104-2U_6.jpeg';
+import D104_2U_2 from '../../Assets/Extension/N-D104-2U_06.jpeg';
 
-import N_D104_1 from '../../Assets/Extension/N-D104_1.jpg';
-import N_D104_2 from '../../Assets/Extension/N-D104_2.jpg';
+import N_D104_1 from '../../Assets/Extension/N-D104_01.jpg';
+import N_D104_2 from '../../Assets/Extension/N-D104_02.jpg';
 
-import N_D105_1 from '../../Assets/Extension/N-D105_1.jpeg';
-import N_D105_2 from '../../Assets/Extension/N-D105_2.jpeg';
+import N_D105_1 from '../../Assets/Extension/N-D105_01.jpeg';
+import N_D105_2 from '../../Assets/Extension/N-D105_02.jpeg';
 
 
 
