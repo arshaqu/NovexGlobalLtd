@@ -10,7 +10,7 @@ import RockImg from "../../assets/Rock_p.png";
 import SocketExt1 from "../../assets/SocketExt1.png";
 import SocketExt2 from "../../assets/Socket2.png";
 import SocketExt3 from "../../assets/Socket3.png";
-import Extension3 from "../../assets/Extension3.jpg";
+import Extension3 from "../../assets/Extension03.jpg";
 
 import Spotlight1 from "../../assets/SpotLight1.png";
 import Spotlight2 from "../../assets/SpotLight2.jpeg";
