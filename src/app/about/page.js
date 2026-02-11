@@ -2,7 +2,7 @@ import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import React from "react";
 
-import AboutImg from "../../assets/AboutImg.png";
+import AboutImg from "../../assets/";
 import Image from "next/image";
 import OurStory from "../../assets/Ourstory.png";
 import AboutSec from "../../assets/aboutSection.png";
