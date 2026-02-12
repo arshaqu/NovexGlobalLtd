@@ -6,7 +6,7 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../../public/Assets/InsectsKiller/IkBann.jpg';
+import BannerImg from '../../../public/Assets/PvcBann.png';
 
 import NPT_382_1 from '../../../public/Assets/PVC/NPT-382.jpg';
 import NPT_382_2 from '../../../public/Assets/PVC/NPT-382.jpg';

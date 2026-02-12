@@ -64,38 +64,38 @@ function Footer() {
   <div className="grid grid-cols-2 gap-25">
     {/* Column 1 */}
     <div className="space-y-4 t">
-      <a style={{fontWeight:'300'}}  href="#home" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a  style={{fontWeight:'300'}}  href="/" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         HOME
       </a>
-      <a style={{fontWeight:'300'}}  href="#services" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/services" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         SERVICES
       </a>
-      <a style={{fontWeight:'300'}}  href="#products" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/products" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         PRODUCTS
       </a>
-      <a style={{fontWeight:'300'}}  href="#blog" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/f&qs" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         FAQ's
       </a>
-      <a style={{fontWeight:'300'}}  href="#careers" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/careers" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         CAREERS
       </a>
     </div>
 
     {/* Column 2 */}
     <div className="space-y-4">
-      <a style={{fontWeight:'300'}}  href="#about" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/about" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         ABOUT US
       </a>
-      <a style={{fontWeight:'300'}}  href="#privacy" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/privacy_policy" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         PRIVACY POLICY
       </a>
-      <a style={{fontWeight:'300'}}  href="#terms" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/terms_of_use" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         TERMS OF USE
       </a>
-      <a style={{fontWeight:'300'}}  href="#contact" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/contact" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         CONTACT
       </a>
-      <a style={{fontWeight:'300'}}  href="#store" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
+      <a style={{fontWeight:'300'}}  href="/contact" className="block text-white hover:text-red-300 transition-colors text-sm sm:text-base font-medium">
         LOCATION
       </a>
     </div>
