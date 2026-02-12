@@ -87,7 +87,7 @@ export default function Home() {
             />
           </div>
           {/* Text Content */}
-          <div style={{fontWeight:'400'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 p-10 text-start text-justify ">
+          <div style={{fontWeight:'400'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 lg:p-10 p-4 text-start text-justify ">
             <p style={{fontWeight:'400'}} className="text-gray-500   text-sm leading-relaxed lg:text-justify">
               <span className=" text-gray-900 ">Novex Global</span> is a
               UK-based wholesaler supplying electrical wiring accessories and
