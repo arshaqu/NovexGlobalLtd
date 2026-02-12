@@ -168,7 +168,7 @@ export default function Home() {
  <section className="bg-gray-100 py-24">
       <div className="lg:max-w-[80%] mx-auto px-6 text-center">
         {/* Heading */}
-         <h2 className="text-center text-3xl md:text-5xl  font-bold text-gray-800 mb-14 px-6">
+         <h2 className="text-center text-2xl md:text-5xl  font-bold text-gray-800 mb-14 px-6">
           SWITCHES & SOCKETS
         </h2>
  
@@ -225,7 +225,7 @@ export default function Home() {
 
       <section className="bg-white py-20">
         {/* Title */}
-        <h2 className="text-center text-3xl md:text-5xl tracking-[0.1em] font-bold text-gray-800 mb-14 px-6">
+        <h2 className="text-center text-2xl md:text-5xl tracking-[0.1em] font-bold text-gray-800 mb-14 px-6">
           EXTENSION SOCKETS
         </h2>
 
@@ -248,7 +248,7 @@ export default function Home() {
             <p className="text-3xl md:text-5xl text-gray-700 leading-tight font-normal opacity-80">
               Novex – Designed for
             </p>
-            <p className="text-3xl md:text-5xl text-gray-700 leading-tight font-normal opacity-80">
+            <p className="text-2xl md:text-5xl text-gray-700 leading-tight font-normal opacity-80">
               Quality and Performance
             </p>
 

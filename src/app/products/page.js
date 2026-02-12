@@ -342,7 +342,7 @@ function ProductsSection() {
               </ul>
             </div>
               {/* Power Options */}
-           <div className="grid grid-cols-2 gap-4 mt-10 p-2 mb-10">
+           <div style={{cursor:'pointer'}} className="grid grid-cols-2 gap-4 mt-10 p-2 mb-10">
           {["2 x 8W", "2 x 10W", "2 x 15W", "2 x 20W"].map((item) => (
             <div
               // style={{color:'green'}}

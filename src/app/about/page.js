@@ -29,6 +29,7 @@ import { HiLightBulb } from "react-icons/hi";
 import { FaHandshake } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";
 import { BsGraphUp } from "react-icons/bs";
+import Link from "next/link";
 
 
 function page() {
@@ -294,6 +295,32 @@ function page() {
           </div>
         </div>
       </section>
+
+
+        <section className=" bg-white">
+      <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center text-white shadow-lg">
+
+        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+          Need Help or More Information?
+        </h2>
+
+        <p className="max-w-4xl mx-auto text-lg mb-8">
+          Visit our Frequently Asked Questions page for details about
+          certifications, warranties, trade accounts, supply services,
+          and product compliance.
+        </p>
+
+        <Link
+          href="/f&qs"
+          className="inline-block bg-white text-[#E3001B] px-8 py-3 rounded-md font-semibold hover:opacity-90 transition"
+        >
+          Go to FAQ Page
+        </Link>
+
+      </div>
+    </section>
+
+
 
       <section className="w-full bg-gray-100 py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -92,7 +92,7 @@ export default function Header() {
               ))}
             </nav>
 
-           <div className="hidden lg:flex gap-3 text-[#E3001B]">
+           <div className="hidden lg:flex gap-3 text-[#E3001B] hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300">
               <FaFacebookSquare size={26}/>
               <FaSquareXTwitter  size={26}/>
               <IoLogoWhatsapp size={26}/>
@@ -128,7 +128,7 @@ export default function Header() {
       ))}
 
       {/* Mobile Social Icons */}
-      <div className="flex justify-center gap-4 pt-4 border-t text-[#E3001B]">
+      <div className="flex justify-center gap-4 pt-4 border-t text-[#E3001B] ">
         <FaFacebookSquare size={26} />
         <FaSquareXTwitter size={26} />
         <IoLogoWhatsapp size={26} />
