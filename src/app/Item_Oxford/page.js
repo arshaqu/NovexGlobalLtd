@@ -6,41 +6,41 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/SwitchBan.png';
+import BannerImg from '../../../public/Assets/SwitchBan.png';
 
-import NV302WPO_1 from '../../Assets/Switches/Oxford/NV302WPO-1.png';
-import NV302WPO_2 from '../../Assets/Switches/Oxford/NV302WPO-2.png';
+import NV302WPO_1 from '../../../public/Assets/Switches/Oxford/NV302WPO-1.jpg';
+import NV302WPO_2 from '../../../public/Assets/Switches/Oxford/NV302WPO-2.jpg';
 
-import NV304WPO_1 from '../../Assets/Switches/Oxford/NV304WPO_1.jpg';
-import NV304WPO_2 from '../../Assets/Switches/Oxford/NV304WPO_2.jpg';
+import NV304WPO_1 from '../../../public/Assets/Switches/Oxford/NV304WPO_1.jpg';
+import NV304WPO_2 from '../../../public/Assets/Switches/Oxford/NV304WPO_2.jpg';
 
-import NV017WPO_1 from '../../Assets/Switches/Oxford/NV017WPO_1.jpg';
-import NV017WPO_2 from '../../Assets/Switches/Oxford/NV017WPO_2.jpg';
+import NV017WPO_1 from '../../../public/Assets/Switches/Oxford/NV017WPO_1.jpg';
+import NV017WPO_2 from '../../../public/Assets/Switches/Oxford/NV017WPO_2.jpg';
 
-import NV324WPO_1 from '../../Assets/Switches/Oxford/NV324WPO_1.jpg';
-import NV324WPO_2 from '../../Assets/Switches/Oxford/NV324WPO_2.jpg';
+import NV324WPO_1 from '../../../public/Assets/Switches/Oxford/NV324WPO_1.jpg';
+import NV324WPO_2 from '../../../public/Assets/Switches/Oxford/NV324WPO_2.jpg';
 
-import NV405WPO_2 from '../../Assets/Switches/Oxford/NV405WPO_2.jpg';
-import NV405WPO_1 from '../../Assets/Switches/Oxford/NV405WPO_1.jpg';
+import NV405WPO_2 from '../../../public/Assets/Switches/Oxford/NV405WPO_2.jpg';
+import NV405WPO_1 from '../../../public/Assets/Switches/Oxford/NV405WPO_1.jpg';
 
-import NV406WPO_2 from '../../Assets/Switches/Oxford/NV406WPO_2.jpg';
-import NV406WPO_1 from '../../Assets/Switches/Oxford/NV406WPO_1.jpg'; 
+import NV406WPO_2 from '../../../public/Assets/Switches/Oxford/NV406WPO_2.jpg';
+import NV406WPO_1 from '../../../public/Assets/Switches/Oxford/NV406WPO_1.jpg'; 
 
-import NV406WPO_EB_1 from '../../Assets/Switches/Oxford/NV406WPO-EB 6.png';
-import NV406WPO_EB_2 from '../../Assets/Switches/Oxford/NV406WPO-EB 5.png';
+import NV406WPO_EB_1 from '../../../public/Assets/Switches/Oxford/NV406WPO-EB 6.jpg';
+import NV406WPO_EB_2 from '../../../public/Assets/Switches/Oxford/NV406WPO-EB 5.jpg';
 
-import NV405WPO_EB_1 from '../../Assets/Switches/Oxford/NV405WPO-EB-3.jpeg';
-import NV405WPO_EB_2 from '../../Assets/Switches/Oxford/NV405WPO-EB-2.jpeg';
+import NV405WPO_EB_1 from '../../../public/Assets/Switches/Oxford/NV405WPO-EB-3.jpg';
+import NV405WPO_EB_2 from '../../../public/Assets/Switches/Oxford/NV405WPO-EB-2.jpg';
 
 
-import NWPB_33_1 from '../../Assets/Switches/Oxford/NWPB-33-2.jpeg';
-import NWPB_33_2 from '../../Assets/Switches/Oxford/NWPB-33-3.jpeg';
+import NWPB_33_1 from '../../../public/Assets/Switches/Oxford/NWPB-33-2.jpg';
+import NWPB_33_2 from '../../../public/Assets/Switches/Oxford/NWPB-33-3.jpg';
 
-import NWPB_36_1 from '../../Assets/Switches/Oxford/NWPB-36 (1).png';
-import NWPB_36_2 from '../../Assets/Switches/Oxford/NWPB-36 (2).png';
+import NWPB_36_1 from '../../../public/Assets/Switches/Oxford/NWPB-36 (1).jpg';
+import NWPB_36_2 from '../../../public/Assets/Switches/Oxford/NWPB-36 (2).jpg';
 
-import NV405WP_N_1 from '../../Assets/Switches/Oxford/NV405WP-N_1.jpeg';
-import NV405WP_N_2 from '../../Assets/Switches/Oxford/NV405WP-N_2.jpeg';
+import NV405WP_N_1 from '../../../public/Assets/Switches/Oxford/NV405WP-N_1.jpg';
+import NV405WP_N_2 from '../../../public/Assets/Switches/Oxford/NV405WP-N_2.jpg';
 
 
 export default function Page() {
@@ -101,7 +101,7 @@ export default function Page() {
       {/* Products */}
       <div className="p-10">
         <div style={{ border: "2px solid #E3001B" }}>
-          <div className="bg-red-600 text-white p-5 mb-4">All Products</div>
+          <div className="bg-red-600 text-white p-5 mb-4 font-bold text-xl">All Products</div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
             {currentProducts.map((p, idx) => (

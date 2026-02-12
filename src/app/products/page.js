@@ -4,28 +4,30 @@ import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
 
 // Images
-import LiverpoolImg from "../../Assets/Liverpool_p.png";
-import OxfordImg from "../../Assets/Oxford_p.png";
-import RockImg from "../../Assets/Rock_p.png";
-import SocketExt1 from "../../Assets/SocketExt1.png";
-import SocketExt2 from "../../Assets/Socket2.png";
-import SocketExt3 from "../../Assets/Socket3.png";
-import Extension3 from "../../Assets/Extension3.jpg";
+import LiverpoolImg from "../../../public/Assets/Liverpool_p.png";
+import OxfordImg from "../../../public/Assets/Oxford_p.png";
+import RockImg from "../../../public/Assets/Rock_p.png";
+import SocketExt1 from "../../../public/Assets/SocketExt1.png";
+import SocketExt2 from "../../../public/Assets/Socket2.png";
+import SocketExt3 from "../../../public/Assets/Socket3.png";
+import Extension3 from "../../../public/Assets/Extension3.jpg";
 
-import Spotlight1 from "../../Assets/SpotLight1.png";
-import Spotlight2 from "../../Assets/SpotLight2.jpeg";
-import Spotlight3 from "../../Assets/SpotLight3.png";
+import Spotlight1 from "../../../public/Assets/SpotLight1.png";
+import Spotlight2 from "../../../public/Assets/SpotLight2.jpeg";
+import Spotlight3 from "../../../public/Assets/SpotLight3.png";
 
-import Insectkiller1 from "../../Assets/Insectkiller1.png";
-import Insectkiller2 from "../../Assets/Insectkiller2.png";
-import Insectkiller3 from "../../Assets/InsectKiller3.png";
+import Insectkiller1 from "../../../public/Assets/Insectkiller1.png";
+import Insectkiller2 from "../../../public/Assets/Insectkiller2.png";
+import Insectkiller3 from "../../../public/Assets/InsectKiller3.png";
 
-import WholeSale from "../../Assets/WholeSale.png";
+import WholeSale from "../../../public/Assets/WholeSale.png";
 
-import Pvc1 from '../../Assets/Pvc01.png'
-import Pvc2 from '../../Assets/Pvc02.png'
-import Pvc3 from '../../Assets/Pvc03.png'
+import Pvc1 from '../../../public/Assets/Pvc01.png'
+import Pvc2 from '../../../public/Assets/Pvc02.png'
+import Pvc3 from '../../../public/Assets/Pvc03.png'
 import Link from "next/link";
+
+// import AboutSec from '../../Assets/WholeSale.png'
 
 
 
@@ -71,7 +73,7 @@ function ProductsSection() {
           {/* Liverpool */}
           <div style={{ fontWeight: "400" }} className="text-left ">
           <Link
-          href="/Item_Liverpool">
+          href="/liverpool">
            <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
                     <Image
                       src={LiverpoolImg}
@@ -340,7 +342,7 @@ function ProductsSection() {
               </ul>
             </div>
               {/* Power Options */}
-           <div className="grid grid-cols-2 gap-4 mt-10 p-2">
+           <div className="grid grid-cols-2 gap-4 mt-10 p-2 mb-10">
           {["2 x 8W", "2 x 10W", "2 x 15W", "2 x 20W"].map((item) => (
             <div
               // style={{color:'green'}}
@@ -356,7 +358,7 @@ function ProductsSection() {
               <Image
                 src={Insectkiller3}
                 alt="Insect Killer"
-                className="max-w-xs lg:max-w-sm object-contain"
+                className="max-w-xs lg:max-w-sm object-contain "
               />
             </div>
           </div>
@@ -364,26 +366,66 @@ function ProductsSection() {
             <Image
               src={Insectkiller1}
               alt="Spotlight 1"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
             />
             <Image
               src={Insectkiller2}
               alt="Spotlight 2"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
             />
             <Image
               src={Insectkiller1}
               alt="Spotlight 3"
-              className="w-full h-full object-cover hidden md:block lg:block "
+              className="w-full h-full object-cover hidden md:block lg:block transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
             />
           </div>
           {/* Button */}
-         <div className="flex justify-center mb-10 mt-10">
-        <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition">
+         <div  className="flex justify-center mb-10 mt-10 ">
+          <Link href='/Item_InsectKiller '>
+        <button href='/Item_InsectKiller' style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90 ">
           Browse All Items
         </button>
+          </Link>
       </div>  
         </div>
+      </section>
+
+      <section>
+            <div className="w-full grid grid-cols-1 lg:grid-cols-2">
+                  {/* Left Image */}
+                  <div className="relative w-full h-full ">
+                    <Image
+                      src={WholeSale}
+                      alt="Global Reach"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+        
+                  {/* Right Red Content */}
+                  <div className="bg-[#E3001B] flex items-center px-6 sm:px-10 lg:px-16 py-12 lg:py-0">
+                    <div className="max-w-2xl lg:ml-10 text-white text-center">
+                      <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold leading-tight mb-6">
+                       Whole sale & Export<br /> Enquries
+                      </h2>
+        
+                      <p className="text-sm sm:text-base leading-relaxed text-white/90">
+                        NOVEX Global establishing its digital infrastructure to support its B2B wholesale operations in the UK, with future expansions planned across product devisions and international markets.
+                      </p>
+                        <p className="text-sm sm:text-base leading-relaxed text-white/90 p-5">
+                                  This is the core operational hub for NOVEX Global    
+                       </p>
+
+                               <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
+          <Link href='/contact'>
+        <button  style={{cursor:'pointer'}} className="bg-white text-red-600 px-6 py-3 text-sm font-medium tracking-wide  transition">
+          Browse All Items
+        </button>
+          </Link>
+                    </div>
+
+                  </div>
+      </div>
+                </div>
       </section>
 
 <section className="w-full bg-white">
@@ -421,11 +463,14 @@ function ProductsSection() {
         </div>
 
         {/* BUTTON */}
-        <div>
-          <button style={{cursor:'pointer'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md rounded mb-5">
-            Browse All Items
-          </button>
-        </div>
+     
+                               <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
+          <Link href='/Item_Pvc'>
+        <button  style={{cursor:'pointer'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md  mb-5">
+          Browse All Items
+        </button>
+          </Link>
+                    </div>
 
       </div>
 

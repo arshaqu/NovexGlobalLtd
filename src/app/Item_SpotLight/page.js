@@ -6,67 +6,67 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/SpotLights/Bann1.png';
+import BannerImg from '../../../public/Assets/SpotLights/Bann1.jpg';
 
-import NV3260CW_1 from '../../Assets/SpotLights/NV3260CW_1.png';
-import NV3260CW_2 from '../../Assets/SpotLights/NV3260CW_2.png';
+import NV3260CW_1 from '../../../public/Assets/SpotLights/NV3260CW_1.jpg';
+import NV3260CW_2 from '../../../public/Assets/SpotLights/NV3260CW_2.jpg';
 
-import NV3260CWW_1 from '../../Assets/SpotLights/NV3260CWW_02.png';
-import NV3260CWW_2 from '../../Assets/SpotLights/NV3260CWW_1.png';
+import NV3260CWW_1 from '../../../public/Assets/SpotLights/NV3260CWW_02.jpg';
+import NV3260CWW_2 from '../../../public/Assets/SpotLights/NV3260CWW_1.jpg';
 
-import NV3260CC_1 from '../../Assets/SpotLights/NV3260CC_1.png';
-import NV3260CC_2 from '../../Assets/SpotLights/NV3260CC_02.png';
+import NV3260CC_1 from '../../../public/Assets/SpotLights/NV3260CC_1.jpg';
+import NV3260CC_2 from '../../../public/Assets/SpotLights/NV3260CC_02.jpg';
 
-import NV3260CSV_1 from '../../Assets/SpotLights/NV3260CSV_1.png';
-import NV3260CSV_2 from '../../Assets/SpotLights/NV3260CSV_2.png';
+import NV3260CSV_1 from '../../../public/Assets/SpotLights/NV3260CSV_1.jpg';
+import NV3260CSV_2 from '../../../public/Assets/SpotLights/NV3260CSV_2.jpg';
 
-import NV323005_1 from '../../Assets/SpotLights/NV323005_1.jpg';
-import NV323005 from '../../Assets/SpotLights/NV323005.png';
+import NV323005_1 from '../../../public/Assets/SpotLights/NV323005_1.jpg';
+import NV323005 from '../../../public/Assets/SpotLights/NV323005.jpg';
 
-import NV323006_1 from '../../Assets/SpotLights/NV323006_1.jpg';
-import NV323006 from '../../Assets/SpotLights/NV323006.png';
+import NV323006_1 from '../../../public/Assets/SpotLights/NV323006_1.jpg';
+import NV323006 from '../../../public/Assets/SpotLights/NV323006.jpg';
 
-import NV323007_1 from '../../Assets/SpotLights/NV323007_1.jpg';
-import NV323007 from '../../Assets/SpotLights/NV323007.png';
+import NV323007_1 from '../../../public/Assets/SpotLights/NV323007_1.jpg';
+import NV323007 from '../../../public/Assets/SpotLights/NV323007.jpg';
 
-import NV3260FSV_1 from '../../Assets/SpotLights/NV.3260FSV_1.jpeg';
-import NV3260FSV_2 from '../../Assets/SpotLights/NV.3260FSV_2.png';
+import NV3260FSV_1 from '../../../public/Assets/SpotLights/NV.3260FSV_1.jpg';
+import NV3260FSV_2 from '../../../public/Assets/SpotLights/NV.3260FSV_2.jpg';
 
-import NDL_PLED_A7_3C_WH_1 from '../../Assets/SpotLights/NDL-PLED-A7-3C-WH_2.jpg';
-import NDL_PLED_A7_3C_WH_2 from '../../Assets/SpotLights/NDL-PLED-A7-3C-WH_1.jpg';
+import NDL_PLED_A7_3C_WH_1 from '../../../public/Assets/SpotLights/NDL-PLED-A7-3C-WH_2.jpg';
+import NDL_PLED_A7_3C_WH_2 from '../../../public/Assets/SpotLights/NDL-PLED-A7-3C-WH_1.jpg';
 
-import NLD_PLED_A7W_1 from '../../Assets/SpotLights/NLD-PLED-A7W_1.jpeg';
-import NLD_PLED_A7W_2 from '../../Assets/SpotLights/NLD-PLED-A7W_3.jpeg';
+import NLD_PLED_A7W_1 from '../../../public/Assets/SpotLights/NLD-PLED-A7W_1.jpg';
+import NLD_PLED_A7W_2 from '../../../public/Assets/SpotLights/NLD-PLED-A7W_3.jpg';
 
-import NDL_PLED_A25W_1 from '../../Assets/SpotLights/NLD-PLED-A7W_1.jpeg';
-import NDL_PLED_A25W_2 from '../../Assets/SpotLights/NDL-PLED-A25W-3C-WH_3.jpg';
+import NDL_PLED_A25W_1 from '../../../public/Assets/SpotLights/NLD-PLED-A7W_1.jpg';
+import NDL_PLED_A25W_2 from '../../../public/Assets/SpotLights/NDL-PLED-A25W-3C-WH_3.jpg';
 
-import NDL_PLED_A25W_3C_1 from '../../Assets/SpotLights/NDL-PLED-A25W-3C-WH_1.jpg';
-import NDL_PLED_A25W_3C_2 from '../../Assets/SpotLights/NDL-PLED-A25W-3C-WH_2.jpg';
+import NDL_PLED_A25W_3C_1 from '../../../public/Assets/SpotLights/NDL-PLED-A25W-3C-WH_1.jpg';
+import NDL_PLED_A25W_3C_2 from '../../../public/Assets/SpotLights/NDL-PLED-A25W-3C-WH_2.jpg';
 
-import NDL_PLED_E7_3C_WH_1 from '../../Assets/SpotLights/NDL-PLED-E7-3C-WH_1.jpg';
-import NDL_PLED_E7_3C_WH_2 from '../../Assets/SpotLights/NDL-PLED-E7-3C-WH_2.jpg';
+import NDL_PLED_E7_3C_WH_1 from '../../../public/Assets/SpotLights/NDL-PLED-E7-3C-WH_1.jpg';
+import NDL_PLED_E7_3C_WH_2 from '../../../public/Assets/SpotLights/NDL-PLED-E7-3C-WH_2.jpg';
 
-import NDL_PLED_S9WW_WH_1 from '../../Assets/SpotLights/NDL-PLED-S9WW-WH_01.jpg';
-import NDL_PLED_S9WW_WH_01 from '../../Assets/SpotLights/NDL-PLED-S45W-WH_3.jpeg';
+import NDL_PLED_S9WW_WH_1 from '../../../public/Assets/SpotLights/NDL-PLED-S9WW-WH_01.jpg';
+import NDL_PLED_S9WW_WH_01 from '../../../public/Assets/SpotLights/NDL-PLED-S45W-WH_3.jpg';
 
-import NDL_PLED_S30W_1 from '../../Assets/SpotLights/NDL-PLED-S30W_1.png';
-import NDL_PLED_S30W_2 from '../../Assets/SpotLights/NDL-PLED-S30W_2.png';
+import NDL_PLED_S30W_1 from '../../../public/Assets/SpotLights/NDL-PLED-S30W_1.jpg';
+import NDL_PLED_S30W_2 from '../../../public/Assets/SpotLights/NDL-PLED-S30W_2.jpg';
 
-import NDL_LED_3C_E25W_1 from '../../Assets/SpotLights/NDL-PLED-3C-E25W_1.png';
-import NDL_LED_3C_E25W_2 from '../../Assets/SpotLights/NDL-PLED-3C-E25W_2.png';
+import NDL_LED_3C_E25W_1 from '../../../public/Assets/SpotLights/NDL-PLED-3C-E25W_1.jpg';
+import NDL_LED_3C_E25W_2 from '../../../public/Assets/SpotLights/NDL-PLED-3C-E25W_2.jpg';
 
-import NDL_PLEDSR_3C_E25W_1 from '../../Assets/SpotLights/NDL-PLEDSR-3C-E25W_1.jpg';
-import NDL_PLEDSR_3C_E25W_2 from '../../Assets/SpotLights/NDL-PLEDSR-3C-E25W_2.jpg';
+import NDL_PLEDSR_3C_E25W_1 from '../../../public/Assets/SpotLights/NDL-PLEDSR-3C-E25W_1.jpg';
+import NDL_PLEDSR_3C_E25W_2 from '../../../public/Assets/SpotLights/NDL-PLEDSR-3C-E25W_2.jpg';
 
-import NDL_PLEDR_Q12W_1 from '../../Assets/SpotLights/NDL-PLEDR-Q12W_1.png';
-import NDL_PLEDR_Q12W_2 from '../../Assets/SpotLights/NDL-PLEDR-Q12W_2.png'
+import NDL_PLEDR_Q12W_1 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q12W_1.jpg';
+import NDL_PLEDR_Q12W_2 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q12W_2.jpg'
 
-import NDL_PLEDR_Q7W_3C_1 from '../../Assets/SpotLights/NDL-PLEDR-Q7W-3C_1.png';
-import NDL_PLEDR_Q7W_3C_2 from '../../Assets/SpotLights/NDL-PLEDR-Q7W-3C_2.png'
+import NDL_PLEDR_Q7W_3C_1 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q7W-3C_1.jpg';
+import NDL_PLEDR_Q7W_3C_2 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q7W-3C_2.jpg'
 
-import NDL_PLEDR_Q7W_3C_MB_1 from '../../Assets/SpotLights/NDL-PLEDR-Q7W-3C-MB-1.png';
-import NDL_PLEDR_Q7W_3C_MB_2 from '../../Assets/SpotLights/NDL-PLEDR-Q7W-3C-MB-2.png'
+import NDL_PLEDR_Q7W_3C_MB_1 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q7W-3C-MB-1.jpg';
+import NDL_PLEDR_Q7W_3C_MB_2 from '../../../public/Assets/SpotLights/NDL-PLEDR-Q7W-3C-MB-2.jpg'
 
 
 

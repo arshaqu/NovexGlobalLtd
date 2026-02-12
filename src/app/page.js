@@ -2,33 +2,33 @@ import Header from "@/Components/Header";
 import Image from "next/image";
 import Link from "next/link"
 
-import NovexLogo from "@/Assets/NovexLogo.png";
-import HomeBan from '../Assets/HomeBan.png'
+import NovexLogo from "../../public/Assets/NovexLogo.png";
+import HomeBan from '../../public/Assets/HomeBan.png'
 
-import SwitchSocket from '../Assets/Switch.png'
-import ExtenstionSocket from '../Assets/Extension.png'
-import SpotLight from '../Assets/Spotlight.png'
-import InsectKiller from '../Assets/InsectKiller.png'
-import PvcTrunking from '../Assets/PvcTrunking.png'
+import SwitchSocket from '../../public/Assets/Switch.png'
+import ExtenstionSocket from '../../public/Assets/Extension.png'
+import SpotLight from '../../public/Assets/Spotlight.png'
+import InsectKiller from '../../public/Assets/InsectKiller.png'
+import PvcTrunking from '../../public/Assets/PvcTrunking.png'
 
 
-import Liverpool from "@/Assets/liverpool.png";
-import Oxford from "@/Assets/oxford.png";
-import Rock from "@/Assets/rock.png";
+import Liverpool from "../../public/Assets/liverpool.png";
+import Oxford from "../../public/Assets/oxford.png";
+import Rock from "../../public/Assets/rock.png";
 
-import Extension1 from "@/Assets/Extension1.jpg";
-import Extension2 from "@/Assets/Extension2.jpg";
+import Extension1 from "../../public/Assets/Extension1.jpg";
+import Extension2 from "../../public/Assets/Extension2.jpg";
 
-import SpotBan from "@/Assets/Spotlightban.png";
+import SpotBan from "../../public/Assets/Spotlightban.png";
 
-import InsectKiller1 from "@/Assets/InsectK1.png";
-import InsectKiller2 from "@/Assets/InsectK2.png";
-import InsectKiller3 from "@/Assets/InsectK3.png";
-import InsectKiller4 from "@/Assets/InsectK4.png";
+import InsectKiller1 from "../../public/Assets/InsectK1.png";
+import InsectKiller2 from "../../public/Assets/InsectK2.png";
+import InsectKiller3 from "../../public/Assets/InsectK3.png";
+import InsectKiller4 from "../../public/Assets/InsectK4.png";
 
-import Pvc1 from "@/Assets/Pvc1.png";
-import Pvc2 from "@/Assets/Pvc2.png";
-import Pvc3 from "@/Assets/Pvc3.png";
+import Pvc1 from "../../public/Assets/Pvc1.png";
+import Pvc2 from "../../public/Assets/Pvc2.png";
+import Pvc3 from "../../public/Assets/Pvc3.png";
 import Footer from "@/Components/Footer";
 
 
@@ -48,8 +48,8 @@ export default function Home() {
 
     const series = [
     { title: "LIVERPOOL SERIES", image: Liverpool ,href: '/liverpool' },
-    { title: "OXFORD SERIES", image: Oxford ,href: '/liverpool' },
-    { title: "ROCK SERIES", image: Rock , href:'/liverpool' }
+    { title: "OXFORD SERIES", image: Oxford ,href: '/Item_Oxford' },
+    { title: "ROCK SERIES", image: Rock , href:'/Item_Rock' }
   ];
 
   return (
@@ -360,6 +360,28 @@ export default function Home() {
       </div>
     </section>
 
+   <section className=" bg-white">
+      <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center text-white shadow-lg">
+
+        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+          Need Help or More Information?
+        </h2>
+
+        <p className="max-w-4xl mx-auto text-lg mb-8">
+          Visit our Frequently Asked Questions page for details about
+          certifications, warranties, trade accounts, supply services,
+          and product compliance.
+        </p>
+
+        <Link
+          href="/f&qs"
+          className="inline-block bg-white text-[#E3001B] px-8 py-3 rounded-md font-semibold hover:opacity-90 transition"
+        >
+          Go to FAQ Page
+        </Link>
+
+      </div>
+    </section>
 
 
    <section className="py-12 md:py-16 lg:py-20">
@@ -513,11 +535,15 @@ export default function Home() {
       </div>
 
       {/* BUTTON */}
-      <div className="text-center mt-12">
-        <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg hover:bg-white hover:text-red-600 hover:border-1 hover:border-red-500 transition">
-          Explore
-        </button>
-      </div>
+     
+
+         <div className="text-center mt-12">
+                <Link href='/Item_InsectKiller'>
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                  Explore
+                </button>
+                </Link>
+              </div>
     </section>
 
 <section>
@@ -601,11 +627,13 @@ export default function Home() {
           </div>
         </div>
         {/* Explore Button */}
-        <div className="text-center">
-          <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg hover:bg-white hover:text-red-600 hover:border-1 hover:border-red-500 transition">
-            Explore
-          </button>
-        </div>
+               <div className="text-center">
+                <Link href='/Item_Pvc'>
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                  Explore
+                </button>
+                </Link>
+              </div>
       </div>
     </section>
 

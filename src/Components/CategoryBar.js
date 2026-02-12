@@ -5,11 +5,11 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { CgMenuGridR } from "react-icons/cg";
 
-import SpotIcon from '../Assets/spotlightIcon.png';
-import ExtensionIcon from '../Assets/extensionIcon.png';
-import PVCIcon from '../Assets/PVCIcon.png';
-import SwitchIcon from '../Assets/SwitchIcon.png';
-import InsectIcon from '../Assets/insect.png'
+import SpotIcon from '../../public/Assets/spotlightIcon.png';
+import ExtensionIcon from '../../public/Assets/extensionIcon.png';
+import PVCIcon from '../../public/Assets/PVCIcon.png';
+import SwitchIcon from '../../public/Assets/SwitchIcon.png';
+import InsectIcon from '../../public/Assets/insect.png'
 import { BsBorderBottom } from "react-icons/bs";
 
 export default function CategoryBar({ active }) {

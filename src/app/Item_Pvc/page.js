@@ -6,31 +6,31 @@ import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Image from 'next/image';
 
-import BannerImg from '../../Assets/InsectsKiller/IkBann.png';
+import BannerImg from '../../../public/Assets/InsectsKiller/IkBann.jpg';
 
-import NPT_382_1 from '../../Assets/PVC/NPT-382.png';
-import NPT_382_2 from '../../Assets/PVC/NPT-382.png';
+import NPT_382_1 from '../../../public/Assets/PVC/NPT-382.jpg';
+import NPT_382_2 from '../../../public/Assets/PVC/NPT-382.jpg';
 
-import NPT_5050_1 from '../../Assets/PVC/NPT-5050.png';
-import NPT_5050_2 from '../../Assets/PVC/NPT-5050.png';
+import NPT_5050_1 from '../../../public/Assets/PVC/NPT-5050.jpg';
+import NPT_5050_2 from '../../../public/Assets/PVC/NPT-5050.jpg';
 
-import NPT_7575_1 from '../../Assets/PVC/NPT-7575.png';
-import NPT_7575_2 from '../../Assets/PVC/NPT-7575.png';
+import NPT_7575_1 from '../../../public/Assets/PVC/NPT-7575.jpg';
+import NPT_7575_2 from '../../../public/Assets/PVC/NPT-7575.jpg';
 
-import NPT_100100_1 from '../../Assets/PVC/NPT-100100.png';
-import NPT_100100_2 from '../../Assets/PVC/NPT-100100.png';
+import NPT_100100_1 from '../../../public/Assets/PVC/NPT-100100.jpg';
+import NPT_100100_2 from '../../../public/Assets/PVC/NPT-100100.jpg';
 
-import NPTS_3825_1 from '../../Assets/PVC/NPTS3825.png';
-import NPTS_3825_2 from '../../Assets/PVC/NPTS3825.png';
+import NPTS_3825_1 from '../../../public/Assets/PVC/NPTS3825.jpg';
+import NPTS_3825_2 from '../../../public/Assets/PVC/NPTS3825.jpg';
 
-import NPTS_2516_1 from '../../Assets/PVC/NPTS2516.png';
-import NPTS_2516_2 from '../../Assets/PVC/NPTS2516.png';
+import NPTS_2516_1 from '../../../public/Assets/PVC/NPTS2516.jpg';
+import NPTS_2516_2 from '../../../public/Assets/PVC/NPTS2516.jpg';
 
-import NPTS_1616_1 from '../../Assets/PVC/NPTS1616.png';
-import NPTS_1616_2 from '../../Assets/PVC/NPTS1616.png';
+import NPTS_1616_1 from '../../../public/Assets/PVC/NPTS1616.jpg';
+import NPTS_1616_2 from '../../../public/Assets/PVC/NPTS1616.jpg';
 
-import NPTS_1010_1 from '../../Assets/PVC/NPTS-1010.png';
-import NPTS_1010_2 from '../../Assets/PVC/NPTS-1010.png';
+import NPTS_1010_1 from '../../../public/Assets/PVC/NPTS-1010.jpg';
+import NPTS_1010_2 from '../../../public/Assets/PVC/NPTS-1010.jpg';
 
 
 
