@@ -88,8 +88,8 @@ export default function Home() {
           </div>
           {/* Text Content */}
           <div style={{fontWeight:'400'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 p-10 text-start text-justify ">
-            <p style={{fontWeight:'400'}} className="text-gray-500  text-gray-600 text-md leading-relaxed text-justify">
-              <span className="font-semibold text-gray-900 ">Novex Global</span> is a
+            <p style={{fontWeight:'400'}} className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+              <span className=" text-gray-900 ">Novex Global</span> is a
               UK-based wholesaler supplying electrical wiring accessories and
               associated electrical products. Backed by over 50 years of combined
               global experience in manufacturing and wholesale distribution, we
@@ -101,15 +101,15 @@ export default function Home() {
               Killers (EFKs), and an expanding range of modern electrical solutions.
               With a well-established reputation across the Middle East and Africa, we bring
               international expertise and disciplined supply-chain management to the UK market. </p>
-            <p className="text-gray-600 text-md leading-relaxed text-justify">
-               <span className="font-semibold text-gray-900 ">Novex Global</span> leadership team brings more than five decades of combined experience in the
+            <p className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+               <span className="text-gray-900 ">Novex Global</span> leadership team brings more than five decades of combined experience in the
               manufacturing and wholesale of electrical wiring accessories and related electrical
               products worldwide. This experience enables us to understand market demands,
               quality expectations, and the importance of consistency.
               We work closely with carefully selected manufacturing partners in China, operating
               under controlled production environments and robust quality assurance systems.</p>
-            <p className="text-gray-600 text-md leading-relaxed text-justify">
-              <span className="font-semibold text-gray-900 ">Novex Global</span> is committed to building long-term partnerships through dependable
+            <p className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+              <span className="text-gray-900 ">Novex Global</span> is committed to building long-term partnerships through dependable
               products, ethical business practices, and consistent service. As we grow within the UK
               market, our focus remains clear—raising standards, not cutting corners, and setting a
               new benchmark in electrical wiring accessories and related electrical solutions.
