@@ -136,7 +136,7 @@ function HoverImageCard({ product }) {
       </div>
 
       <div className="text-left p-1 ">
-        <p className="text-red-500 text-lg lg:text-xl text-center font-normal">
+        <p className="text-red-500 text-sm lg:text-xl text-center font-normal">
           {product.name}
         </p>
         <p className="text-red-900 text-md font-normal mt-2">

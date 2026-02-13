@@ -104,7 +104,7 @@ function HoverImageCard({ product }) {
 
   return (
     <div
-      className="bg-white rounded-lg shadow hover:shadow-lg transition lg:p-5 flex flex-col "
+      className="bg-white rounded-lg shadow hover:shadow-lg transition p-5 flex flex-col "
       onMouseEnter={() => setImgIndex((prev) => (prev + 1) % product.imgs.length)}
       onMouseLeave={() => setImgIndex(0)}
     >
@@ -119,7 +119,7 @@ function HoverImageCard({ product }) {
       </div>
 
       <div className="text-left p-1 ">
-        <p className="text-red-500 text-lg lg:text-xl text-center font-normal">
+        <p className="text-red-500 text-sm lg:text-xl text-center font-normal">
           {product.name}
         </p>
         <p className="text-red-900 text-md font-normal mt-2">

@@ -90,7 +90,7 @@ export default function Page() {
           </div>
 
           {totalPages > 1 && (
-            <div className="flex justify-center gap-3 mt-8 flex-wrap">
+            <div className="flex justify-center gap-3 mt-8 flex-wrap ">
               {Array.from({ length: totalPages }, (_, i) => (
                 <button
                   key={i}
@@ -134,7 +134,7 @@ function HoverImageCard({ product }) {
       </div>
 
       <div className="text-left p-1">
-        <p className="text-red-500 text-md lg:text-xl text-center font-normal">
+        <p className="text-red-500 text-sm lg:text-xl text-center font-normal">
           {product.name}
         </p>
         <p className="text-red-900 text-md font-normal mt-2">
