@@ -389,13 +389,12 @@ function page() {
                 </h3>
               </div>
               <p className="text-gray-500 text-base leading-relaxed font-medium p-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Global leadership through innovation.
+              </p>
+                <p style={{fontWeight:'400'}} className="text-gray-500 text-base leading-relaxed  p-4">
+                Novex Global leads the electrical wiring accessories industry by delivering innovative, reliable solutions.
+Backed by over 50 years of global expertise, we ensure quality, compliance, and long-term reliability.
+Our commitment to ethical practices and modern manufacturing sets new standards for professional trade.
               </p>
             </div>
             {/* Our Mission */}
@@ -412,13 +411,10 @@ function page() {
                 </h3>
               </div>
               <p className="text-gray-500 text-base leading-relaxed font-medium p-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+               We create smart buildings for a smarter world.
+              </p>
+               <p style={{fontWeight:'400'}} className="text-gray-500 text-base leading-relaxed  p-4">
+               At Novex Global, our mission is to empower the built environment with intelligent, safe, and efficient electrical solutions. By combining innovative products, trusted quality, and compliance with industry standards, we enable smarter, sustainable buildings that meet the evolving needs of professionals and end-users alike.
               </p>
             </div>
           </div>
@@ -549,7 +545,7 @@ function page() {
         </div>
       </section>
 
- <section className="mt-20 px-4 md:px-8 lg:px-16 mb-5">
+ <section className="mt-20 px-4 md:px-8 lg:px-16 mb-12">
   <div className="text-center mb-12">
     <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
       Our Precious Categories
@@ -564,51 +560,92 @@ function page() {
   </div>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Switch} alt="Switches & Sockets" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-    <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
-        SWITCHES & SOCKETS
-          </div>
 
-    </div>
+       <div className="relative overflow-hidden rounded-lg shadow-lg group">
+        <Link  href="/liverpool">
+  <Image
+    src={Switch}
+    alt="Spot Lights"
+    className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+  {/* Shadow Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
+
+  {/* Text */}
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+     SWITCHES & SOCKETS
+  </div>
+    </Link>
+</div>
+
+
 
    <div className="relative overflow-hidden rounded-lg shadow-lg group">
+    <Link href="/Item_SpotLight">
   <Image
     src={Spot}
     alt="Spot Lights"
-    className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-  />
+    className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
+    />
 
   {/* Shadow Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+  <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
 
   {/* Text */}
   <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
     SPOT LIGHTS
   </div>
+    </Link>
+</div>
+
+
+ <div className="relative overflow-hidden rounded-lg shadow-lg group">
+  <Link href="/Item_Extension">
+  <Image
+    src={Extension}
+    alt="Spot Lights"
+    className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
+  />
+  {/* Shadow Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
+  {/* Text */}
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+   EXTENSION SOCKETS
+  </div>
+  </Link>
+</div>
+
+
+ <div className="relative overflow-hidden rounded-lg shadow-lg group">
+  <Link href="/Item_InsectKiller">
+  <Image
+    src={Insect}
+    alt="Spot Lights"
+    className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+   INSECTS KILLER
+  </div>
+  </Link>
 </div>
 
 
     <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Extension} alt="Extension Sockets" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
-        EXTENSION SOCKETS
-      </div>
-    </div>
+  <Link href="/Item_Pvc">
+  <Image
+    src={Pvc}
+    alt="PVC Trunking"
+    className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+   PVC TRUNKING
+  </div>
+  </Link>
+</div>
+ 
 
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Insect} alt="Insects Killer" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-      <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
-        INSECTS KILLER
-      </div>
-    </div>
-
-    <div className="relative overflow-hidden rounded-lg shadow-lg group">
-      <Image src={Pvc} alt="PVC Trunking" className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"/>
-       <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
-        PVC TRUNKING
-      </div>
-    </div>
   </div>
 </section>
 
