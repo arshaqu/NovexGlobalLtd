@@ -44,7 +44,7 @@ function ProductsSection() {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-2 mb-3">
             <span className="w-2 h-2 bg-black rounded-full"></span>
-            <h2 className="text-5xl tracking-widest font-semibold uppercase">
+            <h2 className="lg:text-5xl text-3xl tracking-widest font-semibold uppercase">
               OUR PRODUCTS
             </h2>
           </div>
@@ -178,7 +178,7 @@ function ProductsSection() {
             <div className="flex flex-col items-center mt-3">
               <p
                 style={{ fontWeight: "300" }}
-                className="max-w-3xl p-8 mx-auto text-md lg:text-2xl text-gray-500 leading-relaxed"
+                className="max-w-3xl lg:p-8 p-4 mx-auto text-md lg:text-2xl text-gray-500 leading-relaxed"
               >
                 All products are CE and UKCA certified where applicable and
                 benchmarked against established UK electrical accessory

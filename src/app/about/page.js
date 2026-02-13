@@ -173,7 +173,7 @@ function page() {
       <section className="w-full bg-white py-16 sm:py-20">
         <div style={{fontWeight:300}} className="mx-auto px-4 sm:px-6 text-md lg:text-lg lg:px-8">
           {/* Heading */}
-          <h2 className="text-center text-5xl sm:text-4xl font-bold text-gray-800 mb-12">
+          <h2 className="text-center text-5xl sm:text-3xl font-bold text-gray-800 mb-12">
             Why Choose Us
           </h2>
 

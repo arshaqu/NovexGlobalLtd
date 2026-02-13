@@ -128,7 +128,7 @@ export default function ContactPage() {
             <div className='p-4' >
                        <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Location : </div>
 
-              <p style={{marginLeft:'43px' ,  fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg font-medium leading-relaxed">
+              <p style={{marginLeft:'43px' ,  fontWeight:'300'}} className="text-gray-800 text-lg lg:text-lg font-medium leading-relaxed">
               Unit S0566 , Office 3 <br/>149 St.Pauls Road , <br/> Slough , SL2 5EN,<br/>  United Kingdom
             </p>      
             </div>
@@ -141,10 +141,10 @@ export default function ContactPage() {
               <div className='p-2' >
                         <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Email : </div>
 
-              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-lg lg:text-lg leading-relaxed">
               sales@novexglobal.uk
             </p> 
-              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg  leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-lg lg:text-lg  leading-relaxed">
               info@novexglobal.uk
             </p>      
             </div>
@@ -154,10 +154,10 @@ export default function ContactPage() {
 
             
             <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Call Us for Product Inquiry : </div>
-              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-lg lg:text-lg leading-relaxed">
               Tel : 03308 224460
             </p> 
-              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg  leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-lg lg:text-lg  leading-relaxed">
               Mob : +44 (0) 7516962348
             </p>      
 
@@ -169,7 +169,7 @@ export default function ContactPage() {
 
           {/* Right Form */}
           <div className="lg:w-1/2 bg-white rounded-lg shadow-lg p-6 lg:p-8">
-            <h2 style={{color:'#E3001B'}} className="text-3xl font-bold text-gray-800 mb-4">Request a Quote Today</h2>
+            <h2 style={{color:'#E3001B'}} className="text-2xl font-bold text-gray-800 mb-4">Request a Quote Today</h2>
             <form onSubmit={handleSubmit} className="space-y-6 mt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input style={{border:'1px solid #E3001B' , fontWeight:'300'}} type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full px-8 py-4 border border-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-xl lg:text-xl" required />

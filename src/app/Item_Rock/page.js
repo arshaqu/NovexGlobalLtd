@@ -84,7 +84,7 @@ export default function Page() {
       <CategoryBar active="switch" />
 
       {/* Products */}
-      <div className="p-10">
+      <div className="lg:p-10 p-5 ">
         <div style={{ border: "2px solid #E3001B" }}>
           <div className="bg-red-600 text-white p-5 mb-4">All Products</div>
 

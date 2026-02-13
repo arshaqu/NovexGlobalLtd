@@ -104,7 +104,7 @@ function page() {
       </section>
 
       {/* APPLICATION FORM */}
- <section className="py-20 px-6 bg-red-200">
+ <section className="py-20 px-4 bg-red-200">
   <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12">
 
     <h2 className="text-3xl md:text-4xl font-bold text-center text-[#E3001B] mb-10">
@@ -115,7 +115,7 @@ function page() {
 
       {/* Full Name */}
       <div className=''>
-        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Full Name
         </label>
         <input
@@ -128,7 +128,7 @@ function page() {
 
       {/* Email */}
       <div>
-        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Email Address
         </label>
         <input
@@ -141,7 +141,7 @@ function page() {
 
       {/* Position */}
       <div>
-        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Position Applying For
         </label>
         <input
@@ -154,7 +154,7 @@ function page() {
 
       {/* Message */}
       <div>
-        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Your Message
         </label>
         <textarea
@@ -169,7 +169,7 @@ function page() {
       <button
       style={{cursor:'pointer'}}
         type="submit"
-        className="w-full bg-[#E3001B] text-white py-5 rounded-xl text-xl lg:text-xl font-semibold tracking-wide hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-sm"
+        className="w-full bg-[#E3001B] text-white py-5 rounded-xl text-lg lg:text-xl font-semibold tracking-wide hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-sm"
       >
         Submit Application
       </button>
@@ -180,7 +180,7 @@ function page() {
     <Footer/>
 
     </div>
-  )
+  ) 
 }
 
 export default page
