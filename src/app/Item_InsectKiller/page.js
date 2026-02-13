@@ -55,8 +55,8 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">ELECTRONIC FLY KILLERS (EFKs)</p>
-        <p className="text-gray-600 lg:text-lg text-md max-w-6xl mx-auto">
-          <span className='font-medium'>NOVEX GLOBAL LTD</span> supplies Electronic Fly Killers (EFKs) designed for commercial and professional environments , includeing retail, hospitality , food preparation, and industrial settings. Our EFKs are manufactured to recognised standards, prioritising safety, durability, and ease of maintenance , and are suitable for year-round operational use. 
+        <p className="text-gray-600 lg:text-lg text-md max-w-6xl mt-5 mx-auto">
+          <span className='font-medium '>NOVEX GLOBAL LTD</span> supplies Electronic Fly Killers (EFKs) designed for commercial and professional environments , includeing retail, hospitality , food preparation, and industrial settings. Our EFKs are manufactured to recognised standards, prioritising safety, durability, and ease of maintenance , and are suitable for year-round operational use. 
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function Page() {
            <CategoryBar active="insectK"/>
 
       {/* Products */}
-      <div  className="p-10 ">
+      <div  className="lg:p-10 p-5 ">
         <div  style={{ border: "2px solid #E3001B"  }}>
           <div  className="bg-red-600 text-white font-bold text-xl p-5 mb-4">All Products</div>
 
@@ -104,7 +104,7 @@ function HoverImageCard({ product }) {
 
   return (
     <div
-      className="bg-white rounded-lg shadow hover:shadow-lg transition p-5 flex flex-col "
+      className="bg-white rounded-lg shadow hover:shadow-lg transition lg:p-5 flex flex-col "
       onMouseEnter={() => setImgIndex((prev) => (prev + 1) % product.imgs.length)}
       onMouseLeave={() => setImgIndex(0)}
     >

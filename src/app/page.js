@@ -367,7 +367,7 @@ export default function Home() {
           Need Help or More Information?
         </h2>
 
-        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
+        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-md mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
@@ -548,7 +548,7 @@ export default function Home() {
     </section>
 
 <section>
-        <div style={{backgroundColor:'#E3001B'}} className="p-15 justify-center text-center lg:m-2 ">
+        <div style={{backgroundColor:'#E3001B'}} className="p-10 justify-center text-center  ">
         <h2 style={{fontWeight:600}} className="lg:text-4xl text-2xl font-bold text-white ">High-Impact & Professional</h2>
         <h2 style={{fontWeight:300}} className="mt-3 lg:text-2xl text-md text-white">"Delivering Engineered Products Designed for Long-lasting Performance and Safety."</h2>
       </div>
