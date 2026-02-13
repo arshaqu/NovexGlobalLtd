@@ -58,7 +58,7 @@ function ProductsSection() {
 
           <p
             style={{ fontWeight: "300" }}
-            className="max-w-7xl mx-auto text-md lg:text-lg text-gray-500 leading-relaxed"
+            className="max-w-7xl mx-auto text-md lg:text-xl text-gray-500 leading-relaxed"
           >
             Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
@@ -266,7 +266,7 @@ function ProductsSection() {
               Novex Spotlights <br /> Brighten Every Corner
             </h2>
 
-            <p style={{fontWeight:'300'}} className="text-gray-600 max-w-xl mb-6 text-sm lg:text-2xl">
+            <p style={{fontWeight:'300'}} className="text-gray-600 max-w-xl mb-6 text-sm pt-5 pb-5 lg:text-xl">
               Novex Global supplies a practical range of lighting accessories
               designed to support safe, efficient installation and long-term
               reliability.
@@ -431,7 +431,7 @@ function ProductsSection() {
 <section className="w-full bg-white">
   <div className="mx-auto px-6 py-12 lg:px-20 lg:py-20">
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <div style={{fontWeight:'300'}} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
       {/* RIGHT SIDE CONTENT – FIRST ON MOBILE */}
       <div className="order-1 lg:order-2  flex flex-col justify-start text-left h-full lg:mt-0">

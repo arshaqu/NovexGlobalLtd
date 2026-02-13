@@ -87,8 +87,8 @@ export default function Home() {
             />
           </div>
           {/* Text Content */}
-          <div style={{fontWeight:'400'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 lg:p-10 p-4 text-start text-justify ">
-            <p style={{fontWeight:'400'}} className="text-gray-500 lg:text-lg  text-sm leading-relaxed lg:text-justify">
+          <div style={{fontWeight:'300'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 lg:p-10 p-4 text-start text-justify ">
+            <p  className="text-gray-500 lg:text-xl  text-sm leading-relaxed lg:text-justify">
               <span className=" text-gray-900 ">Novex Global</span> is a
               UK-based wholesaler supplying electrical wiring accessories and
               associated electrical products. Backed by over 50 years of combined
@@ -101,14 +101,14 @@ export default function Home() {
               Killers (EFKs), and an expanding range of modern electrical solutions.
               With a well-established reputation across the Middle East and Africa, we bring
               international expertise and disciplined supply-chain management to the UK market. </p>
-            <p className="text-gray-500   text-sm leading-relaxed lg:text-lg lg:text-justify">
+            <p className="text-gray-500   text-sm leading-relaxed lg:text-xl lg:text-justify">
                <span className="text-gray-900 ">Novex Global</span> leadership team brings more than five decades of combined experience in the
               manufacturing and wholesale of electrical wiring accessories and related electrical
               products worldwide. This experience enables us to understand market demands,
               quality expectations, and the importance of consistency.
               We work closely with carefully selected manufacturing partners in China, operating
               under controlled production environments and robust quality assurance systems.</p>
-            <p className="text-gray-500 lg:text-lg  text-sm leading-relaxed lg:text-lg lg:text-justify">
+            <p className="text-gray-500 lg:text-xl  text-sm leading-relaxed lg:text-justify">
               <span className="text-gray-900 ">Novex Global</span> is committed to building long-term partnerships through dependable
               products, ethical business practices, and consistent service. As we grow within the UK
               market, our focus remains clear—raising standards, not cutting corners, and setting a
@@ -127,7 +127,7 @@ export default function Home() {
         <h2 className="text-4xl md:text-4xl font-medium text-gray-900">
           Explore Our Products
         </h2>
-        <p style={{fontWeight:'400'}} className="mt-4 max-w-6xl lg:text-lg  text-sm mx-auto text-gray-500 leading-relaxed ">
+        <p style={{fontWeight:'300'}} className="mt-4 max-w-6xl lg:text-xl  text-sm mx-auto text-gray-500 leading-relaxed ">
           Explore our high-quality product range, crafted with precision and care
           to meet modern standards. Designed for durability, safety, and style,
           our products deliver reliable performance for both residential and
@@ -172,7 +172,7 @@ export default function Home() {
           SWITCHES & SOCKETS
         </h2>
  
-        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto lg:text-lg   text-sm text-gray-600 leading-relaxed">
+        <p style={{fontWeight:'300'}} className="mt-4 max-w-5xl mx-auto lg:text-xl text-sm text-gray-600 leading-relaxed">
           Novex switches and sockets deliver premium quality, durability, and
           modern design. Built for reliability and performance, we also offer a
           wide range of trusted electrical solutions.
@@ -251,8 +251,8 @@ export default function Home() {
             <p className="text-2xl md:text-5xl text-gray-700 leading-tight font-normal opacity-80">
               Quality and Performance
             </p>
-
-            <div className="flex justify-center pt-6">
+ 
+            <div style={{fontWeight:'300'}} className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
                 className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
@@ -283,7 +283,7 @@ export default function Home() {
               applications.
             </p>
 
-             <div className="flex justify-center pt-6">
+             <div style={{fontWeight:'300'}} className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
                 className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
@@ -301,7 +301,7 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-8xl">
         {/* Text Content */}
         <div className="text-center px-4 sm:px-8 md:px-12 lg:px-24 xl:px-32">
-          <p className="text-white text-base text-sm lg:text-2xl leading-relaxed ">
+          <p style={{fontWeight:'300'}} className="text-white text-base text-sm lg:text-2xl leading-relaxed ">
            <span style={{fontWeight:'bold'}}>NOVEX Global</span> is a wholesale-focused company creating a scalable digital framework to support trade operations, marketing, and future expansion.
           </p>
         </div>
@@ -338,13 +338,13 @@ export default function Home() {
               <span className="text-gray-900">Spot Light</span>{' '}
               <span className="text-gray-400 font-light">Series</span>
             </h1>
-            <p style={{letterSpacing:'2px', fontWeight:'400'}} className="text-gray-600 text-base sm:text-lg md:text-2xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
+            <p style={{letterSpacing:'2px', fontWeight:'300'}} className="text-gray-600 text-base sm:text-lg md:text-2xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
               Innovative lighting solutions that seamlessly combine form and function, enhancing every space with elegance and efficiency.
             </p>
-            <div className="space-y-4 ">
+            <div style={{fontWeight:'300'}} className="space-y-4 ">
               <a 
                 href="#" 
-                className="inline-block text-gray-400 hover:text-gray-600 text-sm sm:text-base underline font-medium transition-colors mb-4">
+                className="inline-block text-gray-400 hover:text-gray-600 text-md lg:text-xl sm:text-base underline  transition-colors mb-4">
                 Learn more
               </a>
               <div>
@@ -367,13 +367,14 @@ export default function Home() {
           Need Help or More Information?
         </h2>
 
-        <p className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
+        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
         </p>
 
         <Link
+        style={{fontWeight:'300'}}
           href="/f&qs"
           className="inline-block bg-white text-[#E3001B] px-8 py-3 font-semibold hover:opacity-90 transition"
         >
@@ -400,7 +401,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className="text-gray-900 text-2xl max-w-3xl mx-auto mt-8">
+          <p style={{fontWeight:'300'}} className="text-gray-900 text-2xl max-w-3xl mx-auto mt-8">
             Durable UK-made insect killer with 30,000-hour lifespan, safe,
             chemical-free, and easy to clean
           </p>
@@ -408,7 +409,7 @@ export default function Home() {
       </div>
 
       {/* MOBILE LAYOUT - Shows on mobile only */}
-      <div className="md:hidden space-y-6">
+      <div style={{fontWeight:'300'}} className="md:hidden space-y-6">
         {/* Image 1 */}
         <div className="w-full p-5">
           <Image
@@ -421,7 +422,7 @@ export default function Home() {
 
         {/* Text 1 */}
         <div className="container mx-auto px-4">
-          <p className="text-gray-600 text-xl sm:text-lg leading-relaxed">
+          <p style={{fontWeight:'300'}} className="text-gray-600 text-xl sm:text-lg leading-relaxed">
             Slim, efficient, and versatile — perfect for homes, kitchens,
             shops, farms, and factories.
           </p>
@@ -437,7 +438,7 @@ export default function Home() {
         </div>
 
         {/* Text 2 */}
-        <div className="container mx-auto px-4">
+        <div style={{fontWeight:'300'}} className="container mx-auto px-4">
           <p className="text-gray-600 text-xl sm:text-lg leading-relaxed">
             Slim, efficient, and versatile — perfect for homes, kitchens,
             shops, farms, and factories.
@@ -454,7 +455,7 @@ export default function Home() {
         </div>
 
         {/* Text 3 */}
-        <div className="container mx-auto px-4">
+        <div style={{fontWeight:'300'}} className="container mx-auto px-4">
           <p className="text-gray-600 lg:text-4xl sm:text-lg leading-relaxed">
            Efficient UV light trap with low power consumption, fire-resistant casing, and 24/7 protection against flying insects.
           </p>
@@ -496,7 +497,7 @@ export default function Home() {
           </div>
 
           {/* Description */}
-          <div className="container lg:ml-15 p-2">
+          <div style={{fontWeight:'300'}} className="container lg:ml-15 p-2">
             <p className="text-gray-600 lg:text-3xl text-xl sm:text-lg leading-relaxed">
                Hygienic CV Light trap with fire-retardant casing, low power consumption, and 27/7 operation.
             </p>
@@ -505,8 +506,8 @@ export default function Home() {
 
         {/* RIGHT COLUMN */}
         <div className="space-y-12">
-
-          <div className="container mx-auto px-4 mt-8">
+ 
+          <div style={{fontWeight:'300'}} className="container mx-auto px-4 mt-8">
             <p className="text-gray-600 lg:text-3xl text-xl leading-relaxed">
               Slim, efficient, and versatile — perfect for homes, kitchens,
               shops, farms, and factories.
@@ -537,7 +538,7 @@ export default function Home() {
       {/* BUTTON */}
      
 
-         <div className="text-center mt-12">
+         <div style={{fontWeight:'300'}} className="text-center mt-12">
                 <Link href='/Item_InsectKiller'>
                 <button style={{cursor:'pointer'}} className="bg-red-600 text-sm lg:text-2xl text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
@@ -548,8 +549,8 @@ export default function Home() {
 
 <section>
         <div style={{backgroundColor:'#E3001B'}} className="p-15 justify-center text-center lg:m-2 ">
-        <h2 className="lg:text-4xl text-2xl font-bold text-white ">High-Impact & Professional</h2>
-        <h2 style={{fontWeight:400}} className="mt-3 lg:text-2xl text-md text-white">"Delivering Engineered Products Designed for Long-lasting Performance and Safety."</h2>
+        <h2 style={{fontWeight:600}} className="lg:text-4xl text-2xl font-bold text-white ">High-Impact & Professional</h2>
+        <h2 style={{fontWeight:300}} className="mt-3 lg:text-2xl text-md text-white">"Delivering Engineered Products Designed for Long-lasting Performance and Safety."</h2>
       </div>
 </section>
 
@@ -568,27 +569,27 @@ export default function Home() {
           <div className="space-y-4 text-gray-700">
             <div className="flex flex-col sm:flex-row sm:items-start ">
               <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Effortless Installation :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Self-adhesive Backing Allows For Quick And Tool-free Installation, Saving Time And Effort.</span>
+              <span style={{fontWeight:'300'}} className="text-gray-700 lg:text-2xl  text-sm">Self-adhesive Backing Allows For Quick And Tool-free Installation, Saving Time And Effort.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
               <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Durable Construction :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">High-quality PVC Ensures Long-lasting Performance And Reliability.</span>
+              <span style={{fontWeight:'300'}} className="text-gray-700 lg:text-2xl  text-sm">High-quality PVC Ensures Long-lasting Performance And Reliability.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
               <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Versatile And Customization :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Available In Various Sizes And Easily Customizable To Fit Any Installation.</span>
+              <span style={{fontWeight:'300'}} className="text-gray-700 lg:text-2xl  text-sm">Available In Various Sizes And Easily Customizable To Fit Any Installation.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
               <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Enhanced Cable Protection :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Protects Cables From Damage, Ensuring Safe And Reliable Electrical Connections.</span>
+              <span style={{fontWeight:'300'}} className="text-gray-700 lg:text-2xl  text-sm">Protects Cables From Damage, Ensuring Safe And Reliable Electrical Connections.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
               <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Neat And Professional Look :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Conceals And Organizes Cables, Providing A Clean And Professional Appearance.</span>
+              <span style={{fontWeight:'300'}} className="text-gray-700 lg:text-2xl  text-sm">Conceals And Organizes Cables, Providing A Clean And Professional Appearance.</span>
             </div>
           </div>
         </div>
@@ -627,7 +628,7 @@ export default function Home() {
           </div>
         </div>
         {/* Explore Button */}
-               <div className="text-center">
+               <div style={{fontWeight:300}} className="text-center">
                 <Link href='/Item_Pvc'>
                 <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-2xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore

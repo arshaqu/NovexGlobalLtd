@@ -68,9 +68,9 @@ function page() {
       {/* Top Red Banner */}
       <section className="w-full bg-[#E3001B] py-8 ">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className=" lg:text-4xl text-3xl text-white/100 p-20">
-            Home <span className="mx-1">{">"}</span>
-            <span className="text-white font-medium"> ABOUT US</span>
+          <p className=" lg:text-5xl text-3xl text-white/100 p-20">
+            Home <span style={{fontWeight:'300'}} className="mx-1">{">"}</span>
+            <span className="text-white font-bold"> ABOUT US</span>
           </p>
         </div>
       </section>
@@ -84,8 +84,8 @@ function page() {
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">
             About Novex Global Ltd
           </h2>
-
-          <p className="text-md text-gray-500 leading-relaxed mb-1">
+ 
+          <p style={{fontWeight:300}} className="text-md lg:text-2xl text-gray-500 leading-relaxed mb-1">
             Novex Global Ltd is a growing UK product company, proudly
             introducing the Novex brand to the UK market with a focus on
             quality, innovation, and customer-first solutions.
@@ -95,8 +95,8 @@ function page() {
 
       <section className="w-full bg-gray-100">
         {/* Top WHO WE ARE Bar */}
-        <div className="w-full border-b border-gray-200 py-4">
-          <p className="text-center text-2xl font-bold tracking-widest text-gray-800">
+        <div style={{fontWeight:400}} className="w-full border-b border-gray-200 py-4">
+          <p className="text-center text-2xl tracking-widest text-gray-800">
             WHO WE ARE
           </p>
         </div>
@@ -125,7 +125,7 @@ function page() {
 
               <div className="w-20 h-[1px] bg-gray-300 mb-6" />
 
-              <div className="space-y-5 text-sm text-gray-500 leading-relaxed max-w-xl">
+              <div style={{fontWeight:300}} className="space-y-5 text-sm text-gray-500  text-md lg:text-lg leading-relaxed max-w-2xl lg:p-8">
                 <p>
                   Novex Global Ltd is a UK-based product-focused company
                   specialising in the development and supply of high-quality
@@ -150,8 +150,8 @@ function page() {
                   as a globally recognised brand rooted in the UK.
                 </p>
               </div>
-              <div className=" bg-[#E3001B] mt-2 mb-2">
-                <div className="grid grid-cols-2 sm:grid-cols-4 text-center text-white text-xs tracking-widest">
+              <div style={{fontWeight:300}} className=" bg-[#E3001B] mt-2 mb-2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 text-center text-white text-md lg:text-lg tracking-widest">
                   <div className="py-5 border-r border-white/20">
                     ◯ &nbsp; QUALITY
                   </div>
@@ -171,9 +171,9 @@ function page() {
       </section>
 
       <section className="w-full bg-white py-16 sm:py-20">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+        <div style={{fontWeight:300}} className="mx-auto px-4 sm:px-6 text-md lg:text-lg lg:px-8">
           {/* Heading */}
-          <h2 className="text-center text-4xl sm:text-4xl font-bold text-gray-800 mb-12">
+          <h2 className="text-center text-5xl sm:text-4xl font-bold text-gray-800 mb-12">
             Why Choose Us
           </h2>
 
@@ -186,12 +186,11 @@ function page() {
                   <PiCertificateFill style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 Premium Product Quality
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 Every Novex product is crafted using high-grade materials and
                 tested to meet strict quality standards.
@@ -205,12 +204,11 @@ function page() {
                   <RiCustomerService2Fill style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 24×7 Customer Support
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 Our professional support team is available around the clock to
                 provide quick and reliable assistance.
@@ -224,12 +222,11 @@ function page() {
                   <FaShippingFast style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 Fast & Secure Delivery
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 We ensure timely dispatch and safe delivery through trusted
                 logistics partners across the UK.
@@ -243,12 +240,11 @@ function page() {
                   <HiLightBulb style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 Innovation-Driven Solutions
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 We continuously innovate to deliver modern solutions that meet
                 evolving industry needs.
@@ -262,12 +258,11 @@ function page() {
                   <AiFillDollarCircle style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 Competitive Pricing
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 We offer high-value products at fair and affordable prices
                 without compromising on quality.
@@ -281,12 +276,11 @@ function page() {
                   <IoMdChatboxes style={{ color: "red" }} size={30} />
                 </div>
               </div>
-              <h3 className="text-lg font-medium text-gray-800 mb-3">
+              <h3 className="text-sm lg:text-2xl font-medium text-gray-800 mb-3">
                 Customer-First Approach
               </h3>
               <p
-                style={{ fontWeight: "400" }}
-                className="text-sm text-gray-400 leading-relaxed"
+                className="text-md lg:text-lg text-gray-600 leading-relaxed"
               >
                 We prioritise customer satisfaction by continuously improving
                 based on feedback and needs.
@@ -300,19 +294,20 @@ function page() {
         <section className=" bg-white">
       <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center text-white shadow-lg">
 
-        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+        <h2 className="text-sm md:text-4xl font-bold mb-4">
           Need Help or More Information?
         </h2>
 
-        <p className="max-w-4xl mx-auto text-lg mb-8">
+        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
         </p>
 
         <Link
+        style={{fontWeight:'300'}}
           href="/f&qs"
-          className="inline-block bg-white text-[#E3001B] px-8 py-3 rounded-md font-semibold hover:opacity-90 transition"
+          className="inline-block bg-white text-[#E3001B] px-8 py-3 text-md lg:text-lg hover:opacity-90 transition"
         >
           Go to FAQ Page
         </Link>
@@ -337,8 +332,8 @@ function page() {
                 </div>
 
                 <div
-                  style={{ fontWeight: "400" }}
-                  className="space-y-5 text-md sm:text-base text-gray-500 leading-relaxed max-w-2xl"
+                  style={{ fontWeight: "300" }}
+                  className="space-y-5 text-md lg:text-lg sm:text-base text-gray-500 leading-relaxed max-w-2xl"
                 >
                   <p>
                     Novex Global specialist in the wholesale supply of
@@ -388,10 +383,10 @@ function page() {
                   Our Vision
                 </h3>
               </div>
-              <p className="text-gray-500 text-base leading-relaxed font-medium p-5">
+              <p className="text-gray-500 text-sm lg:text-2xl text-base leading-relaxed font-medium p-5">
                 Global leadership through innovation.
               </p>
-                <p style={{fontWeight:'400'}} className="text-gray-500 text-base leading-relaxed  p-4">
+                <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed  text-md lg:text-lg p-4">
                 Novex Global leads the electrical wiring accessories industry by delivering innovative, reliable solutions.
 Backed by over 50 years of global expertise, we ensure quality, compliance, and long-term reliability.
 Our commitment to ethical practices and modern manufacturing sets new standards for professional trade.
@@ -410,10 +405,10 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                   Our Mission
                 </h3>
               </div>
-              <p className="text-gray-500 text-base leading-relaxed font-medium p-5">
+              <p className="text-gray-500 text-base leading-relaxed font-medium text-sm lg:text-2xl p-5">
                We create smart buildings for a smarter world.
               </p>
-               <p style={{fontWeight:'400'}} className="text-gray-500 text-base leading-relaxed  p-4">
+               <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed text-md lg:text-lg p-4">
                At Novex Global, our mission is to empower the built environment with intelligent, safe, and efficient electrical solutions. By combining innovative products, trusted quality, and compliance with industry standards, we enable smarter, sustainable buildings that meet the evolving needs of professionals and end-users alike.
               </p>
             </div>
@@ -437,7 +432,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                   </h3>
                   <div className="w-24 h-1.5 bg-[#E3001B] rounded-full"></div>
                 </div>
-                <p className="text-gray-500 font-medium text-base leading-relaxed max-w-4xl ">
+                <p style={{fontWeight:'300'}} className="text-gray-500 text-base text-md lg:text-lg leading-relaxed max-w-4xl ">
                   Novex Global is committed to building long-term partnerships
                   through dependable products, ethical business practices, and
                   consistent service. As we grow within the UK market, our focus
@@ -455,19 +450,19 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
         {/* Top Red Value Bar */}
         <div className="w-full bg-[#E3001B] mb-0.5">
           <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 text-white tracking-widest text-center">
-            <div className="flex items-center justify-center py-4 text-sm sm:text-base font-medium border-b border-r sm:border-b-0 border-white/30">
+            <div className="flex items-center justify-center py-4 text-sm lg:text-2xl sm:text-base font-medium border-b border-r sm:border-b-0 border-white/30">
               ✦&nbsp; EXCELLENCE
             </div>
 
-            <div className="flex items-center justify-center py-4 text-sm sm:text-base font-medium border-b sm:border-b-0 sm:border-r border-white/30">
+            <div className="flex items-center justify-center py-4 text-sm lg:text-2xl sm:text-base font-medium border-b sm:border-b-0 sm:border-r border-white/30">
               ✦&nbsp; DURABILITY
             </div>
 
-            <div className="flex items-center justify-center py-4 text-sm sm:text-base font-medium border-r border-white/30">
+            <div className="flex items-center justify-center py-4 text-sm lg:text-2xl sm:text-base font-medium border-r border-white/30">
               ✦&nbsp; SAFETY
             </div>
 
-            <div className="flex items-center justify-center py-4 text-sm sm:text-base font-medium">
+            <div className="flex items-center justify-center py-4 text-sm lg:text-2xl sm:text-base font-medium">
               ✦&nbsp; PERFORMANCE
             </div>
           </div>
@@ -491,7 +486,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                 Proven Experience <br /> Global Reach
               </h2>
 
-              <p className="text-sm sm:text-base leading-relaxed text-white/90">
+              <p className="text-sm lg:text-2xl sm:text-base leading-relaxed text-white/90">
                 Our leadership team brings more than five decades of combined
                 experience in the manufacturing and wholesale of electrical
                 wiring accessories and related electrical products worldwide.
@@ -528,12 +523,12 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl sm:text-2xl font-bold text-[#E3001B] mb-4 transition-colors duration-300 group-hover:text-[#C4001A]">
+                <h3 className="text-sm lg:text-2xl font-bold text-[#E3001B] mb-4 transition-colors duration-300 group-hover:text-[#C4001A]">
                   {approach.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+                <p style={{fontWeight:'300'}} className="text-gray-700 text-base text-sm lg:text-2xl leading-relaxed">
                   {approach.description}
                 </p>
 
@@ -553,7 +548,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
     <div className="flex justify-center mb-4">
       <div className="w-44 h-1.5 bg-[#E3001B] rounded-full"></div>
     </div>
-    <p className="text-lg font-medium text-gray-500 max-w-3xl mx-auto">
+    <p style={{fontWeight:'300'}} className="text-sm lg:text-2xl text-gray-500 max-w-6xl mx-auto">
       High-quality electrical accessories designed for durability, safety, and modern installations.
       Reliable solutions for residential, commercial, and industrial use.
     </p>
