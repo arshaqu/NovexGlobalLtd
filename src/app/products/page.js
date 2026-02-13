@@ -150,7 +150,7 @@ function ProductsSection() {
 
            <div className="mb-12 text-center lg:text-left">
           <h3 className="text-5xl font-medium mb-4"> Extension Sockets</h3>
-          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed">
+          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed p-5 lg:p-10">
            Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
             compliance with UK standards. The range includes switches, sockets,
@@ -237,7 +237,7 @@ function ProductsSection() {
         {/* Top title */}
         <div className="mb-12 text-center lg:text-left">
           <h3 className="text-5xl font-medium mb-4">Spot Lights</h3>
-          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed">
+          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed p-5 lg:p-10">
             Novex Global supplies a practical range of lighting accessories
             designed to support safe, efficient installation and long-term
             reliability. Our products are sourced from trusted manufacturing
@@ -429,12 +429,12 @@ function ProductsSection() {
 <section className="w-full bg-white">
   <div className="mx-auto px-6 py-12 lg:px-20 lg:py-20">
 
-    <div style={{fontWeight:'300'}} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+    <div style={{fontWeight:'300'}} className="grid grid-cols-1 lg:grid-cols-2 items-start">
 
       {/* RIGHT SIDE CONTENT – FIRST ON MOBILE */}
-      <div className="order-1 lg:order-2  flex flex-col justify-start text-left h-full lg:mt-0">
+      <div className="order-1 lg:order-2  flex flex-col justify-start text-left h-full ">
         
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 mb-8 lg:mt-14 mt-14">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-800 mb-8 lg:mt-1 mt-14">
           PVC Trunking
         </h2>
 
@@ -445,14 +445,14 @@ function ProductsSection() {
           the range supports both surface and concealed applications.
         </p>
 
-        <p className="text-gray-700 text-base text-sm lg:text-2xl leading-relaxed mb-8">
+        <p className="text-gray-700 text-base text-sm lg:text-xl leading-relaxed mb-8">
           PVC trunking are used in cable management systems to hide or
           protect the cable across the room, a floor or the wall. Normal 
           (non adhesive) and sticker type.
         </p>
 
         {/* POINTS */}
-        <div className="text-gray-700 space-y-4 text-sm lg:text-2xl sm:text-base mb-10">
+        <div className="text-gray-700 space-y-4 text-sm lg:text-xl sm:text-base mb-10">
           <p>• Constructed from durable PVC, offering excellent protection against impact and wear.</p>
           <p>• Perfect for managing cables in home offices, entertainment areas, or any room where multiple cables need to be organized.</p>
           <p>• Ideal for use in offices, shops, schools, and other commercial environments.</p>
