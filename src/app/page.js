@@ -214,7 +214,7 @@ export default function Home() {
         {/* Button */}
         <div className="mt-14">
           <Link href='/products'>
-          <button style={{fontWeight:'300' , cursor:'pointer'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-sm lg:text-2xl hover:bg-white hover:text-red-600  hover:border-red-500 transition">
+          <button style={{fontWeight:'300' , cursor:'pointer'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-sm lg:text-xl hover:bg-white hover:text-red-600  hover:border-red-500 transition">
             Explore
           </button>
           </Link>
@@ -255,7 +255,7 @@ export default function Home() {
             <div style={{fontWeight:'300'}} className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
-                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
+                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
                 Explore More
               </Link>
             </div>
@@ -286,7 +286,7 @@ export default function Home() {
              <div style={{fontWeight:'300'}} className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
-                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
+                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
                 Explore More
               </Link>
             </div>
@@ -349,7 +349,7 @@ export default function Home() {
               </a>
               <div>
                 <Link href='/Item_SpotLight'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-2xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>
@@ -540,7 +540,7 @@ export default function Home() {
 
          <div style={{fontWeight:'300'}} className="text-center mt-12">
                 <Link href='/Item_InsectKiller'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-sm lg:text-2xl text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-sm lg:text-xl text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>
@@ -630,7 +630,7 @@ export default function Home() {
         {/* Explore Button */}
                <div style={{fontWeight:300}} className="text-center">
                 <Link href='/Item_Pvc'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-2xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>

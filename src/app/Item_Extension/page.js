@@ -70,7 +70,7 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">EXTENSION SOCKETS</p>
-        <p className="text-gray-600 lg:text-lg text-md max-w-6xl mx-auto">
+        <p style={{fontWeight:'300'}} className="text-gray-600 lg:text-xl text-md max-w-7xl mx-auto">
          The <span className='font-medium'>NOVEX EXTENSION SOCKETS</span> is designed for safe , reliable power distribution with a strong build and high-quality internal components. Ideal for home, office , and commercial use , it delivers durability , convenience, and dependable performance. 
         </p>
       </div>

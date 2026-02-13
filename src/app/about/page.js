@@ -96,7 +96,7 @@ function page() {
       <section className="w-full bg-gray-100">
         {/* Top WHO WE ARE Bar */}
         <div style={{fontWeight:400}} className="w-full border-b border-gray-200 py-4">
-          <p className="text-center text-2xl tracking-widest text-gray-800">
+          <p className="text-center text-2xl lg:text-4xl tracking-widest text-gray-800">
             WHO WE ARE
           </p>
         </div>
@@ -125,7 +125,7 @@ function page() {
 
               <div className="w-20 h-[1px] bg-gray-300 mb-6" />
 
-              <div style={{fontWeight:300}} className="space-y-5 text-sm text-gray-500  text-md lg:text-lg leading-relaxed max-w-2xl lg:p-8">
+              <div style={{fontWeight:300}} className="space-y-5 text-sm text-gray-500  text-md lg:text-lg leading-relaxed max-w-4xl lg:p-8">
                 <p>
                   Novex Global Ltd is a UK-based product-focused company
                   specialising in the development and supply of high-quality

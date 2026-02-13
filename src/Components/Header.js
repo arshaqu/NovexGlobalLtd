@@ -79,13 +79,13 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-15">
               {navLinks.map(link => (
                 <Link
-                style={{fontWeight:'400'}}
+                style={{fontWeight:'300'}}
                   key={link.name}
                   href={link.href}
-                  className="text-sm text-[#E3001B] hover:text-gray-600 transition"
+                  className="text-xl text-[#E3001B] hover:text-gray-600 transition"
                 >
                   {link.name}
                 </Link>

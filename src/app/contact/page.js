@@ -36,8 +36,8 @@ export default function ContactPage() {
         <div className="w-full bg-[#E3001B] py-16">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center justify-center gap-4 text-white text-3xl">
-              <Link href="/" className="cursor-pointer hover:underline opacity-80 hover:opacity-100 transition">Home</Link>
-              <span className="opacity-60 text-2xl">&nbsp; › &nbsp;</span>
+              <Link style={{fontWeight:'300'}} href="/" className="cursor-pointer hover:underline opacity-100 hover:opacity-80 transition">Home</Link>
+              <span style={{fontWeight:'800'}} className="opacity-70 text-3xl">&nbsp; › &nbsp;</span>
               <span className="font-semibold tracking-wide drop-shadow-[0_3px_8px_rgba(0,0,0,1.8)]">CONTACT&nbsp;US</span>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
               <div className='lg:ml-10'>
                 <h3 className="text-xl font-semibold text-gray-800 mb-4">We are located at:</h3>
-                <div className="space-y-1 text-gray-400 text-md font-medium">
+                <div style={{fontWeight:'300'}} className="space-y-1  text-gray-600 text-lg lg:text-xl ">
                   <p>Novex Global Ltd., Office 03,</p>
                   <p>Unit S0566,149 St Paul's Avenue,</p>
                   <p>Slough, SL2 5EN,</p>
@@ -73,38 +73,38 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold text-gray-800 mb-6 text-center md:text-left">
                   Social Media Links
                 </h3>
-                <div className="flex justify-between items-start gap-4 md:grid md:grid-cols-5 md:gap-8">
+                <div style={{fontWeight:'300'}} className="flex justify-between items-start gap-4 md:grid md:grid-cols-5 md:gap-8">
                   {/* Instagram */}
                   <div className="flex flex-col items-center gap-2 flex-1">
-                    <span className="hidden md:block text-md font-medium text-gray-400">Instagram</span>
+                    <span className="hidden md:block text-lg text-gray-600">Instagram</span>
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                       <RiInstagramFill size={30} className="text-[#E3001B]" />
                     </a>
                   </div>
                   {/* Facebook */}
                   <div className="flex flex-col items-center gap-2 flex-1">
-                    <span className="hidden md:block text-md font-medium text-gray-400">Facebook</span>
+                    <span className="hidden md:block text-lg text-gray-600">Facebook</span>
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                       <FaFacebookSquare size={30} className="text-[#E3001B]" />
                     </a>
                   </div>
                   {/* LinkedIn */}
                   <div className="flex flex-col items-center gap-2 flex-1">
-                    <span className="hidden md:block text-md font-medium text-gray-400">LinkedIn</span>
+                    <span className="hidden md:block text-lg text-gray-600">LinkedIn</span>
                     <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                       <FaLinkedin size={30} className="text-[#E3001B]" />
                     </a>
                   </div>
                   {/* WhatsApp */}
                   <div className="flex flex-col items-center gap-2 flex-1">
-                    <span className="hidden md:block text-md font-medium text-gray-400">WhatsApp</span>
+                    <span className="hidden md:block text-lg text-gray-600">WhatsApp</span>
                     <a href="https://wa.me/447516982248" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                       <IoLogoWhatsapp size={30} className="text-[#E3001B]" />
                     </a>
                   </div>
                   {/* X */}
                   <div className="flex flex-col items-center gap-2 flex-1">
-                    <span className="hidden md:block text-md font-medium text-gray-400">X</span>
+                    <span className="hidden md:block text-lg text-gray-600">X</span>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110">
                       <FaSquareXTwitter size={30} className="text-[#E3001B]" />
                     </a>
@@ -120,7 +120,7 @@ export default function ContactPage() {
           {/* Left Info */}
           <div className="lg:w-1/4 bg-white rounded-lg shadow-lg p-8 mb-8 lg:mb-0">
             <h2 style={{color:'#E3001B'}} className="text-2xl font-bold text-gray-800 mb-4">GET IN TOUCH</h2>
-            <p className="text-gray-500 text-md max-w-md font-medium mb-8 leading-relaxed">
+            <p className="text-gray-500 text-xl lg:text-xl max-w-md font-medium mb-8 leading-relaxed">
               We'd love to hear from you! Feedback or inquiries, reach out to our team.
             </p>
               <div style={{width:'100%' , height:'1px', backgroundColor:'#E3001B'}} className='rounded'></div>
@@ -128,7 +128,7 @@ export default function ContactPage() {
             <div className='p-4' >
                        <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Location : </div>
 
-              <p style={{marginLeft:'43px' ,  fontWeight:'400'}} className="text-gray-500 text-md font-medium leading-relaxed">
+              <p style={{marginLeft:'43px' ,  fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg font-medium leading-relaxed">
               Unit S0566 , Office 3 <br/>149 St.Pauls Road , <br/> Slough , SL2 5EN,<br/>  United Kingdom
             </p>      
             </div>
@@ -141,10 +141,10 @@ export default function ContactPage() {
               <div className='p-2' >
                         <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Email : </div>
 
-              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg leading-relaxed">
               sales@novexglobal.uk
             </p> 
-              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md  leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg  leading-relaxed">
               info@novexglobal.uk
             </p>      
             </div>
@@ -154,10 +154,10 @@ export default function ContactPage() {
 
             
             <div style={{letterSpacing:'2px' ,color:'#E3001B'}} className='flex text-xl font-medium text-gray-800 p-4'><MdLocationPin size={24} className='mr-2'/>Call Us for Product Inquiry : </div>
-              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg leading-relaxed">
               Tel : 03308 224460
             </p> 
-              <p style={{marginLeft:'43px' , fontWeight:'400'}} className="text-gray-500 text-md  leading-relaxed">
+              <p style={{marginLeft:'43px' , fontWeight:'300'}} className="text-gray-800 text-xl lg:text-lg  leading-relaxed">
               Mob : +44 (0) 7516962348
             </p>      
 
@@ -172,13 +172,13 @@ export default function ContactPage() {
             <h2 style={{color:'#E3001B'}} className="text-3xl font-bold text-gray-800 mb-4">Request a Quote Today</h2>
             <form onSubmit={handleSubmit} className="space-y-6 mt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <input style={{border:'1px solid #E3001B'}} type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
-                <input style={{border:'1px solid #E3001B'}} type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
+                <input style={{border:'1px solid #E3001B' , fontWeight:'300'}} type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full px-8 py-4 border border-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-xl lg:text-xl" required />
+                <input style={{border:'1px solid #E3001B' , fontWeight:'300'}} type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-xl lg:text-xl" required />
               </div>
-              <input style={{border:'1px solid #E3001B'}} type="text" name="subject" placeholder="Your Subject" value={formData.subject} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm" required />
-              <textarea style={{border:'1px solid #E3001B'}} name="message" placeholder="Your Message..." value={formData.message} onChange={handleChange} rows="6" className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-sm resize-none" required />
+              <input style={{border:'1px solid #E3001B' , fontWeight:'300'}} type="text" name="subject" placeholder="Your Subject" value={formData.subject} onChange={handleChange} className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-xl lg:text-xl" required />
+              <textarea style={{border:'1px solid #E3001B' , fontWeight:'300'}} name="message" placeholder="Your Message..." value={formData.message} onChange={handleChange} rows="6" className="w-full px-8 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E3001B] focus:border-transparent text-xl lg:text-xl resize-none" required />
               <div className="flex justify-end">
-                <button type="submit" className="bg-[#E3001B] hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium text-sm transition-colors duration-200 mt-6">
+                <button type="submit" className="bg-[#E3001B] hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium text-sm transition-colors duration-200 mt-6 text-xl lg:text-xl">
                   Submit
                 </button>
               </div>

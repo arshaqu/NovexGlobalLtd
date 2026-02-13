@@ -25,76 +25,76 @@ function page() {
           Why Work With Us
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8 text-center">
+        <div style={{fontWeight:'300'}} className="grid md:grid-cols-3 gap-8 text-center">
           <div style={{border:'2px solid #E3001B'}} className="p-6  rounded-xl shadow-sm">
-            <h3 className="font-semibold text-xl mb-2 text-red-600">Growth Opportunities</h3>
-            <p className='text-red-600'>We support learning and career advancement.</p>
+            <h3 className="font-semibold text-xl lg:text-2xl p-4 mb-2 text-red-600">Growth Opportunities</h3>
+            <p className='text-red-600 text-xl lg:text-xl'>We support learning and career advancement.</p>
           </div>
 
           <div style={{border:'2px solid #E3001B'}} className="p-6 rounded-xl shadow-sm">
-            <h3 className="font-semibold text-xl mb-2 text-red-600">Friendly Environment</h3>
-            <p className='text-red-600'>Work with a supportive and collaborative team.</p>
+            <h3 className="font-semibold text-xl lg:text-2xl p-4 mb-2 text-red-600">Friendly Environment</h3>
+            <p className='text-red-600 text-xl lg:text-xl'>Work with a supportive and collaborative team.</p>
           </div>
 
           <div style={{border:'2px solid #E3001B'}} className="p-6 rounded-xl shadow-sm">
-            <h3 className="font-semibold text-xl mb-2 text-red-600">Job Stability</h3>
-            <p className='text-red-600'>We provide long-term career opportunities.</p>
+            <h3 className="font-semibold text-xl lg:text-2xl p-4 mb-2 text-red-600">Job Stability</h3>
+            <p className='text-red-600 text-xl lg:text-xl'>We provide long-term career opportunities.</p>
           </div>
         </div>
       </section>
 
       {/* JOB OPENINGS */}
       <section className="bg-gray-50 py-16 px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#E3001B]">
+        <h2 className="text-4xl font-bold text-center mb-12 text-[#E3001B]">
           Current Openings
         </h2>
 
-   <div className="max-w-6xl mx-auto px-4">
+   <div className=" mx-auto px-4">
   <div className="grid md:grid-cols-3 gap-8">
     
-    <div className="md:col-span-3 flex justify-center">
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-xl w-full">
+    <div className="md:col-span-3 flex justify-center gap-8 flex-wrap">
+      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full ">
         
-        <h3 className="text-2xl font-semibold text-red-600 mb-3">
+        <h3 className=" text-xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
         </h3>
 
-        <p className="text-red-600 text-base leading-relaxed">
+        <p className="text-red-600 text-lg lg:text-xl text-base leading-relaxed">
           Currently, we don't have any job openings available.  
           Please check back later or follow us for future opportunities.
         </p>
 
       </div>
-    </div>
-
-     <div className="md:col-span-3 flex justify-center">
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-xl w-full">
+       <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full">
         
-        <h3 className="text-2xl font-semibold text-red-600 mb-3">
+        <h3 className="text-xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
         </h3>
 
-        <p className="text-red-600 text-base leading-relaxed">
+        <p className="text-red-600 text-xl lg:text-xl text-base leading-relaxed">
           Currently, we don't have any job openings available.  
           Please check back later or follow us for future opportunities.
         </p>
 
       </div>
-    </div>
-     <div className="md:col-span-3 flex justify-center">
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-xl w-full">
+
+           <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full">
         
-        <h3 className="text-2xl font-semibold text-red-600 mb-3">
+        <h3 className="text-2xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
         </h3>
 
-        <p className="text-red-600 text-base leading-relaxed">
+        <p className="text-red-600 text-xl lg:text-xl text-base leading-relaxed">
           Currently, we don't have any job openings available.  
           Please check back later or follow us for future opportunities.
         </p>
 
       </div>
+
     </div>
+
+    
+   
 
   </div>
 
@@ -115,7 +115,7 @@ function page() {
 
       {/* Full Name */}
       <div className=''>
-        <label className="block text-sm font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Full Name
         </label>
         <input
@@ -128,7 +128,7 @@ function page() {
 
       {/* Email */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Email Address
         </label>
         <input
@@ -141,7 +141,7 @@ function page() {
 
       {/* Position */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Position Applying For
         </label>
         <input
@@ -154,7 +154,7 @@ function page() {
 
       {/* Message */}
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-xl lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Your Message
         </label>
         <textarea
@@ -169,7 +169,7 @@ function page() {
       <button
       style={{cursor:'pointer'}}
         type="submit"
-        className="w-full bg-[#E3001B] text-white py-5 rounded-xl font-semibold tracking-wide hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-sm"
+        className="w-full bg-[#E3001B] text-white py-5 rounded-xl text-xl lg:text-xl font-semibold tracking-wide hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-sm"
       >
         Submit Application
       </button>

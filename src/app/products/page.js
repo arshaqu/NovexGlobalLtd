@@ -146,21 +146,19 @@ function ProductsSection() {
       </section>
 
       <section className="w-full bg-gray-100 py-16 p-10 ">
-        <div className="max-w-6xl mb-10">
-          <h2 className="text-5xl font-medium text-gray-900 mb-4">
-            Extension Sockets
-          </h2>
-          <p
-            style={{ fontWeight: "300" }}
-            className="max-w-7xl mx-auto text-md lg:text-lg text-gray-500 leading-relaxed"
-          >
-            Our electrical wiring accessories are designed for professional use,
+      
+
+           <div className="mb-12 text-center lg:text-left">
+          <h3 className="text-5xl font-medium mb-4"> Extension Sockets</h3>
+          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed">
+           Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
             compliance with UK standards. The range includes switches, sockets,
             extension sockets, and related accessories suitable for domestic,
             commercial, and light industrial applications.
           </p>
         </div>
+
         <div className=" mx-auto px-4 lg:px-6">
           {/* Header */}
 
@@ -188,7 +186,7 @@ function ProductsSection() {
               </p>
 
                 <Link  href="/Item_Extension">
-              <button style={{cursor:'pointer',fontWeight:'300  '}} className="bg-red-600 text-sm lg:text-2xl hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
+              <button style={{cursor:'pointer',fontWeight:'300  '}} className="bg-red-600 text-sm lg:text-xl hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
                 Browse All Items
               </button>
                 </Link>
@@ -274,7 +272,7 @@ function ProductsSection() {
 
             {/* Button */}
             <Link  href="/Item_SpotLight">
-            <button style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-2xl tracking-wide hover:bg-red-700 transition mb-10">
+            <button style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-xl tracking-wide hover:bg-red-700 transition mb-10">
               Browse All Items
             </button>
             </Link>
@@ -382,7 +380,7 @@ function ProductsSection() {
           {/* Button */}
          <div  className="flex justify-center mb-10 mt-10 ">
           <Link href='/Item_InsectKiller '>
-        <button href='/Item_InsectKiller' style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-2xl tracking-wide hover:bg-red-700 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90 ">
+        <button href='/Item_InsectKiller' style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-xl tracking-wide hover:bg-red-700 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90 ">
           Browse All Items
         </button>
           </Link>
@@ -417,7 +415,7 @@ function ProductsSection() {
 
                                <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
           <Link href='/contact'>
-        <button  style={{cursor:'pointer' ,fontWeight:'300  '}} className="bg-white text-red-600 px-6 py-3 text-sm lg:text-2xl tracking-wide  transition">
+        <button  style={{cursor:'pointer' ,fontWeight:'300  '}} className="bg-white text-red-600 px-6 py-3 text-sm lg:text-xl tracking-wide  transition">
           Browse All Items
         </button>
           </Link>
@@ -466,7 +464,7 @@ function ProductsSection() {
      
                                <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
           <Link href='/Item_Pvc'>
-        <button  style={{cursor:'pointer' , fontWeight:'300'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm lg:text-2xl sm:text-base shadow-md  mb-5">
+        <button  style={{cursor:'pointer' , fontWeight:'300'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm lg:text-xl sm:text-base shadow-md  mb-5">
           Browse All Items
         </button>
           </Link>
