@@ -44,21 +44,21 @@ function ProductsSection() {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-2 mb-3">
             <span className="w-2 h-2 bg-black rounded-full"></span>
-            <h2 className="text-4xl tracking-widest font-semibold uppercase">
+            <h2 className="text-5xl tracking-widest font-semibold uppercase">
               OUR PRODUCTS
             </h2>
           </div>
 
           <h3
             style={{ fontWeight: "400" }}
-            className="text-2xl text-gray-800 mb-6"
+            className="text-3xl text-gray-800 mb-6"
           >
             Electrical Wiring Accessories
           </h3>
 
           <p
-            style={{ fontWeight: "400" }}
-            className="max-w-7xl mx-auto lg:text-lg text-lg text-gray-500 leading-relaxed"
+            style={{ fontWeight: "300" }}
+            className="max-w-7xl mx-auto text-md lg:text-lg text-gray-500 leading-relaxed"
           >
             Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
@@ -71,7 +71,7 @@ function ProductsSection() {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 p-4">
           {/* Liverpool */}
-          <div style={{ fontWeight: "400" }} className="text-left ">
+          <div style={{ fontWeight: "300" }} className="text-left ">
           <Link
           href="/liverpool">
            <div style={{cursor:'pointer'}} className="mb-6 overflow-hidden ">
@@ -85,18 +85,18 @@ function ProductsSection() {
             <h4 className="text-3xl tracking-widest font-medium mb-2">
               LIVERPOOL SERIES
             </h4>
-            <p className="text-md text-gray-500 mb-3">
+            <p className="text-md lg:text-lg text-gray-500 mb-3">
               Our electrical wiring accessories are designed for professional
               use, offering reliable performance, consistent quality
             </p>
-            <span className="text-xs text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
+            <span className="text-md lg:text-lg text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
           </Link>
           </div>
 
           {/* Oxford */}
-          <div style={{ fontWeight: "400" }} className="text-left">
+          <div style={{ fontWeight: "300" }} className="text-left">
               <Link href="/Item_Oxford">
             <div className="mb-6 overflow-hidden ">
               <Image
@@ -109,18 +109,18 @@ function ProductsSection() {
             <h4 className="text-3xl tracking-widest font-medium mb-2">
               OXFORD SERIES
             </h4>
-            <p className="text-md text-gray-500  mb-3">
+            <p className="text-md lg:text-lg text-gray-500  mb-3">
               Our electrical wiring accessories are designed for professional
               use, offering reliable performance, consistent quality
             </p>
-            <span className="text-xs text-gray-400 tracking-wide cursor-pointer hover:text-black transition">
+            <span className="text-md lg:text-lg text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
             </Link>
           </div>
 
           {/* Rock */}
-          <div style={{ fontWeight: "400" }} className="text-left ">
+          <div style={{ fontWeight: "300" }} className="text-left ">
               <Link href="/Item_Rock">
             <div className="mb-6 overflow-hidden">
               <Image
@@ -133,11 +133,11 @@ function ProductsSection() {
             <h4 className="text-3xl tracking-widest font-medium mb-2">
               ROCK SERIES
             </h4>
-            <p className="text-md text-gray-500  mb-3">
+            <p className="text-md lg:text-lg text-gray-500  mb-3">
               Our electrical wiring accessories are designed for professional
               use, offering reliable performance, consistent quality
             </p>
-            <span className="text-xs text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
+            <span className="text-md lg:text-lg text-gray-800 tracking-wide cursor-pointer hover:text-black transition">
               DISCOVER MORE
             </span>
             </Link>
@@ -147,12 +147,12 @@ function ProductsSection() {
 
       <section className="w-full bg-gray-100 py-16 p-10 ">
         <div className="max-w-6xl mb-10">
-          <h2 className="text-4xl font-medium text-gray-900 mb-4">
+          <h2 className="text-5xl font-medium text-gray-900 mb-4">
             Extension Sockets
           </h2>
           <p
-            style={{ fontWeight: "400" }}
-            className="text-gray-700 leading-relaxed"
+            style={{ fontWeight: "300" }}
+            className="max-w-7xl mx-auto text-md lg:text-lg text-gray-500 leading-relaxed"
           >
             Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
@@ -179,8 +179,8 @@ function ProductsSection() {
             {/* Right Content */}
             <div className="flex flex-col items-center mt-3">
               <p
-                style={{ fontWeight: "400" }}
-                className="text-gray-800 mb-8 leading-relaxed max-w-lg text-center"
+                style={{ fontWeight: "300" }}
+                className="max-w-3xl p-8 mx-auto text-md lg:text-2xl text-gray-500 leading-relaxed"
               >
                 All products are CE and UKCA certified where applicable and
                 benchmarked against established UK electrical accessory
@@ -188,7 +188,7 @@ function ProductsSection() {
               </p>
 
                 <Link  href="/Item_Extension">
-              <button style={{cursor:'pointer'}} className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
+              <button style={{cursor:'pointer',fontWeight:'300  '}} className="bg-red-600 text-sm lg:text-2xl hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
                 Browse All Items
               </button>
                 </Link>
@@ -226,20 +226,20 @@ function ProductsSection() {
           </div>
         </div>
       </section>
+<div className="bg-[#E3001B] mb-2 p-8 text-white text-sm lg:text-2xl flex justify-center items-center">
+  <p style={{fontWeight:'300'}} className="max-w-7xl text-center">
+    NOVEX Global Ltd is a wholesale-focused company creating a scalable
+    digital framework to support trade operations, marketing, and future
+    expansion.
+  </p>
+</div>
 
-      <div className=" bg-[#E3001B] mb-2 p-8 text-white text-center lg:text-xl text-lg  ">
-        <p>
-          NOVEX Global Ltd is a wholesale-focused company creating a scalable
-          digital framework to support trade operations, marketing, and future
-          expansion.
-        </p>
-      </div>
 
       <section className="w-full bg-white px-4 sm:px-6 lg:px-20 py-12 lg:py-20">
         {/* Top title */}
         <div className="mb-12 text-center lg:text-left">
-          <h3 className="text-3xl font-medium mb-4">Spot Lights</h3>
-          <p className="mx-auto text-center lg:text-xl lg:mx-0 text-gray-500 leading-relaxed">
+          <h3 className="text-5xl font-medium mb-4">Spot Lights</h3>
+          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed">
             Novex Global supplies a practical range of lighting accessories
             designed to support safe, efficient installation and long-term
             reliability. Our products are sourced from trusted manufacturing
@@ -266,7 +266,7 @@ function ProductsSection() {
               Novex Spotlights <br /> Brighten Every Corner
             </h2>
 
-            <p className="text-gray-600 max-w-xl mb-6">
+            <p style={{fontWeight:'300'}} className="text-gray-600 max-w-xl mb-6 text-sm lg:text-2xl">
               Novex Global supplies a practical range of lighting accessories
               designed to support safe, efficient installation and long-term
               reliability.
@@ -274,7 +274,7 @@ function ProductsSection() {
 
             {/* Button */}
             <Link  href="/Item_SpotLight">
-            <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transition mb-10">
+            <button style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-2xl tracking-wide hover:bg-red-700 transition mb-10">
               Browse All Items
             </button>
             </Link>
@@ -306,10 +306,10 @@ function ProductsSection() {
       <section className="w-full bg-gray-100">
         <div className="mx-auto lg:py-20 p-8">
              <div className=" lg:px-16">
-               <h2 className="text-3xl lg:text-4xl font-thin text-gray-800 mb-6">
+               <h2 className="text-5xl font-medium text-gray-900 mb-4">
                 Insects Killer
               </h2>
-              <p style={{fontWeight:'400'}} className="text-gray-400 leading-relaxed ">
+              <p style={{fontWeight:'300'}} className="text-gray-600  mb-6 text-sm lg:text-xl">
                 Novex is the most durable brand from the United Kingdom when it
                 comes to electronic flying insect killers. This device uses
                 ultraviolet light to attract light-sensitive insects into an
@@ -330,7 +330,7 @@ function ProductsSection() {
             <div className="lg:px-16">
               {/* Bullet Points */}
             <div>
-                <ul style={{fontWeight:'400' , marginLeft:'25px',marginTop:'20px'}} className="text-gray-400 text-medium lg:text-base  ">
+                <ul style={{fontWeight:'300' , marginLeft:'25px',marginTop:'20px'}} className="text-gray-600 mb-6 text-sm lg:text-xl  ">
                 <li>• Series: Slim Series</li>
                 <li>• Power Supply: 230V ~ 50/60Hz</li>
                 <li>• Attracts & destroys flies, mosquitoes, moths, midges</li>
@@ -382,7 +382,7 @@ function ProductsSection() {
           {/* Button */}
          <div  className="flex justify-center mb-10 mt-10 ">
           <Link href='/Item_InsectKiller '>
-        <button href='/Item_InsectKiller' style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm font-medium tracking-wide hover:bg-red-700 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90 ">
+        <button href='/Item_InsectKiller' style={{cursor:'pointer' ,fontWeight:'300'}} className="bg-[#E3001B] text-white px-6 py-3 text-sm lg:text-2xl tracking-wide hover:bg-red-700 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90 ">
           Browse All Items
         </button>
           </Link>
@@ -404,20 +404,20 @@ function ProductsSection() {
                   {/* Right Red Content */}
                   <div className="bg-[#E3001B] flex items-center px-6 sm:px-10 lg:px-16 py-12 lg:py-0">
                     <div className="max-w-2xl lg:ml-10 text-white text-center">
-                      <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold leading-tight mb-6">
+                      <h2 className="text-2xl sm:text-3xl lg:text-6xl font-semibold leading-tight mb-6">
                        Whole sale & Export<br /> Enquries
                       </h2>
         
-                      <p className="text-sm sm:text-base leading-relaxed text-white/90">
+                      <p className="text-sm lg:text-2xl lg:ml-2 0 sm:text-base leading-relaxed text-white/90">
                         NOVEX Global establishing its digital infrastructure to support its B2B wholesale operations in the UK, with future expansions planned across product devisions and international markets.
                       </p>
-                        <p className="text-sm sm:text-base leading-relaxed text-white/90 p-5">
+                        <p className="text-sm lg:text-2xl lg:ml-2 0 sm:text-base leading-relaxed text-white/90 p-5">
                                   This is the core operational hub for NOVEX Global    
                        </p>
 
                                <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
           <Link href='/contact'>
-        <button  style={{cursor:'pointer'}} className="bg-white text-red-600 px-6 py-3 text-sm font-medium tracking-wide  transition">
+        <button  style={{cursor:'pointer' ,fontWeight:'300  '}} className="bg-white text-red-600 px-6 py-3 text-sm lg:text-2xl tracking-wide  transition">
           Browse All Items
         </button>
           </Link>
@@ -440,21 +440,21 @@ function ProductsSection() {
           PVC Trunking
         </h2>
 
-        <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
+        <p className="text-gray-700 text-base text-sm lg:text-2xl leading-relaxed mb-6">
           Our PVC ducting and cable management solutions provide clean,
           durable, and compliant installations across residential and
           commercial environments. Manufactured using quality materials, 
           the range supports both surface and concealed applications.
         </p>
 
-        <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-8">
+        <p className="text-gray-700 text-base text-sm lg:text-2xl leading-relaxed mb-8">
           PVC trunking are used in cable management systems to hide or
           protect the cable across the room, a floor or the wall. Normal 
           (non adhesive) and sticker type.
         </p>
 
         {/* POINTS */}
-        <div className="text-gray-700 space-y-4 text-sm sm:text-base mb-10">
+        <div className="text-gray-700 space-y-4 text-sm lg:text-2xl sm:text-base mb-10">
           <p>• Constructed from durable PVC, offering excellent protection against impact and wear.</p>
           <p>• Perfect for managing cables in home offices, entertainment areas, or any room where multiple cables need to be organized.</p>
           <p>• Ideal for use in offices, shops, schools, and other commercial environments.</p>
@@ -466,7 +466,7 @@ function ProductsSection() {
      
                                <div className="flex justify-center mb-10 mt-10 transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90">
           <Link href='/Item_Pvc'>
-        <button  style={{cursor:'pointer'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm sm:text-base font-medium shadow-md  mb-5">
+        <button  style={{cursor:'pointer' , fontWeight:'300'}} className="bg-[#E3001B] hover:bg-red-700 transition-colors duration-200 text-white px-8 py-3 text-sm lg:text-2xl sm:text-base shadow-md  mb-5">
           Browse All Items
         </button>
           </Link>

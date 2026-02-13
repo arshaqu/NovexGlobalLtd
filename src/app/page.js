@@ -367,7 +367,7 @@ export default function Home() {
           Need Help or More Information?
         </h2>
 
-        <p className="max-w-5xl mx-auto text-sm lg:text-2xl text-lg mb-8">
+        <p className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
