@@ -79,7 +79,7 @@ export default function Page() {
            <CategoryBar active="extension"/>
 
       {/* Products */}
-      <div  className="p-10 ">
+      <div  className="lg:p-10 p-5 ">
         <div  style={{ border: "2px solid #E3001B"  }}>
           <div  className="bg-red-600 text-white font-bold text-xl p-5 mb-4">All Products</div>
 
@@ -134,7 +134,7 @@ function HoverImageCard({ product }) {
       </div>
 
       <div className="text-left p-1">
-        <p className="text-red-500 text-lg lg:text-xl text-center font-normal">
+        <p className="text-red-500 text-md lg:text-xl text-center font-normal">
           {product.name}
         </p>
         <p className="text-red-900 text-md font-normal mt-2">
