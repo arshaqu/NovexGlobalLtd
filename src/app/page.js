@@ -172,7 +172,7 @@ export default function Home() {
           SWITCHES & SOCKETS
         </h2>
  
-        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto lg:text-lg  lg:text-lg  text-sm text-gray-600 leading-relaxed">
+        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto lg:text-lg   text-sm text-gray-600 leading-relaxed">
           Novex switches and sockets deliver premium quality, durability, and
           modern design. Built for reliability and performance, we also offer a
           wide range of trusted electrical solutions.
@@ -214,7 +214,7 @@ export default function Home() {
         {/* Button */}
         <div className="mt-14">
           <Link href='/products'>
-          <button style={{fontWeight:'300' , cursor:'pointer'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-lg hover:bg-white hover:text-red-600  hover:border-red-500 transition">
+          <button style={{fontWeight:'300' , cursor:'pointer'}} className="bg-red-600 text-white hover:border-1 px-20 py-3 text-sm lg:text-2xl hover:bg-white hover:text-red-600  hover:border-red-500 transition">
             Explore
           </button>
           </Link>
@@ -255,7 +255,7 @@ export default function Home() {
             <div className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
-                className="inline-block bg-red-600 text-white px-8 py-3 text-sm tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
+                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
                 Explore More
               </Link>
             </div>
@@ -286,7 +286,7 @@ export default function Home() {
              <div className="flex justify-center pt-6">
               <Link
                  href="/Item_Extension"
-                className="inline-block bg-red-600 text-white px-8 py-3 text-sm tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
+                className="inline-block bg-red-600 text-white px-8 py-3 text-sm lg:text-2xl tracking-wide hover:bg-white hover:text-red-600  hover:border-red-500 hover:border-2 transition">
                 Explore More
               </Link>
             </div>
@@ -297,7 +297,7 @@ export default function Home() {
 
 
 
-    <section style={{backgroundColor:"#E3001B"}} className=" py-16 md:py-20 lg:py-14 lg:m-2">
+    <section style={{backgroundColor:"#E3001B"}} className=" py-16 md:py-20 lg:py-14 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-8xl">
         {/* Text Content */}
         <div className="text-center px-4 sm:px-8 md:px-12 lg:px-24 xl:px-32">
@@ -338,18 +338,18 @@ export default function Home() {
               <span className="text-gray-900">Spot Light</span>{' '}
               <span className="text-gray-400 font-light">Series</span>
             </h1>
-            <p style={{letterSpacing:'2px', fontWeight:'300'}} className="text-gray-600 text-base sm:text-lg md:text-2xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
+            <p style={{letterSpacing:'2px', fontWeight:'400'}} className="text-gray-600 text-base sm:text-lg md:text-2xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
               Innovative lighting solutions that seamlessly combine form and function, enhancing every space with elegance and efficiency.
             </p>
             <div className="space-y-4 ">
               <a 
                 href="#" 
-                className="inline-block text-gray-400 hover:text-gray-600 text-sm sm:text-base underline transition-colors mb-4">
+                className="inline-block text-gray-400 hover:text-gray-600 text-sm sm:text-base underline font-medium transition-colors mb-4">
                 Learn more
               </a>
               <div>
                 <Link href='/Item_SpotLight'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-2xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>
@@ -363,11 +363,11 @@ export default function Home() {
    <section className=" bg-white">
       <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center lg:text-lg  text-sm text-white shadow-lg">
 
-        <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+        <h2 className="text-sm md:text-4xl font-bold mb-4">
           Need Help or More Information?
         </h2>
 
-        <p className="max-w-4xl mx-auto text-lg mb-8">
+        <p className="max-w-5xl mx-auto text-sm lg:text-2xl text-lg mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
@@ -375,7 +375,7 @@ export default function Home() {
 
         <Link
           href="/f&qs"
-          className="inline-block bg-white text-[#E3001B] px-8 py-3 rounded-md font-semibold hover:opacity-90 transition"
+          className="inline-block bg-white text-[#E3001B] px-8 py-3 font-semibold hover:opacity-90 transition"
         >
           Go to FAQ Page
         </Link>
@@ -539,7 +539,7 @@ export default function Home() {
 
          <div className="text-center mt-12">
                 <Link href='/Item_InsectKiller'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-sm lg:text-2xl text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>
@@ -629,7 +629,7 @@ export default function Home() {
         {/* Explore Button */}
                <div className="text-center">
                 <Link href='/Item_Pvc'>
-                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-lg  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
+                <button style={{cursor:'pointer'}} className="bg-red-600 text-white px-20 py-3 text-sm lg:text-2xl  hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-500 transition mt-8">
                   Explore
                 </button>
                 </Link>
