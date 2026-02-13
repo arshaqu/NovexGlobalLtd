@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           {/* Text Content */}
           <div style={{fontWeight:'400'}} className="space-y-6 text-gray-500 leading-relaxed lg:pl-30 lg:pr-30 lg:p-10 p-4 text-start text-justify ">
-            <p style={{fontWeight:'400'}} className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+            <p style={{fontWeight:'400'}} className="text-gray-500 lg:text-lg  text-sm leading-relaxed lg:text-justify">
               <span className=" text-gray-900 ">Novex Global</span> is a
               UK-based wholesaler supplying electrical wiring accessories and
               associated electrical products. Backed by over 50 years of combined
@@ -101,14 +101,14 @@ export default function Home() {
               Killers (EFKs), and an expanding range of modern electrical solutions.
               With a well-established reputation across the Middle East and Africa, we bring
               international expertise and disciplined supply-chain management to the UK market. </p>
-            <p className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+            <p className="text-gray-500   text-sm leading-relaxed lg:text-lg lg:text-justify">
                <span className="text-gray-900 ">Novex Global</span> leadership team brings more than five decades of combined experience in the
               manufacturing and wholesale of electrical wiring accessories and related electrical
               products worldwide. This experience enables us to understand market demands,
               quality expectations, and the importance of consistency.
               We work closely with carefully selected manufacturing partners in China, operating
               under controlled production environments and robust quality assurance systems.</p>
-            <p className="text-gray-500   text-sm leading-relaxed lg:text-justify">
+            <p className="text-gray-500 lg:text-lg  text-sm leading-relaxed lg:text-lg lg:text-justify">
               <span className="text-gray-900 ">Novex Global</span> is committed to building long-term partnerships through dependable
               products, ethical business practices, and consistent service. As we grow within the UK
               market, our focus remains clear—raising standards, not cutting corners, and setting a
@@ -127,13 +127,13 @@ export default function Home() {
         <h2 className="text-4xl md:text-4xl font-medium text-gray-900">
           Explore Our Products
         </h2>
-        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto text-gray-500 leading-relaxed ">
+        <p style={{fontWeight:'400'}} className="mt-4 max-w-6xl lg:text-lg  text-sm mx-auto text-gray-500 leading-relaxed ">
           Explore our high-quality product range, crafted with precision and care
           to meet modern standards. Designed for durability, safety, and style,
           our products deliver reliable performance for both residential and
           commercial spaces.</p>
         {/* Subheading */}
-        <h3 className="mt-16 text-3xl font-medium text-gray-800">
+        <h3 className="mt-10 text-3xl font-medium text-gray-800">
           Shop by Category
         </h3>
         {/* Categories */}
@@ -150,7 +150,7 @@ export default function Home() {
                   className="object-contain p-6"/>
               </div>
               {/* Label */}
-              <p className="mt-4 text-xl font-medium text-gray-700">
+              <p className="mt-4 lg:text-3xl  text-sm font-medium text-gray-700">
                 {item.title}
               </p>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
           SWITCHES & SOCKETS
         </h2>
  
-        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto  text-gray-600 leading-relaxed">
+        <p style={{fontWeight:'400'}} className="mt-4 max-w-5xl mx-auto lg:text-lg  lg:text-lg  text-sm text-gray-600 leading-relaxed">
           Novex switches and sockets deliver premium quality, durability, and
           modern design. Built for reliability and performance, we also offer a
           wide range of trusted electrical solutions.
@@ -183,7 +183,7 @@ export default function Home() {
     <Link key={index} href={item.href} className="">
     <div
       key={index}
-      style={{border:'2px solid '}}
+      style={{border:'1px solid gray'}}
       className="relative h-72 sm:h-80 md:h-96 overflow-hidden group
       rounded-tl-3xl rounded-br-3xl shadow-md hover:shadow-xl">
       {/* Image */}
@@ -203,7 +203,7 @@ export default function Home() {
       </div>
       {/* Bottom Text (Series Name) */}
       <div style={{ backgroundColor: 'rgba(227, 0, 27, 0.4)' }}  className="absolute bottom-0 left-0 right-0 rounded-br-3xl p-4">
-        <p className="text-white text-lg font-medium tracking-wide">
+        <p className="text-white lg:text-2xl  text-sm font-medium tracking-wide">
           {item.title}
         </p>
       </div>
@@ -301,7 +301,7 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-8xl">
         {/* Text Content */}
         <div className="text-center px-4 sm:px-8 md:px-12 lg:px-24 xl:px-32">
-          <p className="text-white text-base text-sm lg:text-xl leading-relaxed ">
+          <p className="text-white text-base text-sm lg:text-2xl leading-relaxed ">
            <span style={{fontWeight:'bold'}}>NOVEX Global</span> is a wholesale-focused company creating a scalable digital framework to support trade operations, marketing, and future expansion.
           </p>
         </div>
@@ -334,11 +334,11 @@ export default function Home() {
             <h2 style={{letterSpacing:'2px'}} className="text-gray-400  text-5xl lg:text-7xl font-light tracking-wide mb-2">
               Novex 
             </h2>
-            <h1 style={{letterSpacing:'3px'}} className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 lg:mb-8">
+            <h1 style={{letterSpacing:'3px'}} className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 lg:mb-8">
               <span className="text-gray-900">Spot Light</span>{' '}
               <span className="text-gray-400 font-light">Series</span>
             </h1>
-            <p style={{letterSpacing:'2px', fontWeight:'300'}} className="text-gray-600 text-base sm:text-lg md:text-xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
+            <p style={{letterSpacing:'2px', fontWeight:'300'}} className="text-gray-600 text-base sm:text-lg md:text-2xl leading-relaxed mb-6 lg:mb-8 max-w-2xl mx-auto lg:mx-0 p-5 lg:p-0">
               Innovative lighting solutions that seamlessly combine form and function, enhancing every space with elegance and efficiency.
             </p>
             <div className="space-y-4 ">
@@ -361,7 +361,7 @@ export default function Home() {
     </section>
 
    <section className=" bg-white">
-      <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center text-white shadow-lg">
+      <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center lg:text-lg  text-sm text-white shadow-lg">
 
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">
           Need Help or More Information?
@@ -547,8 +547,8 @@ export default function Home() {
     </section>
 
 <section>
-        <div style={{backgroundColor:'#E3001B'}} className="p-15 justify-center text-center lg:m-2">
-        <h2 className="lg:text-4xl text-2xl font-bold text-white">High-Impact & Professional</h2>
+        <div style={{backgroundColor:'#E3001B'}} className="p-15 justify-center text-center lg:m-2 ">
+        <h2 className="lg:text-4xl text-2xl font-bold text-white ">High-Impact & Professional</h2>
         <h2 style={{fontWeight:400}} className="mt-3 lg:text-2xl text-md text-white">"Delivering Engineered Products Designed for Long-lasting Performance and Safety."</h2>
       </div>
 </section>
@@ -566,29 +566,29 @@ export default function Home() {
 
           {/* Features List */}
           <div className="space-y-4 text-gray-700">
-            <div className="flex flex-col sm:flex-row sm:items-start">
-              <span className="font-bold min-w-fit text-red-500 mr-2">Effortless Installation :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700">Self-adhesive Backing Allows For Quick And Tool-free Installation, Saving Time And Effort.</span>
+            <div className="flex flex-col sm:flex-row sm:items-start ">
+              <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Effortless Installation :</span>
+              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Self-adhesive Backing Allows For Quick And Tool-free Installation, Saving Time And Effort.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
-              <span className="font-bold min-w-fit text-red-500 mr-2">Durable Construction :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700">High-quality PVC Ensures Long-lasting Performance And Reliability.</span>
+              <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Durable Construction :</span>
+              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">High-quality PVC Ensures Long-lasting Performance And Reliability.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
-              <span className="font-bold min-w-fit text-red-500 mr-2">Versatile And Customization :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700">Available In Various Sizes And Easily Customizable To Fit Any Installation.</span>
+              <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Versatile And Customization :</span>
+              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Available In Various Sizes And Easily Customizable To Fit Any Installation.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
-              <span className="font-bold min-w-fit text-red-500 mr-2">Enhanced Cable Protection :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700">Protects Cables From Damage, Ensuring Safe And Reliable Electrical Connections.</span>
+              <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Enhanced Cable Protection :</span>
+              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Protects Cables From Damage, Ensuring Safe And Reliable Electrical Connections.</span>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-start">
-              <span className="font-bold min-w-fit text-red-500 mr-2">Neat And Professional Look :</span>
-              <span style={{fontWeight:'400'}} className="text-gray-700">Conceals And Organizes Cables, Providing A Clean And Professional Appearance.</span>
+              <span className="font-bold min-w-fit text-red-500 mr-2 lg:text-2xl  text-sm">Neat And Professional Look :</span>
+              <span style={{fontWeight:'400'}} className="text-gray-700 lg:text-2xl  text-sm">Conceals And Organizes Cables, Providing A Clean And Professional Appearance.</span>
             </div>
           </div>
         </div>
