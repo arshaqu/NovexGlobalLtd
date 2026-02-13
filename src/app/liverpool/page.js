@@ -236,7 +236,7 @@ export default function LiverpoolSeriesPage() {
       <CategoryBar active="switch"/>
 
       {/* Product Grid */}
-     <div className="p-10" ref={productSectionRef}>
+     <div className="lg:p-10 p-5 " ref={productSectionRef}>
         <div style={{ border: "2px solid #E3001B" }}>
           <div className="bg-red-600 text-white p-5 font-bold text-xl font-small mb-4">All Products</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
@@ -295,13 +295,13 @@ function HoverImageCard({ product }) {
           loading='lazy'
           src={product.imgs[imgIndex]}
           alt={product.name}
-          className="object-contain w-full h-full transform transition duration-300 hover:scale-105"
+          className="object-contain w-full h-full transform transition duration-100 hover:scale-105"
         />
       </div>
 
       {/* Text container with flex-grow for alignment */}
       <div className="text-left flex flex-col justify-end h-auto p-1">
-        <p className="text-red-500 text-lg lg:text-xl font-normal" style={{ letterSpacing: '1px' }}>
+        <p className="text-red-500 text-sm lg:text-xl font-normal" style={{ letterSpacing: '1px' }}>
           {product.name}
         </p>
         <p className="text-red-900 text-md font-normal mt-2">{product.code}</p>

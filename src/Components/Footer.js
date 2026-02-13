@@ -76,9 +76,10 @@ function Footer() {
       <a style={{fontWeight:'300'}}  href="/f&qs" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
         FAQ's
       </a>
-      <a style={{fontWeight:'300'}}  href="/careers" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
-        CAREERS
+        <a style={{fontWeight:'300'}}  href="/privacy_policy" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
+        PRIVACY POLICY
       </a>
+     
     </div>
 
     {/* Column 2 */}
@@ -86,8 +87,8 @@ function Footer() {
       <a style={{fontWeight:'300'}}  href="/about" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
         ABOUT US
       </a>
-      <a style={{fontWeight:'300'}}  href="/privacy_policy" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
-        PRIVACY POLICY
+     <a style={{fontWeight:'300'}}  href="/careers" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
+        CAREERS
       </a>
       <a style={{fontWeight:'300'}}  href="/terms_of_use" className="block text-white hover:text-red-300 transition-colors text-sm lg:text-lg sm:text-base font-medium">
         TERMS OF USE
