@@ -226,7 +226,7 @@ export default function LiverpoolSeriesPage() {
       {/* Title & Description */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">LIVERPOOL SERIES</p>
-        <p className="text-gray-600 lg:text-xl text-md max-w-6xl mx-auto" style={{ fontWeight: 400 }}>
+        <p className="text-gray-600 lg:text-xl text-md max-w-6xl mx-auto" style={{ fontWeight: 300 }}>
           Liverpool British standard switches and sockets are designed to meet trusted UK standards.
           They offer reliable performance, safety, and long-lasting quality.
         </p>

@@ -72,8 +72,8 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">PVC TRUNKING</p>
-        <p className="text-gray-900 lg:text-lg text-md max-w-6xl mx-auto">
-          Our <span className='font-medium'>PVC Trunking</span> ducting and cable management solutions provide clean, durable, and complaint installations across residential and commercial environments. Manufactured using quality materials, the range supports both surface and concealed applications.
+        <p style={{fontWeight:'300'}} className="text-gray-900 lg:text-lg text-md max-w-7xl mx-auto">
+          Our <span  className='font-medium'>PVC Trunking</span> ducting and cable management solutions provide clean, durable, and complaint installations across residential and commercial environments. Manufactured using quality materials, the range supports both surface and concealed applications.
         </p>
       </div>
 

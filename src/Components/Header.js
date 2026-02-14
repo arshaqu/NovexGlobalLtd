@@ -78,21 +78,21 @@ export default function Header() {
               />
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-14">
+            {/* Desktop Nav - now hidden until xl breakpoint (1280px) */}
+            <nav className="hidden xl:flex items-center gap-8">
               {navLinks.map(link => (
                 <Link
                 style={{fontWeight:'300'}}
                   key={link.name}
                   href={link.href}
-                  className="text-lg text-[#E3001B] hover:text-gray-600 transition"
+                  className="text-base text-[#E3001B] hover:text-gray-600 transition whitespace-nowrap"
                 >
                   {link.name}
                 </Link>
               ))}
             </nav>
 
-           <div className="hidden lg:flex gap-3 text-[#E3001B] hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300">
+           <div className="hidden xl:flex gap-3 text-[#E3001B] hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300">
               <FaFacebookSquare size={26}/>
               <FaSquareXTwitter  size={26}/>
               <IoLogoWhatsapp size={26}/>
@@ -101,10 +101,10 @@ export default function Header() {
             </div>
 
 
-            {/* Mobile Button */}
+            {/* Mobile Button - now shows until xl breakpoint */}
             <button
               onClick={() => setOpen(!open)}
-              className="lg:hidden text-2xl text-gray-700"
+              className="xl:hidden text-2xl text-gray-700"
             >
               {open ? <RxCross2 /> : <HiMiniBars3  />}
             </button>
@@ -114,7 +114,7 @@ export default function Header() {
         {/* Mobile Menu */}
       {/* Mobile Menu */}
 {open && (
-  <div className="lg:hidden bg-white border-t">
+  <div className="xl:hidden bg-white border-t">
     <div className="flex flex-col p-4 gap-4">
       {navLinks.map(link => (
         <Link

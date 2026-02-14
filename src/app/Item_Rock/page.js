@@ -75,7 +75,7 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">ROCK SERIES ( METAL CLADS )</p>
-        <p  className="text-gray-800 lg:text-lg text-md max-w-6xl mx-auto">
+        <p style={{fontWeight:'300'}} className="text-gray-800 lg:text-lg text-md max-w-7xl mx-auto">
          The <span className='font-medium'>ROCK SERIES</span> features heavy-duty metal-clads switches and sockets designed for superiror strength, high protection , and long-term reliability in demanding environments.
         </p>
       </div>

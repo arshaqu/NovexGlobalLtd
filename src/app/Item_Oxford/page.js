@@ -89,7 +89,7 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">OXFORD SERIES</p>
-        <p className="text-gray-600 lg:text-xl text-md max-w-6xl mx-auto">
+        <p style={{fontWeight:'300'}} className="text-gray-600 lg:text-xl text-md max-w-7xl mx-auto">
           Our comprehensive collection of OXFORD series British standard switches and sockets
           engineered for safety and durability while meeting strict electrical standards.
         </p>

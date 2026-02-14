@@ -69,7 +69,7 @@ function page() {
       <section className="w-full bg-[#E3001B] py-8 ">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className=" lg:text-5xl text-3xl text-white/100 p-20">
-            Home <span style={{fontWeight:'300'}} className="mx-1">{">"}</span>
+            <span>Home</span> <span style={{fontWeight:'300'}} className="mx-1">{">"}</span>
             <span className="text-white font-bold"> ABOUT US</span>
           </p>
         </div>
@@ -173,7 +173,7 @@ function page() {
       <section className="w-full bg-white py-16 sm:py-20">
         <div style={{fontWeight:300}} className="mx-auto px-4 sm:px-6 text-md lg:text-lg lg:px-8">
           {/* Heading */}
-          <h2 className="text-center text-5xl sm:text-2xl font-bold text-gray-800 mb-12">
+          <h2 className="text-center lg:text-5xl text-2xl font-bold text-gray-800 mb-12">
             Why Choose Us
           </h2>
 
@@ -567,7 +567,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
 
   {/* Text */}
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xl text-center px-3 py-1 rounded">
      SWITCHES & SOCKETS
   </div>
     </Link>
@@ -587,7 +587,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
 
   {/* Text */}
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xltext-center px-3 py-1 rounded">
     SPOT LIGHTS
   </div>
     </Link>
@@ -604,7 +604,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
   {/* Shadow Overlay */}
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
   {/* Text */}
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xl text-center px-3 py-1 rounded">
    EXTENSION SOCKETS
   </div>
   </Link>
@@ -619,7 +619,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
     className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
   />
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xl text-center px-3 py-1 rounded">
    INSECTS KILLER
   </div>
   </Link>
@@ -634,7 +634,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
     className="w-full h-74 object-cover transition-transform duration-300 group-hover:scale-105"
     />
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold text-3xl text-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xl text-center px-3 py-1 rounded">
    PVC TRUNKING
   </div>
   </Link>

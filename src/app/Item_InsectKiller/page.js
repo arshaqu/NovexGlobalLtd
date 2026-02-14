@@ -55,7 +55,7 @@ export default function Page() {
       {/* Title */}
       <div className="text-center p-8">
         <p className="text-3xl font-medium mb-2">ELECTRONIC FLY KILLERS (EFKs)</p>
-        <p className="text-gray-600 lg:text-lg text-md max-w-6xl mt-5 mx-auto">
+        <p style={{fontWeight:'300'}} className="text-gray-600 lg:text-lg text-md max-w-7xl mt-5 mx-auto">
           <span className='font-medium '>NOVEX GLOBAL LTD</span> supplies Electronic Fly Killers (EFKs) designed for commercial and professional environments , includeing retail, hospitality , food preparation, and industrial settings. Our EFKs are manufactured to recognised standards, prioritising safety, durability, and ease of maintenance , and are suitable for year-round operational use. 
         </p>
       </div>
