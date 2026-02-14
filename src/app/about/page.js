@@ -81,7 +81,7 @@ function page() {
       {/* Content Section */}
       <section className="py-16 border-b-2 border-gray-200 ">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-semibold text-gray-800 mb-4">
+          <h2 className="lg:text-5xl text-3xl font-semibold text-gray-800 mb-4">
             About Novex Global Ltd
           </h2>
  
@@ -150,15 +150,15 @@ function page() {
                   as a globally recognised brand rooted in the UK.
                 </p>
               </div>
-              <div style={{fontWeight:300}} className=" bg-[#E3001B] mt-2 mb-2">
+              <div style={{fontWeight:300}} className=" bg-[#E3001B] mt-5 mb-2 ">
                 <div className="grid grid-cols-2 sm:grid-cols-4 text-center text-white text-md lg:text-lg tracking-widest">
-                  <div className="py-5 border-r border-white/20">
+                  <div className="py-5 border-r text-center border-white/40">
                     ◯ &nbsp; QUALITY
                   </div>
-                  <div className="py-5 border-r border-white/20">
+                  <div className="py-5 border-r border-white/40">
                     ◯ &nbsp; RELIABILITY
                   </div>
-                  <div className="py-5 border-r border-white/20">
+                  <div className="py-5 border-r border-white/40">
                     ◯ &nbsp; INNOVATION
                   </div>
                   <div className="py-5">◯ &nbsp; INTEGRITY</div>
@@ -294,11 +294,11 @@ function page() {
         <section className=" bg-white">
       <div className="max-w-full mx-auto bg-[#E3001B] p-10 md:p-14 text-center text-white shadow-lg">
 
-        <h2 className="text-sm md:text-4xl font-bold mb-4">
+        <h2 className="text-lg md:text-4xl font-bold mb-4">
           Need Help or More Information?
         </h2>
 
-        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-lg mb-8">
+        <p style={{fontWeight:'300'}} className="max-w-5xl mx-auto lg:text-2xl text-md mb-8">
           Visit our Frequently Asked Questions page for details about
           certifications, warranties, trade accounts, supply services,
           and product compliance.
@@ -379,14 +379,14 @@ function page() {
               >
                 <div className="w-24 h-1.5 bg-[#E3001B] rounded-full"></div>
                 <GiBinoculars className="w-12 h-12" />
-                <h3 className="text-4xl font-semibold text-red-600">
+                <h3 className="text-2xl lg:text-4xl font-semibold text-red-600">
                   Our Vision
                 </h3>
               </div>
-              <p className="text-gray-500 text-sm lg:text-2xl text-base leading-relaxed font-medium p-5">
+              <p className="text-gray-500 text-md lg:text-xl text-base leading-relaxed font-medium lg:p-5">
                 Global leadership through innovation.
               </p>
-                <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed  text-md lg:text-lg p-4">
+                <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed text-md lg:text-lg lg:p-4 mt-5 lg:mt-0">
                 Novex Global leads the electrical wiring accessories industry by delivering innovative, reliable solutions.
 Backed by over 50 years of global expertise, we ensure quality, compliance, and long-term reliability.
 Our commitment to ethical practices and modern manufacturing sets new standards for professional trade.
@@ -401,14 +401,14 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                   alt="Mission"
                   className="w-12 h-12 "
                 />
-                <h3 className="text-4xl font-semibold text-red-600">
+                <h3 className="text-2xl lg:text-4xl font-semibold text-red-600">
                   Our Mission
                 </h3>
               </div>
-              <p className="text-gray-500 text-base leading-relaxed font-medium text-sm lg:text-2xl p-5">
+              <p className="text-gray-500 text-base leading-relaxed font-medium text-md lg:text-xl lg:p-5">
                We create smart buildings for a smarter world.
               </p>
-               <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed text-md lg:text-lg p-4">
+               <p style={{fontWeight:'300'}} className="text-gray-500 text-base leading-relaxed text-md lg:text-lg lg:p-4 mt-5 lg:mt-0">
                At Novex Global, our mission is to empower the built environment with intelligent, safe, and efficient electrical solutions. By combining innovative products, trusted quality, and compliance with industry standards, we enable smarter, sustainable buildings that meet the evolving needs of professionals and end-users alike.
               </p>
             </div>
@@ -427,7 +427,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
                     alt="Mission"
                     className="w-12 h-12 "
                   />
-                  <h3 className="text-4xl font-semibold text-red-600">
+                  <h3 className="text-2xl lg:text-4xl font-semibold text-red-600">
                     Our Commitment
                   </h3>
                   <div className="w-24 h-1.5 bg-[#E3001B] rounded-full"></div>
@@ -502,7 +502,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
         <div className="max-w-8xl mx-auto px-6 sm:px-8 lg:px-12">
           {/* Section Header */}
           <div className="mb-12 sm:mb-16">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+            <h2 className="lg:text-4xl text-3xl lg:text-6xl font-bold text-gray-900 mb-4">
               Our Approach
             </h2>
             <div className="w-24 h-1.5 bg-[#E3001B] rounded-full"></div>
@@ -542,7 +542,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
 
  <section className="mt-20 px-4 md:px-8 lg:px-16 mb-12">
   <div className="text-center mb-12">
-    <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+    <h2 className="lg:text-4xl text-3xl lg:text-6xl font-bold text-gray-900 mb-4">
       Our Precious Categories
     </h2>
     <div className="flex justify-center mb-4">

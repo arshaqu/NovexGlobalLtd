@@ -38,7 +38,7 @@ export default function page() {
 
           {/* Trade Accounts */}
           <div style={{border:'2px solid #E3001B'}} className=" rounded-2xl p-8 hover:shadow-2xl transition lg:p-20">
-            <h3 className="text-3xl font-semibold text-[#E3001B] mb-4">
+            <h3 className="text-lg lg:text-3xl font-semibold text-[#E3001B] mb-4">
               Trade Account Management
             </h3>
            <p style={{fontWeight:'300'}} className="text-[#E3001B] text-md lg:text-xl leading-relaxed ">
@@ -101,7 +101,7 @@ export default function page() {
       {/* PROCESS SECTION */}
       <section style={{backgroundColor:"#ffffff"}} className=" py-20 px-6">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-[#E3001B] mb-12">
+          <h2 className="lg:text-4xl text-3xl font-bold text-[#E3001B] mb-12">
             Our Approach
           </h2>
 
@@ -130,15 +130,15 @@ export default function page() {
       {/* CTA */}
       <section className="py-20 bg-gray-100 px-6 text-center">
         <div style={{fontWeight:'300'}} className="max-w-3xl mx-auto">
-          <h2 className="text-lg lg:text-4xl font-bold text-[#E3001B] mb-4">
+          <h2 className="text-2xl lg:text-4xl font-bold text-[#E3001B] mb-4">
             Become a Trade Partner
           </h2>
-          <p className="text-gray-600 mb-8 text-lg lg:text-2xl">
+          <p className="text-gray-600 mb-8 text-md lg:text-2xl">
             Apply for a trade account to access structured pricing,
             technical resources, and professional support.
           </p>
 
-          <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-8 py-3 text-lg lg:text-2xl hover:scale-[1.03] active:scale-[0.97] transition">
+          <button style={{cursor:'pointer'}} className="bg-[#E3001B] text-white px-8 py-3 text-md lg:text-2xl hover:scale-[1.03] active:scale-[0.97] transition">
             Apply for Trade Account
           </button>
         </div>

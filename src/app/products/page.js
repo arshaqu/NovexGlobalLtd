@@ -51,7 +51,7 @@ function ProductsSection() {
 
           <h3
             style={{ fontWeight: "400" }}
-            className="text-3xl text-gray-800 mb-6"
+            className="lg:text-3xl text-2xl text-gray-800 mb-6"
           >
             Electrical Wiring Accessories
           </h3>
@@ -82,7 +82,7 @@ function ProductsSection() {
                     />
                   </div>
 
-            <h4 className="text-3xl tracking-widest font-medium mb-2">
+            <h4 className="lg:text-3xl text-2xl tracking-widest font-medium mb-2">
               LIVERPOOL SERIES
             </h4>
             <p className="text-md lg:text-lg text-gray-500 mb-3">
@@ -106,7 +106,7 @@ function ProductsSection() {
                 className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
-            <h4 className="text-3xl tracking-widest font-medium mb-2">
+            <h4 className="lg:text-3xl text-2xl tracking-widest font-medium mb-2">
               OXFORD SERIES
             </h4>
             <p className="text-md lg:text-lg text-gray-500  mb-3">
@@ -130,7 +130,7 @@ function ProductsSection() {
                 className="w-full h-auto object-cover transform transition duration-300 ease-in-out hover:scale-105 hover:brightness-90"
               />
             </div>
-            <h4 className="text-3xl tracking-widest font-medium mb-2">
+            <h4 className="lg:text-3xl text-2xl tracking-widest font-medium mb-2">
               ROCK SERIES
             </h4>
             <p className="text-md lg:text-lg text-gray-500  mb-3">
@@ -149,8 +149,8 @@ function ProductsSection() {
       
 
            <div className="mb-12 text-center lg:text-left">
-          <h3 className="text-5xl font-medium mb-4"> Extension Sockets</h3>
-          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed p-5 lg:p-10">
+          <h3 className="lg:text-5xl text-3xl font-medium mb-4"> Extension Sockets</h3>
+          <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed p-4 lg:p-10">
            Our electrical wiring accessories are designed for professional use,
             offering reliable performance, consistent quality, and full
             compliance with UK standards. The range includes switches, sockets,
@@ -186,7 +186,7 @@ function ProductsSection() {
               </p>
 
                 <Link  href="/Item_Extension">
-              <button style={{cursor:'pointer',fontWeight:'300  '}} className="bg-red-600 text-sm lg:text-xl hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
+              <button style={{cursor:'pointer',fontWeight:'300  '}} className="bg-red-600 mt-5 text-sm lg:text-xl hover:bg-red-700 text-white px-8 py-3 text-sm font-medium shadow-md transition">
                 Browse All Items
               </button>
                 </Link>
@@ -236,7 +236,7 @@ function ProductsSection() {
       <section className="w-full bg-white px-4 sm:px-6 lg:px-20 py-12 lg:py-20">
         {/* Top title */}
         <div className="mb-12 text-center lg:text-left">
-          <h3 className="text-5xl font-medium mb-4">Spot Lights</h3>
+          <h3 className="lg:text-5xl text-3xl font-medium mb-4">Spot Lights</h3>
           <p style={{fontWeight:'300'}} className="mx-auto text-center text-sm lg:text-2xl lg:mx-0 text-gray-500 leading-relaxed p-5 lg:p-10">
             Novex Global supplies a practical range of lighting accessories
             designed to support safe, efficient installation and long-term
@@ -304,10 +304,10 @@ function ProductsSection() {
       <section className="w-full bg-gray-100">
         <div className="mx-auto lg:py-20 p-8">
              <div className=" lg:px-16">
-               <h2 className="text-5xl font-medium text-gray-900 mb-4">
+               <h2 className="lg:text-5xl text-3xl font-medium text-gray-900 mb-4">
                 Insects Killer
               </h2>
-              <p style={{fontWeight:'300'}} className="text-gray-600  mb-6 text-sm lg:text-xl">
+              <p style={{fontWeight:'300'}} className="text-gray-600 mt-5 mb-6 text-sm lg:text-xl">
                 Novex is the most durable brand from the United Kingdom when it
                 comes to electronic flying insect killers. This device uses
                 ultraviolet light to attract light-sensitive insects into an

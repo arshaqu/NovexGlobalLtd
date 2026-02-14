@@ -56,7 +56,7 @@ export default function FAQPage() {
 
       {/* HERO */}
       <section className="bg-[#E3001B] text-white py-20 text-center px-6">
-        <h1 className="text-4xl md:text-5xl font-semibold mb-4">
+        <h1 className="text-4xl md:text-3xl font-semibold mb-4">
           Frequently Asked Questions
         </h1>
         <p className="max-w-3xl mx-auto text-lg">

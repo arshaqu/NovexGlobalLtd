@@ -150,7 +150,7 @@ export default function Home() {
                   className="object-contain p-6"/>
               </div>
               {/* Label */}
-              <p className="mt-4 lg:text-3xl  text-sm font-medium text-gray-700">
+              <p className="mt-4 lg:text-3xl  text-md font-medium text-gray-700">
                 {item.title}
               </p>
             </div>
@@ -401,7 +401,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p style={{fontWeight:'300'}} className="text-gray-900 text-2xl max-w-3xl mx-auto mt-8">
+          <p style={{fontWeight:'300'}} className="text-gray-900 text-xl max-w-3xl mx-auto mt-8">
             Durable UK-made insect killer with 30,000-hour lifespan, safe,
             chemical-free, and easy to clean
           </p>

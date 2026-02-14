@@ -53,7 +53,7 @@ function page() {
   <div className="grid md:grid-cols-3 gap-8">
     
     <div className="md:col-span-3 flex justify-center gap-8 flex-wrap">
-      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full ">
+      <div className="bg-white border border-gray-200 rounded-2xl shadow-sm lg:p-10 p-5 text-center max-w-lg w-full ">
         
         <h3 className=" text-xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
@@ -65,7 +65,7 @@ function page() {
         </p>
 
       </div>
-       <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full">
+       <div className="bg-white border border-gray-200 rounded-2xl shadow-sm lg:p-10 p-5 text-center max-w-lg w-full">
         
         <h3 className="text-xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
@@ -78,7 +78,7 @@ function page() {
 
       </div>
 
-           <div className="bg-white border border-gray-200 rounded-2xl shadow-sm p-10 text-center max-w-lg w-full">
+           <div className="bg-white border border-gray-200 rounded-2xl shadow-sm lg:p-10 p-5 text-center max-w-lg w-full">
         
         <h3 className="text-2xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
