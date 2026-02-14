@@ -71,7 +71,7 @@ function page() {
           No Current Openings
         </h3>
 
-        <p className="text-red-600 text-xl lg:text-xl text-base leading-relaxed">
+        <p className="text-red-600 text-lg lg:text-xl text-base leading-relaxed">
           Currently, we don't have any job openings available.  
           Please check back later or follow us for future opportunities.
         </p>
@@ -80,11 +80,11 @@ function page() {
 
            <div className="bg-white border border-gray-200 rounded-2xl shadow-sm lg:p-10 p-5 text-center max-w-lg w-full">
         
-        <h3 className="text-2xl lg:text-2xl font-semibold text-red-600 mb-3">
+        <h3 className="text-xl lg:text-2xl font-semibold text-red-600 mb-3">
           No Current Openings
         </h3>
 
-        <p className="text-red-600 text-xl lg:text-xl text-base leading-relaxed">
+        <p className="text-red-600 text-lg lg:text-xl text-base leading-relaxed">
           Currently, we don't have any job openings available.  
           Please check back later or follow us for future opportunities.
         </p>
@@ -115,7 +115,7 @@ function page() {
 
       {/* Full Name */}
       <div className=''>
-        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-md lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Full Name
         </label>
         <input
@@ -128,7 +128,7 @@ function page() {
 
       {/* Email */}
       <div>
-        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-md lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Email Address
         </label>
         <input
@@ -141,7 +141,7 @@ function page() {
 
       {/* Position */}
       <div>
-        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-md lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Position Applying For
         </label>
         <input
@@ -154,7 +154,7 @@ function page() {
 
       {/* Message */}
       <div>
-        <label className="block text-lg lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
+        <label className="block text-md lg:text-xl font-medium text-gray-700 mb-2 text-red-600">
           Your Message
         </label>
         <textarea

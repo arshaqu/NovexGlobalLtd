@@ -120,7 +120,7 @@ export default function ContactPage() {
           {/* Left Info */}
           <div className="lg:w-1/4 bg-white rounded-lg shadow-lg p-8 mb-8 lg:mb-0">
             <h2 style={{color:'#E3001B'}} className="text-2xl font-bold text-gray-800 mb-4">GET IN TOUCH</h2>
-            <p className="text-gray-500 text-xl lg:text-xl max-w-md font-medium mb-8 leading-relaxed">
+            <p className="text-gray-500 text-md lg:text-xl max-w-md font-medium mb-8 leading-relaxed">
               We'd love to hear from you! Feedback or inquiries, reach out to our team.
             </p>
               <div style={{width:'100%' , height:'1px', backgroundColor:'#E3001B'}} className='rounded'></div>
