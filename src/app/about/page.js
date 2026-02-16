@@ -587,7 +587,7 @@ Our commitment to ethical practices and modern manufacturing sets new standards 
   <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-transparent to-transparent"></div>
 
   {/* Text */}
-  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xltext-center px-3 py-1 rounded">
+  <div className="absolute bottom-0 left-1/2 w-full transform -translate-x-1/2 text-white font-bold lg:text-3xl text-xl text-center px-3 py-1 rounded">
     SPOT LIGHTS
   </div>
     </Link>

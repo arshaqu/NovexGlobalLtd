@@ -137,23 +137,24 @@ export default function Home() {
           Shop by Category
         </h3>
         {/* Categories */}
-        <div style={{ cursor:'pointer'}} className="mt-14 grid gap-8 grid-cols-1 sm:grid-cols-3 md:grid-cols-5 place-items-center p-4">
+<div style={{ cursor:'pointer'}} className="mt-14 grid gap-4 md:gap-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 place-items-center p-4">
           {categories.map((item, index) => (
             <Link key={index} href={item.href} className="flex flex-col items-center group">
-            <div key={index} className="flex flex-col items-center group ">
-              {/* Circle */}
-              <div className="relative w-80 h-80 rounded-full bg-gray-100 flex items-center justify-center transition group-hover:scale-105">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  className="object-contain p-6"/>
+              <div className="flex flex-col items-center group">
+                {/* Circle - Responsive sizes */}
+                <div className="relative w-40 h-40 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-66 xl:w-90 xl:h-90 rounded-full bg-gray-100 flex items-center justify-center transition group-hover:scale-105">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-contain p-4 sm:p-6"
+                  />
+                </div>
+                {/* Label - Responsive text */}
+                <p className="mt-2 md:mt-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium text-gray-700 text-center">
+                  {item.title}
+                </p>
               </div>
-              {/* Label */}
-              <p className="mt-4 lg:text-3xl  text-md font-medium text-gray-700">
-                {item.title}
-              </p>
-            </div>
             </Link>
           ))}
         </div>

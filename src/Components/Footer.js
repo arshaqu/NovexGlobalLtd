@@ -111,39 +111,39 @@ function Footer() {
             <div className="flex gap-3 flex-wrap 
                             justify-center lg:justify-end">
             <a 
-                href="#" 
+                href="https://www.facebook.com/"
                 className="bg-white text-red-600 p-1 rounded-lg hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
                 aria-label="Facebook"
             >
-                <FaFacebookSquare className="w-7 h-7" />
+                <FaFacebookSquare className="w-8 h-8" />
             </a>
             <a 
-                href="#" 
+                href="https://www.instagram.com/" 
                 className="bg-white text-red-600 p-1 rounded-lg hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300 "
                 aria-label="Instagram"
             >
-                <RiInstagramFill className="w-7 h-7" />
+                <RiInstagramFill className="w-8 h-8" />
             </a>
             <a 
-                href="#" 
+                href="https://wa.me/447516962348"
                 className="bg-white text-red-600 p-1 rounded-lg hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
                 aria-label="WhatsApp"
             >
-                <IoLogoWhatsapp className="w-7 h-7" />
+                <IoLogoWhatsapp className="w-8 h-8" />
             </a>
             <a 
-                href="#" 
+                href="https://www.linkedin.com/" 
                 className="bg-white text-red-600 p-1 rounded-lg hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
                 aria-label="LinkedIn"
             >
-                <FaLinkedin className="w-7 h-7" />
+                <FaLinkedin className="w-8 h-8" />
             </a>
             <a 
-                href="#" 
+                href="https://twitter.com/" 
                 className="bg-white text-red-600 p-1 rounded-lg hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
                 aria-label="X (Twitter)"
             >
-                <FaSquareXTwitter className="w-7 h-7" />
+                <FaSquareXTwitter className="w-8 h-8" />
             </a>
             </div>
 

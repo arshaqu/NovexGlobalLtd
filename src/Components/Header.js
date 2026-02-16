@@ -92,12 +92,46 @@ export default function Header() {
               ))}
             </nav>
 
-           <div className="hidden xl:flex gap-3 text-[#E3001B] hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300">
-              <FaFacebookSquare size={26}/>
-              <FaSquareXTwitter  size={26}/>
-              <IoLogoWhatsapp size={26}/>
-              <RiInstagramFill size={26}/>
-              <FaLinkedin size={26}/>
+           <div className="hidden xl:flex gap-3 text-[#E3001B]  ">
+                <div className="flex gap-3 flex-wrap 
+                            justify-center lg:justify-end">
+            <a 
+                href="https://www.facebook.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="Facebook"
+            >
+                <FaFacebookSquare size={26} />
+            </a>
+            <a 
+                href="https://www.instagram.com/" 
+                className=" hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300 "
+                aria-label="Instagram"
+            >
+                <RiInstagramFill size={26} />
+            </a>
+            <a 
+                href="https://wa.me/447516962348"
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="WhatsApp"
+            >
+                <IoLogoWhatsapp size={26} />
+            </a>
+            <a 
+                href="https://www.linkedin.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="LinkedIn"
+            >
+                <FaLinkedin size={26} />
+            </a>
+            <a 
+                href="https://twitter.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="X (Twitter)"
+            >
+                <FaSquareXTwitter size={26} />
+            </a>
+            </div>
+
             </div>
 
 
@@ -129,11 +163,44 @@ export default function Header() {
 
       {/* Mobile Social Icons */}
       <div className="flex justify-center gap-4 pt-4 border-t text-[#E3001B] ">
-        <FaFacebookSquare size={26} />
-        <FaSquareXTwitter size={26} />
-        <IoLogoWhatsapp size={26} />
-        <RiInstagramFill size={26} />
-        <FaLinkedin size={26} />
+        <div className="flex gap-3 flex-wrap 
+                            justify-center lg:justify-end">
+            <a 
+                href="https://www.facebook.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="Facebook"
+            >
+                <FaFacebookSquare size={23} />
+            </a>
+            <a 
+                href="https://www.instagram.com/" 
+                className=" hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300 "
+                aria-label="Instagram"
+            >
+                <RiInstagramFill size={23} />
+            </a>
+            <a 
+                href="https://wa.me/447516962348"
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="WhatsApp"
+            >
+                <IoLogoWhatsapp size={23} />
+            </a>
+            <a 
+                href="https://www.linkedin.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="LinkedIn"
+            >
+                <FaLinkedin size={23} />
+            </a>
+            <a 
+                href="https://twitter.com/" 
+                className="hover:bg-gray-100 transition-colors hover:scale-105 transition-transform duration-300"
+                aria-label="X (Twitter)"
+            >
+                <FaSquareXTwitter size={23} />
+            </a>
+            </div>
       </div>
     </div>
   </div>
